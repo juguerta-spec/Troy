@@ -6,7 +6,8 @@ import { useTranslation } from 'next-i18next/pages'
 
 declare global {
   interface Window {
-    google: typeof google
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    google: any
     initServiceAreaMap: () => void
   }
 }
@@ -48,7 +49,8 @@ const MAP_ZOOM = 9
 export function ServiceAreaMap() {
   const { t } = useTranslation('common')
   const mapRef = useRef<HTMLDivElement>(null)
-  const mapInstanceRef = useRef<google.maps.Map | null>(null)
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const mapInstanceRef = useRef<any>(null)
 
   useEffect(() => {
     const apiKey = process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY
