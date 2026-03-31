@@ -1,0 +1,764 @@
+{
+  "site": {
+    "name": "B&T Quality Construction",
+    "tagline": "Residential Exterior Renovation Contractor",
+    "phone": "(438) 888-8130",
+    "rbq": "5839-7712-01",
+    "email": "B.TQualityConstruction@Gmail.com"
+  },
+  "announcement": "✅ RBQ License | 🏠 10-Year Warranty | 📍 QC & ON | ⭐ 100+ Projects Completed",
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "blog": "Blog",
+    "about": "About",
+    "contact": "Contact",
+    "cta": "Free Quote",
+    "call": "Call Us"
+  },
+  "hero": {
+    "headline": "Protect Your Home with Certified Experts",
+    "subline": "Premium gutters, siding and roofing. RBQ License 5839-7712-01 — Serving Quebec and Ontario.",
+    "cta_call": "Call Now",
+    "cta_form": "Get a Free Quote",
+    "badge_rbq": "RBQ License",
+    "badge_warranty": "10-Year Warranty",
+    "badge_projects": "100+ Projects"
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Durable exterior solutions for your home",
+    "gutters": {
+      "name": "Gutters, Soffit & Fascia",
+      "short": "Gutters",
+      "description": "Professional installation, replacement and repair of seamless aluminum gutters, soffit and fascia by RBQ-certified specialists. Protect your foundation, walls and landscaping from costly water damage.",
+      "slug": "gutters-soffit-fascia",
+      "hero_h1": "Gutter, Soffit & Fascia Installation — RBQ-Certified Experts in Quebec and Ontario",
+      "hero_problem": "Broken gutters silently destroy your foundation — every rainstorm makes the damage worse",
+      "hero_solution": "B&T installs seamless aluminum gutter systems, warrantied 10 years, that carry every drop of water safely away from your home.",
+      "intro": "Every year, thousands of homeowners discover too late that faulty gutters have silently caused thousands of dollars in foundation, wall and basement damage. At B&T Quality Construction, we install custom seamless gutters — formed in a single piece with no seams — eliminating the primary source of leaks.",
+      "stats": [
+        { "value": "100+", "label": "Systems Installed" },
+        { "value": "10 yr", "label": "Full Warranty" },
+        { "value": "48h", "label": "Availability" },
+        { "value": "0 seams", "label": "Seamless Gutters" }
+      ],
+      "benefits": [
+        "Seamless gutters formed on-site to exact length — no seams means no leaks",
+        "0.032\" gauge aluminum: rust-proof, weather-resistant, built for Canadian winters",
+        "Optimized drainage that directs water far from your foundation",
+        "Matching soffit and fascia for a uniform, professional finish",
+        "Optional gutter guards to eliminate annual cleaning forever",
+        "10-year labor and materials warranty — written into every contract",
+        "Full cleanup in one day — old materials hauled away",
+        "Available within 48h — free same-day quote"
+      ],
+      "materials_title": "Materials & Options",
+      "materials": [
+        {
+          "name": "Seamless Aluminum Gutters",
+          "desc": "Our standard. Formed on-site to the exact length of your home, eliminating every seam. Rust-proof, UV-resistant and freeze-resistant. Available in 20+ colors to match any home."
+        },
+        {
+          "name": "Gutter Guards",
+          "desc": "Micro-perforated cover that lets water through while blocking leaves, twigs and debris. Eliminates annual cleaning and extends the life of the entire system."
+        },
+        {
+          "name": "Matching Soffit & Fascia",
+          "desc": "Factory-painted aluminum or vinyl, available in the same colors as your gutters. Clean, uniform finish for a premium, professional appearance."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Free On-Site Inspection",
+          "desc": "A B&T expert visits your home, assesses the current condition, measures every section and identifies existing drainage problems — no charge, no obligation."
+        },
+        {
+          "title": "Detailed Quote Same Day",
+          "desc": "You receive a precise quote including materials, colors, gutter guards if desired. Fixed price, no surprises. You're never caught off guard."
+        },
+        {
+          "title": "One-Day Installation",
+          "desc": "Our crew forms the gutters on-site and installs the complete system in a single day. Site left clean, old materials removed."
+        }
+      ],
+      "testimonial": {
+        "text": "My gutters were so clogged that water was overflowing directly onto my foundation for 2 years. B&T replaced everything in one day — seamless system, new fascia, gutter guards. Flawless. I should have called much sooner.",
+        "name": "Michel D.",
+        "location": "Vaudreuil-Dorion, QC",
+        "service": "Full replacement: seamless gutters + soffit + fascia"
+      },
+      "faq": [
+        {
+          "q": "How often should I replace my gutters?",
+          "a": "Quality aluminum gutters last 20 to 40 years with minimal maintenance. If you see rust, sagging, joint leaks, or water overflowing during rain, it's time to act. Our seamless gutters have no joints to worry about."
+        },
+        {
+          "q": "What is the difference between soffit and fascia?",
+          "a": "The fascia is the vertical board running along the lower edge of the roof — that's where gutters attach. The soffit is the horizontal surface under the roof overhang, between the wall and the fascia. Both protect your home's structure from moisture and pests. We replace both in the same visit."
+        },
+        {
+          "q": "What's the difference between seamless and standard gutters?",
+          "a": "Standard gutters come in 10-12 foot sections joined with seams — each seam is a potential leak point. Our seamless gutters are formed on-site in one continuous piece the full length of your home, completely eliminating seams and the leaks they cause."
+        },
+        {
+          "q": "Do gutter guards actually work?",
+          "a": "Yes — quality micro-perforated gutter guards let water through while blocking 99% of debris. They dramatically reduce maintenance and prevent the clogs that cause overflow and water damage. We strongly recommend this option if you have trees nearby."
+        },
+        {
+          "q": "How long does installation take?",
+          "a": "For a standard single-family home, the complete installation typically takes one day. We form the gutters on-site, install the entire system, and do a full cleanup before leaving."
+        },
+        {
+          "q": "What warranty is included?",
+          "a": "10 years on both labor and materials. This warranty is written into our contract. If any issue arises within 10 years of installation, we return at no additional charge."
+        },
+        {
+          "q": "What colors are available?",
+          "a": "We offer 20+ standard aluminum colors including white, beige, brown, charcoal grey, black and various wood tones. We can also match the exact color of your existing trim."
+        }
+      ]
+    },
+    "siding": {
+      "name": "Exterior Siding",
+      "short": "Siding",
+      "description": "Residential exterior siding installation in vinyl, aluminum or fiber cement by RBQ-certified specialists. Transform your home's appearance while improving insulation and protection for the next 30 years.",
+      "slug": "siding",
+      "hero_h1": "Residential Exterior Siding — Vinyl, Fiber Cement & Aluminum Installation — RBQ Certified",
+      "hero_problem": "Aging siding costs thousands in lost heating and drags down your property value every year",
+      "hero_solution": "B&T installs premium siding that transforms your home's appearance, improves insulation and protects it for 30 years — 10-year warranty included.",
+      "intro": "Siding is the first thing everyone sees when they look at your home — and its first line of defense against Canadian winters, moisture and storms. Aging or poorly installed siding lets in cold, water and insects while dragging down your property value. A well-executed replacement can increase resale value by 5 to 15% while cutting your heating bills.",
+      "stats": [
+        { "value": "+15%", "label": "Resale Value" },
+        { "value": "30 yrs", "label": "Durability" },
+        { "value": "10 yr", "label": "Full Warranty" },
+        { "value": "3 days", "label": "Standard Install" }
+      ],
+      "benefits": [
+        "Immediate visual transformation — your home will look brand new",
+        "15 to 25% reduction in heating costs with integrated insulation",
+        "Airtight protection against moisture, mold and insects",
+        "Heavy-gauge vinyl: no painting, zero maintenance for 30 years",
+        "30+ colors and textures: wood grain, cedar, board & batten, traditional",
+        "Professional vapor barrier installed systematically under all siding",
+        "10-year labor and materials warranty — included at no extra cost",
+        "5 to 15% increase in your property's resale value"
+      ],
+      "materials_title": "Available Siding Types",
+      "materials": [
+        {
+          "name": "Premium Vinyl (Heavy Gauge)",
+          "desc": "Our most popular option. Impact-resistant, UV-resistant, freeze-resistant and impervious to extreme temperature swings. Never needs painting. Available in 30+ colors and textures including wood grain. 25-30 year manufacturer warranty."
+        },
+        {
+          "name": "Fiber Cement (HardiePlank)",
+          "desc": "The premium option for those who want the look of wood without the maintenance. Non-combustible, termite-proof and rot-proof. Heavier and more durable than vinyl, with a superior appearance. Ideal for higher-value properties."
+        },
+        {
+          "name": "Factory-Painted Aluminum",
+          "desc": "Solid solution for commercial and residential properties. Factory-painted with a permanent finish, rust-proof and weather-resistant. Excellent choice for exposed or coastal locations."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Free Design Consultation",
+          "desc": "We help you choose the style, color and material that best enhances your property. We can visualize the result together before you commit to anything."
+        },
+        {
+          "title": "Professional Preparation",
+          "desc": "Full removal of old siding, thorough structural inspection for rot or water damage, repairs if needed, installation of high-performance vapor barrier."
+        },
+        {
+          "title": "Expert Installation + Cleanup",
+          "desc": "Every panel is installed with precision to manufacturer specifications. Our crews leave the site completely clean every evening. Final walkthrough with you before we leave."
+        }
+      ],
+      "testimonial": {
+        "text": "My 1978 home had oxidized, damaged aluminum siding. B&T replaced everything in 4 days with charcoal grey vinyl and white trim. The result is incredible — neighbors thought I had a new build. The crew was clean, punctual and professional from start to finish.",
+        "name": "Lyne B.",
+        "location": "Châteauguay, QC",
+        "service": "Full replacement: aluminum → premium vinyl siding"
+      },
+      "faq": [
+        {
+          "q": "How long does vinyl siding last?",
+          "a": "Heavy-gauge vinyl siding properly installed lasts 25 to 40 years without requiring paint or major maintenance. The keys are material quality and installation quality — both of which we guarantee."
+        },
+        {
+          "q": "Is it really worth adding insulation at the same time?",
+          "a": "Absolutely. When your siding is removed, it's the only time you have direct access to your home's envelope to add insulation. The marginal cost is low compared to the energy savings over 20-30 years. We estimate a 15-25% reduction in heating bills."
+        },
+        {
+          "q": "Should old siding be removed or can new siding go over it?",
+          "a": "We strongly recommend removing the old siding to inspect the structure underneath and detect any hidden rot, mold or water damage. Installing over existing siding without inspection is a short-term saving that can cost far more long-term."
+        },
+        {
+          "q": "How long does a complete installation take?",
+          "a": "For a standard single-family home, installation typically takes 3 to 5 days depending on surface area and complexity. We work efficiently without cutting corners — you're updated on progress every day."
+        },
+        {
+          "q": "Does vinyl siding hold up in Canadian winters?",
+          "a": "The heavy-gauge vinyl we use is specifically designed for northern climates. It withstands temperatures from -40°C to +50°C without cracking or warping. Panel lengths allow for proper thermal expansion."
+        },
+        {
+          "q": "What's the difference between vinyl and fiber cement?",
+          "a": "Vinyl is lightweight, cost-effective, 100% maintenance-free and comes in many colors. Fiber cement (HardiePlank) offers a superior appearance that perfectly mimics wood, is non-combustible and even more durable, but costs more and requires repainting every 10-15 years. We advise you based on your budget and goals."
+        },
+        {
+          "q": "Do you work with insurance companies?",
+          "a": "Yes. If your siding was damaged by hail, wind or storm and is covered by your home insurance, we can assist with the claims process and work directly with your insurer."
+        }
+      ]
+    },
+    "roofing": {
+      "name": "Residential Roofing",
+      "short": "Roofing",
+      "description": "Complete residential roof replacement and repair by RBQ-certified specialists in Quebec and Ontario. Premium architectural shingles, 10-year installation + 20-year materials warranty.",
+      "slug": "roofing",
+      "hero_h1": "Residential Roof Replacement in Quebec & Ontario — Architectural Shingles — 20-Year Warranty",
+      "hero_problem": "A damaged roof lets in water and mold — and the damage compounds silently with every storm",
+      "hero_solution": "B&T replaces your roof in one day with certified architectural shingles, backed by a 20-year materials and 10-year installation warranty from our RBQ-certified crew.",
+      "intro": "Your roof is the most critical protective element of your home. A roof that is 20+ years old, or that shows missing, curling or granule-losing shingles, is no longer watertight. Every rain, every storm is a real risk of major interior damage. At B&T, we complete the full replacement in one day without compromising quality — you sleep under a new roof that same evening.",
+      "stats": [
+        { "value": "1 day", "label": "Full Replacement" },
+        { "value": "20 yr", "label": "Materials Warranty" },
+        { "value": "10 yr", "label": "Install Warranty" },
+        { "value": "RBQ", "label": "Certified License" }
+      ],
+      "benefits": [
+        "Complete replacement in 1 day — sleep under your new roof that same evening",
+        "IKO or BP architectural shingles — certified wind-resistant to 130 mph",
+        "20-year materials warranty + 10-year B&T installation warranty",
+        "Full structural deck and sheathing inspection included",
+        "Ice & Water Shield membrane systematically installed in critical areas",
+        "Ridge cap and attic ventilation correctly installed to prevent heat and moisture buildup",
+        "Complete cleanup including magnetic nail sweep — every nail recovered",
+        "Insurance claim assistance for hail, wind and storm damage"
+      ],
+      "materials_title": "Products & Certifications",
+      "materials": [
+        {
+          "name": "Architectural Shingles (Laminated)",
+          "desc": "Our standard for all replacements. Twice as thick as 3-tab shingles, they offer a dimensional texture that mimics slate or wood shake. Wind-rated to 130 mph. 20-30 year manufacturer warranty depending on the product line selected."
+        },
+        {
+          "name": "Ice & Water Shield Membrane",
+          "desc": "Applied systematically on the first 3 feet of the eave and in all valleys. This self-adhesive membrane forms a waterproof barrier against infiltration from ice damming — critical in Quebec winters."
+        },
+        {
+          "name": "Ridge Ventilation",
+          "desc": "A properly ventilated roof lasts longer and reduces summer cooling costs. We install soffit intake vents and ridge cap exhaust vents to code for optimal airflow that protects your structure."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Full Inspection on Arrival",
+          "desc": "Before starting, we inspect every section of your roof, visible structure, soffits and ventilation condition. Any issue found is communicated to you before work begins, with options and pricing."
+        },
+        {
+          "title": "Complete Tear-Off + Protection",
+          "desc": "Full removal of old shingles down to the roof deck. Visual inspection of every board. Damaged areas replaced. Ice & Water Shield installed in critical zones. Your yard protected with tarps throughout."
+        },
+        {
+          "title": "Installation & Final Walkthrough",
+          "desc": "New shingles installed to strict manufacturer specs. Ridge cap, ventilation and chimney flashing completed. Full cleanup with magnetic nail sweep. Final walkthrough with you before we leave."
+        }
+      ],
+      "testimonial": {
+        "text": "My roof was 22 years old and leaking above the bathroom. B&T arrived at 7am and left at 5pm — complete new roof, cleanup included. They even found and repaired a section of rotted decking I didn't know about. 20-year shingle warranty. 100% recommend.",
+        "name": "Jean-François B.",
+        "location": "Vaudreuil-Dorion, QC",
+        "service": "Full replacement — IKO architectural shingles"
+      },
+      "faq": [
+        {
+          "q": "How do I know if my roof needs replacing?",
+          "a": "Several signs indicate it's time to act: curling, cracking or missing shingles; black granules in your gutters (advanced wear); water stains on ceilings or in the attic; roof is 20+ years old; persistent moss or algae. If in doubt, we offer a free, no-obligation inspection."
+        },
+        {
+          "q": "Can I stay home during the work?",
+          "a": "Absolutely. Roofing work is done entirely outside. You can remain at home normally. There is noise, but no interior intrusion. Most of our clients go about their day while we work."
+        },
+        {
+          "q": "Why replace instead of repair?",
+          "a": "A partial repair on a 20-year-old roof is often ineffective: if one section fails, the rest isn't far behind. Insurance companies also sometimes refuse to cover a roof that has been repeatedly patched. A full replacement is a more financially sound decision over 20-30 years."
+        },
+        {
+          "q": "What are architectural shingles and why are they better?",
+          "a": "Architectural (laminated) shingles are twice as thick as standard 3-tab shingles. They offer a dimensional texture mimicking slate or wood shake, superior wind resistance (130 mph vs 80 mph), and a lifespan of 25-30 years vs 15-20 years. This is our standard for all replacements."
+        },
+        {
+          "q": "What exactly does your 10-year warranty cover?",
+          "a": "Our 10-year warranty covers all installation defects: delamination, lifting, infiltrations due to poor installation, ventilation or flashing issues. If any problem linked to our work occurs within 10 years, we return and fix it at no charge. The 20-year manufacturer warranty on materials is separate and transferable."
+        },
+        {
+          "q": "Do you assist with insurance claims?",
+          "a": "Yes. If your roof was damaged by hail, wind or storm and is covered by your home insurance, we're experienced working with insurers. We can document the damage, provide a detailed report and guide you through the claims process."
+        },
+        {
+          "q": "How long does a full replacement take?",
+          "a": "In the vast majority of cases, a complete roof replacement on a single-family home is done in one day (7am to 5pm). For very large homes or complex geometry (multiple hips, dormers), it may take 2 days."
+        }
+      ]
+    },
+    "learn_more": "Learn more",
+    "warranty_label": "Warranty included",
+    "how_it_works": "How It Works",
+    "warranty_roofing": "10-year installation + 20-year materials",
+    "warranty_standard": "10-year labor + materials warranty",
+    "materials_cta": "Get a Free Quote",
+    "testimonial_label": "What a Client Says",
+    "stats_label": "Our Numbers",
+    "intro_label": "Why Act Now"
+  },
+  "why_us": {
+    "title": "Why Choose Us",
+    "subtitle": "Concrete reasons to trust us",
+    "items": [
+      {
+        "icon": "shield",
+        "title": "10-Year Warranty",
+        "desc": "Labor and materials guaranteed. Roofing: 10 years installation + 20 years materials."
+      },
+      {
+        "icon": "badge",
+        "title": "RBQ Certified",
+        "desc": "RBQ License 5839-7712-01. Licensed, insured and professional contractor."
+      },
+      {
+        "icon": "clock",
+        "title": "On-Time Delivery",
+        "desc": "We commit to realistic timelines and stick to them — always."
+      },
+      {
+        "icon": "team",
+        "title": "Professional Team",
+        "desc": "An experienced team that is careful and respectful of your property."
+      }
+    ]
+  },
+  "gallery": {
+    "title": "Our Work",
+    "subtitle": "Over 100 projects completed in Quebec and Ontario",
+    "alt": "Exterior renovation project"
+  },
+  "reviews": {
+    "title": "What Our Clients Say",
+    "subtitle": "Hundreds of homeowners trust us",
+    "items": [
+      {
+        "name": "Marie-Claude T.",
+        "location": "Laval, QC",
+        "text": "Excellent work on my gutters! The team arrived on time, explained everything, and the result is impeccable. Highly recommended.",
+        "rating": 5
+      },
+      {
+        "name": "Jean-François B.",
+        "location": "Vaudreuil-Dorion, QC",
+        "text": "Complete roof replacement in a single day. Clean, professional, and the 20-year warranty convinced me. Perfect!",
+        "rating": 5
+      },
+      {
+        "name": "Sophie M.",
+        "location": "Cornwall, ON",
+        "text": "Beautiful exterior siding. The team protected everything before the work. My house has a whole new look!",
+        "rating": 5
+      },
+      {
+        "name": "Robert L.",
+        "location": "Châteauguay, QC",
+        "text": "Fast and professional service. Quote received the same day, work completed in 2 days. Would call them again without hesitation.",
+        "rating": 5
+      },
+      {
+        "name": "Andrée P.",
+        "location": "Hawkesbury, ON",
+        "text": "Very satisfied from start to finish. Clear communication, honest pricing and quality work. Thank you to the whole team!",
+        "rating": 5
+      }
+    ]
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Everything you need to know before contacting us",
+    "items": [
+      {
+        "q": "How do I get a quote?",
+        "a": "Contact us by phone, web form or chat. We'll evaluate your project and provide a detailed, free and no-obligation quote, usually within 24-48 hours."
+      },
+      {
+        "q": "Do you offer combined service packages?",
+        "a": "We don't offer pre-set packages, but if you're doing multiple services at the same time, a discount is possible. Each project is evaluated individually."
+      },
+      {
+        "q": "What is your service area?",
+        "a": "We serve west Montreal island (west of Boul. des Sources, along highways 40, 20 and 30) as well as Ontario (Cornwall, Alexandria, Hawkesbury and surrounding areas)."
+      },
+      {
+        "q": "Are you licensed and insured?",
+        "a": "Yes. Our RBQ license is 5839-7712-01. We hold all required insurance to work at your property legally and safely."
+      },
+      {
+        "q": "What is your warranty?",
+        "a": "We warranty all our work 10 years on labor and materials. For roofing: 10 years on installation + 20 years on materials."
+      },
+      {
+        "q": "How soon can work begin?",
+        "a": "Depending on our schedule, work can begin within 1 to 2 weeks of accepting the quote."
+      },
+      {
+        "q": "Do you work in winter?",
+        "a": "Some work (roofing, siding) is seasonal. Gutters can be replaced for much of the year depending on weather conditions."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Get Your Free Quote",
+    "subtitle": "No obligation — response within 24 hours",
+    "call": "Call Now",
+    "form": "Contact Form",
+    "trust1": "RBQ License 5839-7712-01",
+    "trust2": "10-Year Warranty",
+    "trust3": "Reply within 24h"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Get your free quote in less than 24 hours",
+    "form": {
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "phone": "Phone",
+      "email": "Email",
+      "address": "Full Address",
+      "service": "Service of Interest",
+      "service_placeholder": "Select a service",
+      "service_gutters": "Gutters / Soffit / Fascia",
+      "service_siding": "Exterior Siding",
+      "service_roofing": "Roofing",
+      "service_other": "Other / Not Sure",
+      "message": "Project Description",
+      "message_placeholder": "Describe your project (approximate dimensions, current state, urgency...)",
+      "photos": "Project Photos (optional)",
+      "photos_hint": "Add photos to speed up the evaluation",
+      "referral": "How did you find us?",
+      "referral_google": "Google",
+      "referral_facebook": "Facebook",
+      "referral_reference": "Friend's referral",
+      "referral_other": "Other",
+      "submit": "Send My Request",
+      "submitting": "Sending...",
+      "required": "Required field",
+      "phone_format": "Format: (514) 000-0000",
+      "email_invalid": "Invalid email",
+      "photos_preview": "Photo preview",
+      "photos_remove": "Remove"
+    },
+    "success": {
+      "title": "Request Sent!",
+      "message": "We'll contact you within 24 hours. For a faster response, call us directly:",
+      "cta_call": "Call Now"
+    },
+    "error": {
+      "title": "Sending Error",
+      "message": "A problem occurred. Please try again or call us directly:"
+    }
+  },
+  "about": {
+    "title": "About B&T Quality Construction",
+    "subtitle": "Your trusted partner for exterior renovation",
+    "story_title": "Our Story",
+    "story": "B&T Quality Construction is a company specializing in residential exterior renovation, founded on the belief that every homeowner deserves superior quality service at a fair price. We operate in Quebec and Ontario, proud of our reputation built project by project.",
+    "values_title": "Our Values",
+    "values": [
+      {
+        "title": "Quality",
+        "desc": "We only use top-quality materials and our technicians are trained to industry best practices."
+      },
+      {
+        "title": "Integrity",
+        "desc": "Honest quotes, respected timelines, clean sites. We do what we promise."
+      },
+      {
+        "title": "Service",
+        "desc": "A dedicated contact from quote to project completion. You're never left without an answer."
+      }
+    ],
+    "area_title": "Service Area",
+    "area": "We serve Quebec (west of Boulevard des Sources, along Highways 40, 20 and 30) as well as Ontario (Cornwall, Alexandria, Hawkesbury and surrounding areas).",
+    "rbq_title": "RBQ License",
+    "rbq_text": "Our RBQ license number is 5839-7712-01. You can verify our status on the Régie du bâtiment du Québec website.",
+    "team_alt": "The B&T Quality Construction Team"
+  },
+  "footer": {
+    "services": "Services",
+    "company": "Company",
+    "contact": "Contact",
+    "rights": "All rights reserved.",
+    "rbq": "RBQ License",
+    "privacy": "Privacy",
+    "warranty": "Warranties"
+  },
+  "chat": {
+    "title": "B&T Assistant",
+    "subtitle": "Quick response",
+    "placeholder": "Ask your question...",
+    "send": "Send",
+    "offline": "We'll call you back within 24 hours",
+    "welcome": "Hello! I'm the B&T Quality Construction assistant. How can I help you today? 😊",
+    "error": "Sorry, an error occurred. Please try again."
+  },
+  "floating_cta": "Call Now",
+  "stats_bar": {
+    "items": [
+      { "value": "100+", "label": "Jobs Completed" },
+      { "value": "5.0 ★", "label": "Google Rating" },
+      { "value": "10+", "label": "Years Experience" },
+      { "value": "10 yrs", "label": "Warranty Included" }
+    ],
+    "cta": "Get your free quote"
+  },
+  "meta": {
+    "home": {
+      "title": "B&T Quality Construction — Gutters, Siding, Roofing | QC & ON",
+      "description": "RBQ-certified contractor (5839-7712-01) for gutters, soffit, siding and roofing. Serving Quebec and Ontario. 10-year warranty. Free quote."
+    },
+    "contact": {
+      "title": "Contact — Free Quote | B&T Quality Construction",
+      "description": "Get your free quote in less than 24 hours. Gutters, siding, roofing in Quebec and Ontario. RBQ License 5839-7712-01."
+    },
+    "about": {
+      "title": "About | B&T Quality Construction",
+      "description": "B&T Quality Construction, RBQ-certified residential exterior renovation contractor in Quebec and Ontario. License 5839-7712-01."
+    },
+    "gutters": {
+      "title": "Gutters, Soffit and Fascia | B&T Quality Construction",
+      "description": "Expert gutter, soffit and fascia installation and replacement by RBQ-certified professionals. 10-year warranty. Quebec and Ontario."
+    },
+    "siding": {
+      "title": "Exterior Siding | B&T Quality Construction",
+      "description": "Residential exterior siding installation by RBQ-certified experts. 10-year warranty. Quebec and Ontario."
+    },
+    "roofing": {
+      "title": "Residential Roofing | B&T Quality Construction",
+      "description": "Expert roofing replacement by RBQ-certified professionals. 10-year installation + 20-year materials warranty. Quebec and Ontario."
+    }
+  },
+  "error": {
+    "404_title": "Page Not Found",
+    "404_message": "The page you are looking for does not exist."
+  },
+  "services_page": {
+    "title": "Our Exterior Renovation Services",
+    "subtitle": "Gutters, siding and roofing — RBQ-certified experts in Quebec and Ontario",
+    "meta_title": "Exterior Renovation Services | B&T Quality Construction — QC & ON",
+    "meta_description": "Seamless gutters, vinyl siding and architectural roofing by RBQ-certified experts. 10-year warranty. Serving Quebec and Ontario.",
+    "cta_service": "Learn more",
+    "all_services": "All our services",
+    "trust_title": "Why Choose B&T",
+    "trust_items": [
+      "RBQ License 5839-7712-01 — verifiable online",
+      "10-year labor and materials warranty on every service",
+      "Free quote in under 24h — no obligation",
+      "Over 100 projects completed in Quebec and Ontario"
+    ]
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Expert advice on residential exterior renovation",
+    "meta_title": "Blog | Exterior Renovation Tips | B&T Quality Construction",
+    "meta_description": "Expert tips on gutters, exterior siding and roofing. Learn when to replace, how to maintain, and how to protect your home from the elements.",
+    "read_more": "Read article",
+    "back": "← Back to blog",
+    "by": "By",
+    "author": "The B&T Team",
+    "cta_title": "Have a project in mind?",
+    "cta_text": "Get a free quote from our RBQ-certified experts — response within 24 hours.",
+    "articles": [
+      {
+        "slug": "gutters-when-to-replace",
+        "title": "7 Signs Your Gutters Need to Be Replaced",
+        "meta_title": "7 Signs Your Gutters Need Replacing | B&T Quality Construction",
+        "meta_description": "Rust, leaks, overflow, sagging — discover the 7 warning signs that tell you it's time to replace your gutters before the damage gets worse.",
+        "excerpt": "Faulty gutters can cause thousands of dollars in foundation damage without you even noticing. Here are the 7 signs to watch for.",
+        "date": "2025-10-10",
+        "category": "Gutters",
+        "read_time": "5 min",
+        "image": "/images/blog-gutters.jpg",
+        "image_alt": "Rusted and clogged gutters in need of replacement",
+        "intro": "Your gutters play a discreet but absolutely essential role: they channel thousands of litres of rainwater away from your foundation, walls and landscaping. When they fail, the consequences can be catastrophic — and often invisible until it's too late. Here are the 7 signs that tell you replacement is necessary.",
+        "sections": [
+          {
+            "heading": "1. Visible rust or cracks",
+            "body": "Rust is the clearest sign of an end-of-life gutter. It means the protective coating or paint has degraded and the aluminum or steel is oxidizing. Even a small crack lets water fall directly against your foundation with every rain.",
+            "list": null
+          },
+          {
+            "heading": "2. Leaks at joints or connectors",
+            "body": "Standard gutters are assembled in sections joined by sealed seams. These seams deteriorate over time, especially under the freeze-thaw cycles typical of Quebec winters. If you see water stains on your exterior walls at gutter level, the joints are likely the culprit.",
+            "list": null
+          },
+          {
+            "heading": "3. Water overflows during rain",
+            "body": "Overflow can have two causes: a clog (leaves, debris) or a poorly pitched gutter that doesn't drain toward the downspout. In both cases, if the problem persists after cleaning, replacement is often the most cost-effective long-term solution.",
+            "list": null
+          },
+          {
+            "heading": "4. Sagging or detached gutters",
+            "body": "Gutters that hang, tilt or pull away from the fascia indicate that the mounting hooks are rusted or that the fascia itself has rotted. In this case, gutter replacement often needs to include fascia replacement as well.",
+            "list": null
+          },
+          {
+            "heading": "5. Paint damage or stains on siding near gutters",
+            "body": "Peeling paint or moisture stains on your siding directly below the gutters signal a chronic leak. Water seeps between the gutter and fascia, gradually degrading the wood and cladding over time.",
+            "list": null
+          },
+          {
+            "heading": "6. Mold or water in the basement",
+            "body": "This is often the most costly sign. When failing gutters allow water to pool against the foundation, moisture eventually seeps into the basement — causing mold, concrete crumbling and efflorescence. Timely gutter replacement can prevent foundation repairs costing $10,000 or more.",
+            "list": null
+          },
+          {
+            "heading": "7. Your gutters are over 20 years old",
+            "body": "Even gutters that look fine may have lost their effectiveness after 20 years. Drainage capacity can gradually decrease without visible signs. If your home was built or your roof replaced over 20 years ago without the gutters being changed, an inspection is in order.",
+            "list": null
+          },
+          {
+            "heading": "What to do now?",
+            "body": "If you recognize one or more of these signs, the best course of action is to act before the fall rains arrive. At B&T Quality Construction, we offer a free gutter inspection and a detailed, no-obligation quote. Our seamless aluminum gutters eliminate joints — the primary source of leaks — and carry a 10-year warranty.",
+            "list": null
+          }
+        ]
+      },
+      {
+        "slug": "exterior-siding-material-canadian-climate",
+        "title": "Vinyl, Fiber Cement or Aluminum: Which Siding to Choose in Quebec?",
+        "meta_title": "Which Exterior Siding to Choose in Quebec? Vinyl vs Fiber Cement | B&T",
+        "meta_description": "Complete comparison of exterior siding materials for the Quebec climate: premium vinyl, fiber cement (HardiePlank) and aluminum. Pros, cons and costs.",
+        "excerpt": "Choosing the right exterior siding depends on climate, budget and aesthetics. Here is a complete guide to making the right choice for your home in Quebec.",
+        "date": "2025-10-20",
+        "category": "Siding",
+        "read_time": "6 min",
+        "image": "/images/blog-siding.jpg",
+        "image_alt": "Comparison of vinyl vs fiber cement siding on a Quebec home",
+        "intro": "Replacing your home's exterior siding is an important decision that affects not only the appearance of your property but also its protection against the elements and its resale value. In Quebec and Ontario, the extreme climate — from -40°C in winter to +35°C in summer — imposes different selection criteria than other regions. Here is our comparative analysis of the three main materials.",
+        "sections": [
+          {
+            "heading": "Premium vinyl: the best value for money",
+            "body": "Heavy-gauge vinyl siding is by far the most popular choice in Canada, and for good reasons: it perfectly withstands freeze-thaw cycles, doesn't absorb moisture, doesn't rust and never needs painting. Current technology produces textures that perfectly mimic wood or cedar. Lifespan reaches 25 to 40 years with minimal maintenance.",
+            "list": ["Moderate cost — best return on investment", "Zero maintenance, never needs painting", "30+ colors available with wood grain texture", "UV-resistant, freeze-resistant and impact-resistant", "Available with integrated insulation"]
+          },
+          {
+            "heading": "Fiber cement (HardiePlank): the premium choice",
+            "body": "Fiber cement is the choice for homeowners who want the authentic look of painted wood without the drawbacks of real wood. It is non-combustible, termite-resistant, rot-proof and impact-resistant. Its appearance is significantly superior to vinyl — which justifies its higher price. However, it requires repainting every 10 to 15 years.",
+            "list": ["Superior appearance, authentic look", "Non-combustible and termite-resistant", "Lifespan of 30 to 50 years", "Significantly increases resale value", "Requires repainting every 10-15 years"]
+          },
+          {
+            "heading": "Factory-painted aluminum: solid and discreet",
+            "body": "Aluminum was the standard in the 1970s-1990s. Still popular for commercial and residential properties, it offers excellent durability with a permanent factory-painted finish. Its main drawback is that it can dent and the color selection is more limited than vinyl.",
+            "list": ["Very weather-resistant", "Permanent factory-painted finish", "Ideal for exposed or coastal properties", "Can dent from impacts (hail, branches)"]
+          },
+          {
+            "heading": "Our recommendation based on your situation",
+            "body": "For the vast majority of Quebec single-family homes with a reasonable budget: heavy-gauge premium vinyl is the best choice. For higher-value homes ($400,000+) or premium renovations: HardiePlank fiber cement delivers an unmatched aesthetic result. For commercial properties or extreme exposures: aluminum remains a safe bet.",
+            "list": null
+          },
+          {
+            "heading": "Insulation: take advantage during installation",
+            "body": "Whatever material you choose, siding replacement is the ideal time to add a layer of rigid insulation beneath the new cladding. This step, easy to perform when walls are exposed, can reduce your heating bill by 15 to 25% over the next 30 years. The marginal cost is minimal compared to the energy savings.",
+            "list": null
+          }
+        ]
+      },
+      {
+        "slug": "roof-replacement-signs-inspection",
+        "title": "How to Know if Your Roof Needs Replacing: The Complete Guide",
+        "meta_title": "When to Replace Your Roof? Complete Guide | B&T Quality Construction",
+        "meta_description": "Curling shingles, granules in gutters, moisture stains — learn to recognize the signs of a roof that needs replacing and avoid costly damage.",
+        "excerpt": "An end-of-life roof costs more than replacement: water infiltration, mold, structural damage. Here's how to inspect yours and know when to act.",
+        "date": "2025-11-01",
+        "category": "Roofing",
+        "read_time": "7 min",
+        "image": "/images/blog-roofing.jpg",
+        "image_alt": "Roof inspection showing damaged and worn shingles",
+        "intro": "Your roof is your home's most critical protection against the elements. Unlike gutters or siding, roofing problems often develop invisibly — until the day water appears on your ceiling. By that point, interior damage can already run into thousands of dollars. Knowing how to read the warning signs lets you act before the situation spirals out of control.",
+        "sections": [
+          {
+            "heading": "Your roof's age: the first criterion",
+            "body": "A standard 3-tab shingle lasts 15 to 20 years. An architectural (laminated) shingle lasts 25 to 30 years. If your roof is approaching or exceeding these thresholds, a professional inspection is warranted even without visible signs. Deterioration can be advanced without being visible from the ground.",
+            "list": null
+          },
+          {
+            "heading": "Visible signs from the ground",
+            "body": "Before calling a professional, here is what you can observe from your yard:",
+            "list": ["Curling, buckling or lifting shingles at corners", "Missing or displaced shingles after a storm", "Grey, dull surface — a sign of granule wear", "Dark stains from algae or moss growth", "Visible deflection — the roof no longer appears perfectly flat"]
+          },
+          {
+            "heading": "Granules in gutters: a red flag",
+            "body": "Asphalt shingles are coated with mineral granules that protect them from UV rays and weather. Over time, these granules detach and accumulate in your gutters. If you find a large quantity of dark granules in your gutters or on the ground after rain, it means your shingles have lost their protective layer and are nearing end of life.",
+            "list": null
+          },
+          {
+            "heading": "Interior signs: attic and ceilings",
+            "body": "Inspect your attic on a sunny day: if you can see light filtering between the roof boards, water can do the same. Also check for moisture stains on the boards or insulation batts. Inside the house, brownish ceiling stains — even faint ones — indicate an active infiltration.",
+            "list": null
+          },
+          {
+            "heading": "After a storm: systematic inspection",
+            "body": "After every significant storm (high winds, hail, heavy snow accumulation), inspect your roof from the ground. Hail leaves characteristic circular impacts on shingles, visible through binoculars. Displaced or broken shingles after strong winds must be replaced quickly to prevent infiltration.",
+            "list": null
+          },
+          {
+            "heading": "Repair or replace: when to choose what?",
+            "body": "Spot repair is justified when your roof is under 15 years old, the damage is localized (a few shingles) and the rest of the roof is in good condition. Beyond 20 years, or if more than 20% of the surface is affected, full replacement is generally more cost-effective and avoids repeated call-backs.",
+            "list": null
+          },
+          {
+            "heading": "Free inspection by B&T Quality Construction",
+            "body": "If you have any doubt about the condition of your roof, contact us for a free, no-obligation inspection. Our experts assess the condition of your roof, structure and ventilation, and provide an honest report — even if the conclusion is that no replacement is needed at this time.",
+            "list": null
+          }
+        ]
+      },
+      {
+        "slug": "winter-preparation-exterior-home-quebec",
+        "title": "Preparing Your Home's Exterior for a Quebec Winter: The Complete Checklist",
+        "meta_title": "Preparing Your Home's Exterior for Winter in Quebec | B&T Quality Construction",
+        "meta_description": "Complete checklist to protect your home before winter: gutter, roof and siding inspection. Avoid costly surprises in January.",
+        "excerpt": "Quebec winters are particularly demanding on your home. Here is the complete checklist to go through in October to protect your gutters, roof and siding.",
+        "date": "2025-11-15",
+        "category": "Maintenance",
+        "read_time": "5 min",
+        "image": "/images/blog-winter.jpg",
+        "image_alt": "Quebec home in winter with ice on gutters",
+        "intro": "Quebec winters are among the most brutal in the world for buildings: freezing, thawing, snow accumulation, ice storms and violent winds test every exterior component of your home. An inspection and a few interventions in September-October can prevent costly damage that typically shows up in the dead of winter, when repairs are difficult and timelines are long.",
+        "sections": [
+          {
+            "heading": "Gutters: priority number one before winter",
+            "body": "Gutters clogged with autumn leaves cause two major winter problems: ice dams and overflow damage during thaws. An ice dam forms when snowmelt water can't drain and freezes at the roof's edge, forcing water under the shingles. The consequences can be devastating.",
+            "list": ["Clean gutters after the last leaves have fallen (November)", "Verify downspouts are clear and water flows away from the foundation", "Inspect joints and fasteners — freezing worsens existing weaknesses", "Consider installing gutter guards to permanently eliminate the problem"]
+          },
+          {
+            "heading": "Roof: inspection before the first snowfall",
+            "body": "A weakened roof bears the weight of snow poorly. Poorly secured shingles, lifted sections or damaged membranes become infiltration points at the first thaw. Inspect from the ground with binoculars or have a professional inspect before November.",
+            "list": ["Replace missing or damaged shingles in the fall", "Check flashings around chimneys and vents", "Ensure attic ventilation is functional — it prevents ice dams", "Professional inspection recommended if roof is 15+ years old"]
+          },
+          {
+            "heading": "Exterior siding: cracks to repair before the freeze",
+            "body": "Water that seeps into a siding crack and freezes in winter exponentially worsens the crack. Inspect your siding in October and immediately caulk any cracks or lifting sections.",
+            "list": ["Inspect caulking around windows, doors and electrical outlets", "Look for lifted, cracked or damaged siding panels", "Check the condition of corners and trim", "Caulk with a product rated for below-zero temperatures"]
+          },
+          {
+            "heading": "Foundation and drainage: preventing spring water infiltration",
+            "body": "Spring snowmelt infiltrating the foundation is often caused by poor winter drainage. Make sure downspouts are extended at least 1.5 meters away from the foundation and that the ground slopes away from the house.",
+            "list": null
+          },
+          {
+            "heading": "Act now to avoid emergencies in January",
+            "body": "Roof, gutter and siding problems identified in October can be resolved quickly and at reasonable cost. In January at -20°C, emergency interventions are more difficult, take longer and cost far more — if they're possible at all. Contact B&T Quality Construction for a free inspection before winter sets in.",
+            "list": null
+          }
+        ]
+      }
+    ]
+  }
+}

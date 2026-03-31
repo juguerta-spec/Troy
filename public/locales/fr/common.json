@@ -1,0 +1,764 @@
+{
+  "site": {
+    "name": "B&T Quality Construction",
+    "tagline": "Entrepreneur en rénovation extérieure résidentielle",
+    "phone": "(438) 888-8130",
+    "rbq": "5839-7712-01",
+    "email": "B.TQualityConstruction@Gmail.com"
+  },
+  "announcement": "Licence RBQ 5839-7712-01  ·  10 ans de garantie  ·  Service QC & ON  ·  +100 projets réalisés",
+  "nav": {
+    "home": "Accueil",
+    "services": "Services",
+    "blog": "Blogue",
+    "about": "À propos",
+    "contact": "Contact",
+    "cta": "Soumission gratuite",
+    "call": "Appeler"
+  },
+  "hero": {
+    "headline": "Protégez votre maison avec des experts certifiés",
+    "subline": "Gouttières, revêtement et toiture de qualité supérieure. Licence RBQ 5839-7712-01 — Service au Québec et en Ontario.",
+    "cta_call": "Appeler maintenant",
+    "cta_form": "Obtenir une soumission",
+    "badge_rbq": "Licence RBQ",
+    "badge_warranty": "10 ans de garantie",
+    "badge_projects": "+100 projets"
+  },
+  "services": {
+    "title": "Nos services",
+    "subtitle": "Des solutions durables pour l’extérieur de votre maison",
+    "gutters": {
+      "name": "Gouttières, Soffites et Fascias",
+      "short": "Gouttières",
+      "description": "Installation, remplacement et réparation de gouttières, soffites et fascias par des experts certifiés RBQ. Protégez votre fondation, vos murs et votre aménagement paysager contre les dommages d’eau.",
+      "slug": "gouttières-soffites-fascias",
+      "hero_h1": "Installation de gouttières, soffites et fascias — Experts RBQ au Québec et en Ontario",
+      "hero_problem": "Des gouttières défectueuses détruisent votre fondation en silence — chaque pluie aggrave les dégâts",
+      "hero_solution": "B&T installe des systèmes de gouttières sans soudure en aluminium, garantis 10 ans, qui évacuent chaque litre d’eau loin de votre maison.",
+      "intro": "Chaque année, des milliers de propriétaires québécois découvrent trop tard que des gouttières défectueuses ont silencieusement causé des milliers de dollars en dommages à leur fondation, leurs murs et leur sous-sol. Chez B&T Quality Construction, nous installons des systèmes de gouttières sur mesure, formés en une seule pièce sans joint — éliminant la principale source de fuites.",
+      "stats": [
+        { "value": "+100", "label": "Systèmes installés" },
+        { "value": "10 ans", "label": "Garantie complète" },
+        { "value": "48h", "label": "Disponibilité" },
+        { "value": "0 joint", "label": "Gouttières sans soudure" }
+      ],
+      "benefits": [
+        "Gouttières sans soudure formées sur mesure — aucun joint = aucune fuite",
+        "Aluminium calibre 0.032\" résistant à la rouille, aux intempéries et au gel québécois",
+        "Évacuation optimisée loin des fondations pour prévenir les infiltrations d’eau",
+        "Soffites et fascias assortis pour une finition uniforme et professionnelle",
+        "Protège-gouttières en option pour éliminer l’entretien annuel",
+        "Garantie 10 ans main-d’œuvre et matériaux — écrit dans notre contrat",
+        "Installation propre en une journée, nettoyage complet garanti",
+        "Service disponible sous 48h — soumission gratuite le jour même"
+      ],
+      "materials_title": "Matériaux et options",
+      "materials": [
+        {
+          "name": "Aluminium sans soudure",
+          "desc": "Notre standard. Formé sur mesure à la longueur exacte de votre maison pour éliminer tout joint. Résistant au gel, à la rouille et aux UV. Disponible en 20+ couleurs."
+        },
+        {
+          "name": "Protège-gouttières",
+          "desc": "Couvercle microperforé qui laisse passer l’eau tout en bloquant feuilles, branches et débris. Élimine le nettoyage annuel et prolonge la durée de vie du système."
+        },
+        {
+          "name": "Soffites et fascias assortis",
+          "desc": "Aluminium ou vinyle peint en usine, disponible dans les mêmes couleurs que vos gouttières. Finition uniforme pour une apparence premium et professionnelle."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Inspection gratuite sur place",
+          "desc": "Un expert B&T visite votre maison, évalue l’état actuel, mesure chaque section et identifie les problèmes de drainage existants — sans frais, sans engagement."
+        },
+        {
+          "title": "Soumission détaillée le jour même",
+          "desc": "Vous recevez un devis précis incluant matériaux, couleurs, protège-gouttières si désiré. Prix fixe, sans surprise. Vous n’êtes jamais pris par surprise."
+        },
+        {
+          "title": "Installation en une journée",
+          "desc": "Notre équipe forme les gouttières sur mesure sur place et installe le système complet en une seule journée. Site laissé propre, vieux matériaux emportés."
+        }
+      ],
+      "testimonial": {
+        "text": "Les gouttières étaient tellement bouchées que l’eau débordait directement sur mes fondations depuis 2 ans. B&T a tout remplacé en une journée — système sans soudure, fascias neufs, protège-gouttières. C’est impeccable. J’aurais dû appeler bien avant.",
+        "name": "Michel D.",
+        "location": "Vaudreuil-Dorion, QC",
+        "service": "Remplacement complet gouttières + soffites + fascias"
+      },
+      "faq": [
+        {
+          "q": "À quelle fréquence faut-il remplacer ses gouttières?",
+          "a": "Des gouttières en aluminium de qualité durent 20 à 40 ans avec peu d’entretien. Si vous voyez de la rouille, des déformations, des fuites aux joints, ou si l’eau déborde lors des pluies, il est temps d’agir. Nos gouttières sans soudure n’ont pas de joints à entretenir."
+        },
+        {
+          "q": "Quelle est la différence entre soffite et fascia?",
+          "a": "Le fascia est le panneau vertical qui court le long du bord inférieur du toit — c’est là qu’on fixe les gouttières. Le soffite est la surface horizontale sous le débord de toit, entre le mur et le fascia. Les deux protègent la charpente de votre maison contre l’humidité et les insectes. Nous remplaçons les deux lors d’une même visite."
+        },
+        {
+          "q": "Quelle est la différence entre des gouttières standards et sans soudure?",
+          "a": "Les gouttières standards sont vendues en sections de 10-12 pieds et assemblées avec des joints — chaque joint est une source potentielle de fuite. Nos gouttières sans soudure sont formées sur place en une seule pièce sur toute la longueur de votre maison, éliminant complètement les joints et les fuites qui en découlent."
+        },
+        {
+          "q": "Les protège-gouttières fonctionnent-ils vraiment?",
+          "a": "Oui — les protège-gouttières microperforés de qualité laissent passer l’eau tout en bloquant 99% des débris. Ils réduisent drastiquement l’entretien et préviennent les obstructions qui causent les débordements. Nous recommandons fortement cette option si vous avez des arbres à proximité."
+        },
+        {
+          "q": "Combien de temps dure l’installation?",
+          "a": "Pour une maison standard (unifamiliale), l’installation complète prend généralement une journée. Nous formons les gouttières sur place, installons tout le système, puis nettoyons complètement le site avant de partir."
+        },
+        {
+          "q": "Est-ce que vous offrez une garantie?",
+          "a": "Oui, 10 ans sur la main-d’œuvre et les matériaux. Cette garantie est écrite dans notre contrat. Si un problème survient dans les 10 ans suivant l’installation, nous revenons sans frais supplémentaires."
+        },
+        {
+          "q": "Quelles couleurs sont disponibles?",
+          "a": "Nous offrons plus de 20 couleurs standard en aluminium, dont blanc, beige, brun, gris anthracite, noir et plusieurs tons de bois. Nous pouvons aussi assortir exactement la couleur de votre garniture existante."
+        }
+      ]
+    },
+    "siding": {
+      "name": "Revêtement extérieur",
+      "short": "Revêtement",
+      "description": "Installation de revêtement extérieur résidentiel en vinyle, aluminium ou fibre de ciment par des spécialistes certifiés RBQ. Transformez l’apparence de votre maison tout en l’isolant et en la protégeant pour les 30 prochaines années.",
+      "slug": "revetement",
+      "hero_h1": "Revêtement extérieur résidentiel — Installation vinyle, fibre de ciment et aluminium — RBQ certifié",
+      "hero_problem": "Un revêtement vieillissant coûte des milliers en chauffage perdu et fait chuter la valeur de votre propriété",
+      "hero_solution": "B&T installe des revêtements premium qui transforment l’apparence de votre maison, améliorent l’isolation et la protègent pour 30 ans — garantie 10 ans incluse.",
+      "intro": "Le revêtement extérieur est la première chose que tout le monde voit de votre maison — et sa première ligne de défense contre le froid québécois, l’humidité et les intempéries. Un revêtement vieillissant ou mal installé laisse entrer le froid, l’eau et les insectes, tout en faisant perdre de la valeur à votre propriété. Un remplacement bien fait peut augmenter la valeur de revente de 5 à 15% tout en réduisant votre facture de chauffage.",
+      "stats": [
+        { "value": "+15%", "label": "Valeur de revente" },
+        { "value": "30 ans", "label": "Durabilité" },
+        { "value": "10 ans", "label": "Garantie complète" },
+        { "value": "3 jours", "label": "Installation standard" }
+      ],
+      "benefits": [
+        "Transformation visuelle immédiate — votre maison aura l’air d’une construction neuve",
+        "Réduction de 15 à 25% de vos coûts de chauffage avec isolation intégrée",
+        "Protection hermétique contre l’humidité, les moisissures et les insectes",
+        "Vinyle de calibre lourd: aucune peinture, aucun entretien pendant 30 ans",
+        "Choix de 30+ couleurs et textures: bois, cèdre, board & batten, traditionnel",
+        "Pare-vapeur professionnel posé systématiquement sous le revêtement",
+        "Garantie 10 ans main-d’œuvre et matériaux — incluse sans supplément",
+        "Augmentation de 5 à 15% de la valeur de revente de votre propriété"
+      ],
+      "materials_title": "Types de revêtements disponibles",
+      "materials": [
+        {
+          "name": "Vinyle premium (calibre lourd)",
+          "desc": "Notre option la plus populaire. Résistant aux impacts, aux UV, au gel et aux changements de température extrêmes. Aucune peinture nécessaire — jamais. Disponible en 30+ couleurs et textures incluant l’imitation bois. Garantie fabricant 25-30 ans."
+        },
+        {
+          "name": "Fibre de ciment (HardiePlank)",
+          "desc": "L’option haut de gamme pour ceux qui veulent le look du bois sans l’entretien. Incombustible, résistant aux termites et à la pourriture. Plus lourd et plus durable que le vinyle, avec une apparence supérieure. Idéal pour les maisons de valeur."
+        },
+        {
+          "name": "Aluminium peint en usine",
+          "desc": "Solution solide pour les propriétés commerciales et résidentielles. Peint en usine avec une finition permanente, résistant à la rouille et aux intempéries. Excellent choix pour les régions côtières ou exposées."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Consultation design gratuite",
+          "desc": "Nous vous aidons à choisir le style, la couleur et le matériau qui valorisent le mieux votre propriété. Nous pouvons visualiser le résultat ensemble avant que vous décidiez quoi que ce soit."
+        },
+        {
+          "title": "Préparation professionnelle",
+          "desc": "Retrait complet de l’ancien revêtement, inspection minutieuse de la structure pour détecter pourriture ou dommages, réparations si nécessaire, pose du pare-vapeur haute performance."
+        },
+        {
+          "title": "Installation soignée + nettoyage",
+          "desc": "Chaque panneau est posé avec précision selon les spécifications du fabricant. Nos équipes laissent le site parfaitement propre en fin de journée. Inspection finale avec vous avant de partir."
+        }
+      ],
+      "testimonial": {
+        "text": "Ma maison de 1978 avait un revêtement aluminium oxydé et endommagé. B&T a tout remplacé en 4 jours avec du vinyle gris anthracite et des garnitures blanches. Le résultat est incroyable — des voisins pensaient que j’avais fait construire. L’équipe était propre, ponctuelle et professionnelle du début à la fin.",
+        "name": "Lyne B.",
+        "location": "Châteauguay, QC",
+        "service": "Remplacement complet revêtement aluminium → vinyle premium"
+      },
+      "faq": [
+        {
+          "q": "Quelle est la durée de vie d’un revêtement en vinyle?",
+          "a": "Un revêtement en vinyle de calibre lourd posé correctement dure 25 à 40 ans sans nécessiter de peinture ni d’entretien majeur. La clé est la qualité du matériau et la qualité de l’installation — deux éléments que nous garantissons."
+        },
+        {
+          "q": "Est-ce que ça vaut vraiment la peine d’isoler en même temps?",
+          "a": "Absolument. Lorsque votre revêtement est retiré, c’est le seul moment où vous avez accès direct à l’enveloppe de votre maison pour ajouter de l’isolation. Le coût marginal est faible comparé aux économies d’énergie sur 20-30 ans. Nous estimons une réduction de 15-25% sur les factures de chauffage."
+        },
+        {
+          "q": "Faut-il retirer l’ancien revêtement ou peut-on poser par-dessus?",
+          "a": "Nous recommandons fortement de retirer l’ancien revêtement pour inspecter la structure en dessous et détecter pourriture, moisissures ou dommages d’eau cachés. Poser par-dessus sans inspecter est une économie à court terme qui peut coûter très cher à long terme."
+        },
+        {
+          "q": "Combien de temps dure une installation complète?",
+          "a": "Pour une maison unifamiliale standard, l’installation prend généralement 3 à 5 jours selon la superficie et la complexité. Nous travaillons efficacement sans couper de coins ronds — vous êtes informé de l’avancement chaque jour."
+        },
+        {
+          "q": "Le revêtement en vinyle résiste-t-il bien au froid québécois?",
+          "a": "Le vinyle de calibre lourd que nous utilisons est spécifiquement conçu pour les climats nordiques. Il résiste à des températures allant de -40°C à +50°C sans se fissurer ni se déformer. La longueur des panneaux permet une dilatation thermique correcte."
+        },
+        {
+          "q": "Quelle est la différence entre le vinyle et la fibre de ciment?",
+          "a": "Le vinyle est léger, économique, 100% sans entretien et disponible en nombreuses couleurs. La fibre de ciment (HardiePlank) offre une apparence supérieure qui imite parfaitement le bois, est incombustible et encore plus durable, mais coûte plus cher et nécessite une peinture tous les 10-15 ans. Nous vous conseillons en fonction de votre budget et de vos objectifs."
+        },
+        {
+          "q": "Est-ce que vous travaillez avec les assureurs?",
+          "a": "Oui. Si votre revêtement a subi des dommages couverts par votre assurance (grêle, tempête, impacts), nous pouvons vous assister dans le processus de réclamation et travailler directement avec votre assureur."
+        }
+      ]
+    },
+    "roofing": {
+      "name": "Toiture résidentielle",
+      "short": "Toiture",
+      "description": "Remplacement et réparation de toitures résidentielles par des spécialistes certifiés RBQ au Québec et en Ontario. Bardeaux architecturaux premium, garantie 10 ans installation + 20 ans matériaux.",
+      "slug": "toiture",
+      "hero_h1": "Remplacement de toiture résidentielle au Québec et en Ontario — Bardeaux architecturaux — Garantie 20 ans",
+      "hero_problem": "Une toiture endommagée laisse entrer l’eau et les moisissures — les dégâts s’accumulent à chaque tempête",
+      "hero_solution": "B&T remplace votre toiture en une journée avec des bardeaux architecturaux certifiés, garantis 20 ans sur les matériaux et 10 ans sur l’installation par nos experts RBQ.",
+      "intro": "La toiture est l’élément de protection le plus critique de votre maison. Une toiture qui a 20 ans ou plus, ou qui présente des bardeaux manquants, gondolés ou granulés perdus, n’est plus étanche. Chaque pluie, chaque tempête représente un risque réel de dommages intérieurs majeurs. Chez B&T, nous effectuons le remplacement complet en une journée, sans compromettre la qualité — et vous dormez le soir même sous une toiture neuve.",
+      "stats": [
+        { "value": "1 jour", "label": "Remplacement complet" },
+        { "value": "20 ans", "label": "Garantie matériaux" },
+        { "value": "10 ans", "label": "Garantie installation" },
+        { "value": "RBQ", "label": "Certification officielle" }
+      ],
+      "benefits": [
+        "Remplacement complet en 1 journée — dormir sous votre toiture neuve le soir même",
+        "Bardeaux architecturaux IKO ou BP certifiés — résistants aux vents de 210 km/h",
+        "Garantie 20 ans sur les matériaux + 10 ans sur l’installation par B&T",
+        "Inspection complète de la charpente et des sous-couches incluse",
+        "Protection sous-toiture (membranes d’étanchéité) posée systématiquement",
+        "Faîteau et ventilation correctement installés pour prévenir la chaleur et l’humidité en grenier",
+        "Nettoyage complet — aimant ramasse-clou utilisé pour récupérer chaque clou au sol",
+        "Assistance pour les réclamations d’assurance (grêle, vent, tempête)"
+      ],
+      "materials_title": "Produits et certifications",
+      "materials": [
+        {
+          "name": "Bardeaux architecturaux (laminated)",
+          "desc": "Notre standard pour tous les remplacements. Deux fois plus épais que les bardeaux 3-onglets, ils offrent une texture en relief qui imite l’ardoise. Résistants aux vents de 130 mph (210 km/h). Garantie fabricant 20-30 ans selon la gamme choisie."
+        },
+        {
+          "name": "Membrane d’étanchéité Ice & Water",
+          "desc": "Posée systématiquement sur les premiers 3 pieds en bas du toit et dans toutes les vallées. Cette membrane auto-adhésive forme une barrière imperméable contre les infiltrations causées par les déglaçages hivernaux — critique au Québec."
+        },
+        {
+          "name": "Ventilation de faîteau",
+          "desc": "Une toiture bien ventilée dure plus longtemps et réduit les coûts de climatisation en été. Nous installons les entrées d’air de soffite et les sorties de faîteau selon les normes pour une ventilation optimale qui protège votre charpente."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Inspection complète dès l’arrivée",
+          "desc": "Avant de commencer, nous inspectons chaque section de votre toiture, la charpente visible, les soffites et l’état de la ventilation. Tout problème identifié vous est communiqué avant les travaux, avec options et prix."
+        },
+        {
+          "title": "Retrait complet + protection",
+          "desc": "Retrait de l’ancien bardeau jusqu’au bois de toit. Inspection visuelle de chaque planche. Les zones endommagées sont remplacées. Membranes d’étanchéité posées dans les zones critiques. Votre terrain est protégé avec des bâches."
+        },
+        {
+          "title": "Installation et inspection finale",
+          "desc": "Pose des bardeaux neufs selon les spécifications strictes du fabricant. Faîteau, ventilation, solin de cheminée refaits. Nettoyage complet avec aimant ramasse-clou. Inspection finale avec vous avant le départ."
+        }
+      ],
+      "testimonial": {
+        "text": "Ma toiture avait 22 ans et coulait au-dessus de la salle de bain. B&T est arrivé à 7h et repartit à 17h — avec une toiture neuve complète, nettoyage inclus. Ils ont même trouvé et réparé une section de planche pourrie que je ne savais pas. Garantie 20 ans sur les bardeaux. Je recommande à 100%.",
+        "name": "Jean-François B.",
+        "location": "Vaudreuil-Dorion, QC",
+        "service": "Remplacement complet toiture — bardeaux architecturaux IKO"
+      },
+      "faq": [
+        {
+          "q": "Comment savoir si ma toiture doit être remplacée?",
+          "a": "Plusieurs signes indiquent qu’il est temps d’agir: bardeaux gondolés, craquelés ou manquants; granules noires dans vos gouttières (signe d’usure avancée); taches d’humidité au plafond ou à la charpente; toiture de 20 ans et plus; mousses ou algues persistantes. En cas de doute, nous offrons une inspection gratuite sans engagement."
+        },
+        {
+          "q": "Puis-je rester dans ma maison pendant les travaux?",
+          "a": "Absolument. Les travaux de toiture se font entièrement à l’extérieur. Vous pouvez rester chez vous normalement. Il y a du bruit, mais aucune intrusion à l’intérieur. La plupart de nos clients vaquent à leurs occupations pendant que nous travaillons."
+        },
+        {
+          "q": "Pourquoi remplacer complètement plutôt que réparer?",
+          "a": "Une réparation partielle sur une toiture de 20 ans est souvent inefficace: si une section cède, le reste n’est pas loin derrière. De plus, les assureurs refusent parfois de couvrir une toiture qu’on a tenté de rafistoler plusieurs fois. Un remplacement complet est une décision financière plus solide sur 20-30 ans."
+        },
+        {
+          "q": "Qu’est-ce qu’un bardeau architectural et pourquoi est-il meilleur?",
+          "a": "Les bardeaux architecturaux (ou laminated) sont deux fois plus épais que les bardeaux 3-onglets standards. Ils offrent une texture en relief qui imite l’ardoise ou le bois, une résistance au vent supérieure (210 km/h vs 130 km/h), et une durée de vie de 25-30 ans vs 15-20 ans. C’est notre standard pour tous les remplacements."
+        },
+        {
+          "q": "Qu’est-ce qui est inclus dans votre garantie de 10 ans?",
+          "a": "Notre garantie de 10 ans couvre tous les défauts d’installation: délaminage, soulèvement, infiltrations dues à une mauvaise pose, problèmes de ventilation ou de solin. Si un problème lié à notre travail survient dans les 10 ans, nous revenons et corrigeons sans frais. La garantie fabricant de 20 ans sur les matériaux est distincte et transférable."
+        },
+        {
+          "q": "Travaillez-vous avec les assureurs pour les dommages?",
+          "a": "Oui. Si votre toiture a subi des dommages de grêle, de vent ou de tempête couverts par votre assurance habitation, nous sommes habitués à travailler avec les assureurs. Nous pouvons documenter les dommages, fournir un rapport détaillé et vous accompagner dans le processus de réclamation."
+        },
+        {
+          "q": "Combien de temps dure une installation complète?",
+          "a": "Dans la grande majorité des cas, un remplacement complet de toiture pour une maison unifamiliale se fait en une seule journée (7h à 17h). Pour les maisons très grandes ou avec des géométries complexes (croupes, lucarnes multiples), cela peut prendre 2 jours."
+        }
+      ]
+    },
+    "learn_more": "En savoir plus",
+    "warranty_label": "Garantie incluse",
+    "how_it_works": "Comment ça fonctionne",
+    "warranty_roofing": "10 ans installation + 20 ans matériaux",
+    "warranty_standard": "10 ans main-d’œuvre + matériaux",
+    "materials_cta": "Obtenir une soumission gratuite",
+    "testimonial_label": "Ce que dit un client",
+    "stats_label": "Nos chiffres",
+    "intro_label": "Pourquoi agir maintenant"
+  },
+  "why_us": {
+    "title": "Pourquoi nous choisir",
+    "subtitle": "Des raisons concrètes de nous faire confiance",
+    "items": [
+      {
+        "icon": "shield",
+        "title": "Garantie 10 ans",
+        "desc": "Main-d'oeuvre et matériaux garantis. Toiture: 10 ans installation + 20 ans matériaux."
+      },
+      {
+        "icon": "badge",
+        "title": "RBQ Certifié",
+        "desc": "Licence RBQ 5839-7712-01. Entrepreneur licencié, assuré et professionnel."
+      },
+      {
+        "icon": "clock",
+        "title": "Délais respectés",
+        "desc": "Nous nous engageons sur des délais réalistes et les respectons — toujours."
+      },
+      {
+        "icon": "team",
+        "title": "Équipe professionnelle",
+        "desc": "Une équipe expérimentée, soigneuse et respectueuse de votre propriété."
+      }
+    ]
+  },
+  "gallery": {
+    "title": "Nos réalisations",
+    "subtitle": "Plus de 100 projets complétés au Québec et en Ontario",
+    "alt": "Projet de rénovation extérieure"
+  },
+  "reviews": {
+    "title": "Ce que disent nos clients",
+    "subtitle": "Des centaines de propriétaires nous font confiance",
+    "items": [
+      {
+        "name": "Marie-Claude T.",
+        "location": "Laval, QC",
+        "text": "Excellent travail sur mes gouttières! L'équipe est arrivée à l'heure, a tout expliqué et le résultat est impeccable. Je recommande fortement.",
+        "rating": 5
+      },
+      {
+        "name": "Jean-François B.",
+        "location": "Vaudreuil-Dorion, QC",
+        "text": "Remplacement complet de ma toiture en une seule journée. Propre, professionnel et la garantie de 20 ans m'a convaincu. Parfait!",
+        "rating": 5
+      },
+      {
+        "name": "Sophie M.",
+        "location": "Cornwall, ON",
+        "text": "Revêtement extérieur magnifique. L'équipe a pris soin de tout protéger avant les travaux. Ma maison a une toute nouvelle apparence!",
+        "rating": 5
+      },
+      {
+        "name": "Robert L.",
+        "location": "Châteauguay, QC",
+        "text": "Service rapide et professionnel. Soumission reçue le jour même, travaux complétés en 2 jours. Je n'hésiterais pas à les rappeler.",
+        "rating": 5
+      },
+      {
+        "name": "Andrée P.",
+        "location": "Hawkesbury, ON",
+        "text": "Très satisfaite du service de bout en bout. Communication claire, prix honnête et travail soigné. Merci à toute l'équipe!",
+        "rating": 5
+      }
+    ]
+  },
+  "faq": {
+    "title": "Questions fréquentes",
+    "subtitle": "Tout ce que vous devez savoir avant de nous contacter",
+    "items": [
+      {
+        "q": "Comment obtenez-vous une soumission?",
+        "a": "Contactez-nous par téléphone, formulaire web ou clavardage. Nous évaluerons votre projet et vous fournirons une soumission détaillée, gratuite et sans engagement, généralement dans les 24-48h."
+      },
+      {
+        "q": "Offrez-vous des forfaits combinés?",
+        "a": "Nous ne proposons pas de forfaits préétablis, mais si vous réalisez plusieurs services en même temps, un rabais est possible. Chaque projet est évalué individuellement."
+      },
+      {
+        "q": "Quelle est votre zone de service?",
+        "a": "Nous servons l'ouest de l'île de Montréal (ouest du boul. des Sources, autoroutes 40, 20 et 30) ainsi que l'Ontario (Cornwall, Alexandria, Hawkesbury)."
+      },
+      {
+        "q": "Êtes-vous licenciés et assurés?",
+        "a": "Oui. Notre licence RBQ est 5839-7712-01. Nous détenons toutes les assurances requises pour travailler chez vous en toute légalité."
+      },
+      {
+        "q": "Quelle est votre garantie?",
+        "a": "Nous garantissons tous nos travaux 10 ans sur la main-d'oeuvre et les matériaux. Pour la toiture: 10 ans sur l'installation + 20 ans sur les matériaux."
+      },
+      {
+        "q": "Combien de temps avant de commencer les travaux?",
+        "a": "Selon notre calendrier, les travaux peuvent débuter dans les 1 à 2 semaines suivant l'acceptation de la soumission."
+      },
+      {
+        "q": "Travaillez-vous en hiver?",
+        "a": "Certains travaux (toiture, revêtement) sont saisonniers. Les gouttières peuvent être remplacées une bonne partie de l'année selon les conditions météo."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Obtenez votre soumission gratuite",
+    "subtitle": "Sans engagement — réponse dans les 24h",
+    "call": "Appeler maintenant",
+    "form": "Formulaire de contact",
+    "trust1": "Licence RBQ 5839-7712-01",
+    "trust2": "Garantie 10 ans",
+    "trust3": "Réponse sous 24h"
+  },
+  "contact": {
+    "title": "Contactez-nous",
+    "subtitle": "Obtenez votre soumission gratuite en moins de 24h",
+    "form": {
+      "firstName": "Prénom",
+      "lastName": "Nom",
+      "phone": "Téléphone",
+      "email": "Courriel",
+      "address": "Adresse complète",
+      "service": "Service intéressé",
+      "service_placeholder": "Sélectionner un service",
+      "service_gutters": "Gouttières / Soffites / Fascias",
+      "service_siding": "Revêtement extérieur",
+      "service_roofing": "Toiture",
+      "service_other": "Autre / Je ne sais pas",
+      "message": "Description du projet",
+      "message_placeholder": "Décrivez votre projet (dimensions approximatives, état actuel, urgence...)",
+      "photos": "Photos du projet (optionnel)",
+      "photos_hint": "Ajoutez des photos pour accélérer l'évaluation",
+      "referral": "Comment nous avez-vous trouvés?",
+      "referral_google": "Google",
+      "referral_facebook": "Facebook",
+      "referral_reference": "Référence d'un ami",
+      "referral_other": "Autre",
+      "submit": "Envoyer ma demande",
+      "submitting": "Envoi en cours...",
+      "required": "Champ obligatoire",
+      "phone_format": "Format: (514) 000-0000",
+      "email_invalid": "Courriel invalide",
+      "photos_preview": "Aperçu des photos",
+      "photos_remove": "Retirer"
+    },
+    "success": {
+      "title": "Demande envoyée!",
+      "message": "Nous vous contacterons dans les 24h. Pour une réponse plus rapide, appelez-nous directement:",
+      "cta_call": "Appeler maintenant"
+    },
+    "error": {
+      "title": "Erreur d'envoi",
+      "message": "Un problème est survenu. Veuillez réessayer ou nous appeler directement:"
+    }
+  },
+  "about": {
+    "title": "À propos de B&T Quality Construction",
+    "subtitle": "Votre partenaire de confiance en rénovation extérieure",
+    "story_title": "Notre histoire",
+    "story": "B&T Quality Construction est une entreprise spécialisée en rénovation extérieure résidentielle, fondée avec la conviction que chaque propriétaire mérite un service de qualité supérieure à un prix juste. Nous opérons au Québec et en Ontario, fiers de notre réputation bâtie projet après projet.",
+    "values_title": "Nos valeurs",
+    "values": [
+      {
+        "title": "Qualité",
+        "desc": "Nous n'utilisons que des matériaux de première qualité et nos techniciens sont formés aux meilleures pratiques de l'industrie."
+      },
+      {
+        "title": "Intégrité",
+        "desc": "Soumissions honnêtes, délais respectés, site laissé propre. Nous faisons ce que nous promettons."
+      },
+      {
+        "title": "Service",
+        "desc": "Un interlocuteur dédié de la soumission à la fin des travaux. Vous n'êtes jamais laissé sans réponse."
+      }
+    ],
+    "area_title": "Zone de service",
+    "area": "Nous desservons le Québec (à l'ouest du boulevard des Sources, le long des autoroutes 40, 20 et 30) ainsi que l'Ontario (Cornwall, Alexandria, Hawkesbury et environs).",
+    "rbq_title": "Licence RBQ",
+    "rbq_text": "Notre numéro de licence RBQ est 5839-7712-01. Vous pouvez vérifier notre statut sur le site de la Régie du bâtiment du Québec.",
+    "team_alt": "L'équipe B&T Quality Construction"
+  },
+  "footer": {
+    "services": "Services",
+    "company": "Entreprise",
+    "contact": "Contact",
+    "rights": "Tous droits réservés.",
+    "rbq": "Licence RBQ",
+    "privacy": "Confidentialité",
+    "warranty": "Garanties"
+  },
+  "chat": {
+    "title": "Assistant B&T",
+    "subtitle": "Réponse rapide",
+    "placeholder": "Posez votre question...",
+    "send": "Envoyer",
+    "offline": "Nous vous rappelons dans les 24h",
+    "welcome": "Bonjour! Je suis l'assistant de B&T Quality Construction. Comment puis-je vous aider aujourd'hui? ",
+    "error": "Désolé, une erreur est survenue. Veuillez réessayer."
+  },
+  "floating_cta": "Appeler maintenant",
+  "stats_bar": {
+    "items": [
+      { "value": "100+", "label": "Projets complétés" },
+      { "value": "5.0 ★", "label": "Évaluation Google" },
+      { "value": "10+", "label": "Ans d'expérience" },
+      { "value": "10 ans", "label": "Garantie incluse" }
+    ],
+    "cta": "Obtenez votre soumission gratuite"
+  },
+  "services_page": {
+    "title": "Nos services de rénovation extérieure",
+    "subtitle": "Gouttières, revêtement et toiture — Experts certifiés RBQ au Québec et en Ontario",
+    "meta_title": "Services de Rénovation Extérieure | B&T Quality Construction — QC & ON",
+    "meta_description": "Gouttières sans soudure, revêtement vinyle et toiture architecturale par des experts RBQ certifiés. Garantie 10 ans. Service au Québec et en Ontario.",
+    "cta_service": "En savoir plus",
+    "all_services": "Tous nos services",
+    "trust_title": "Pourquoi choisir B&T",
+    "trust_items": [
+      "Licence RBQ 5839-7712-01 — vérifiable en ligne",
+      "Garantie 10 ans main-d'œuvre et matériaux sur chaque service",
+      "Soumission gratuite en moins de 24h — sans engagement",
+      "Plus de 100 projets complétés au Québec et en Ontario"
+    ]
+  },
+  "blog": {
+    "title": "Blogue",
+    "subtitle": "Conseils d'experts en rénovation extérieure résidentielle",
+    "meta_title": "Blogue | Conseils Rénovation Extérieure | B&T Quality Construction",
+    "meta_description": "Conseils d'experts sur les gouttières, le revêtement extérieur et la toiture. Apprenez quand remplacer, comment entretenir et comment protéger votre maison.",
+    "read_more": "Lire l'article",
+    "back": "← Retour au blogue",
+    "by": "Par",
+    "author": "L'équipe B&T",
+    "cta_title": "Un projet en tête?",
+    "cta_text": "Obtenez une soumission gratuite de nos experts RBQ — réponse en moins de 24h.",
+    "articles": [
+      {
+        "slug": "gouttières-remplacement-quand",
+        "title": "7 signes que vos gouttières doivent être remplacées",
+        "meta_title": "7 Signes que vos Gouttières Doivent Être Remplacées | B&T Quality Construction",
+        "meta_description": "Rouille, fuites, débordements, déformation — découvrez les 7 signes qui indiquent qu'il est temps de remplacer vos gouttières avant que les dégâts s'aggravent.",
+        "excerpt": "Des gouttières défectueuses peuvent causer des milliers de dollars de dommages à votre fondation sans que vous vous en rendiez compte. Voici les 7 signes à surveiller.",
+        "date": "2025-10-10",
+        "category": "Gouttières",
+        "read_time": "5 min",
+        "image": "/images/blog-gutters.jpg",
+        "image_alt": "Gouttières rouillées et obstruées nécessitant un remplacement",
+        "intro": "Vos gouttières jouent un rôle discret mais absolument essentiel: elles dirigent des milliers de litres d'eau de pluie loin de votre fondation, de vos murs et de vos aménagements extérieurs. Quand elles défaillent, les conséquences peuvent être catastrophiques — et souvent invisibles jusqu'à ce qu'il soit trop tard. Voici les 7 signes qui indiquent que le remplacement s'impose.",
+        "sections": [
+          {
+            "heading": "1. De la rouille ou des fissures visibles",
+            "body": "La rouille est le signe le plus évident d'une gouttière en fin de vie. Elle indique que la galvanisation ou la peinture de protection s'est dégradée et que l'aluminium ou l'acier s'oxyde. Même une petite fissure laisse passer de l'eau qui tombera directement contre votre fondation à chaque pluie.",
+            "list": null
+          },
+          {
+            "heading": "2. Des fuites aux joints ou aux raccords",
+            "body": "Les gouttières standard sont assemblées en sections reliées par des joints scellés. Ces joints se détériorent avec le temps, particulièrement sous l'effet des cycles gel-dégel québécois. Si vous voyez des traces d'eau sur vos murs extérieurs à hauteur de gouttière, les joints sont probablement coupables.",
+            "list": null
+          },
+          {
+            "heading": "3. L'eau déborde pendant les pluies",
+            "body": "L'eau qui déborde peut avoir deux causes: une obstruction (feuilles, débris) ou une gouttière mal inclinée qui ne draine pas vers le tuyau de descente. Dans les deux cas, si le problème persiste après nettoyage, le remplacement est souvent la solution la plus économique à long terme.",
+            "list": null
+          },
+          {
+            "heading": "4. Des gouttières qui s'affaissent ou se détachent",
+            "body": "Des gouttières qui pendent, s'inclinent ou se décrochent du fascia indiquent que les crochets de fixation sont rouillés ou que le fascia lui-même est pourri. Dans ce cas, le remplacement de la gouttière doit souvent s'accompagner du remplacement du fascia.",
+            "list": null
+          },
+          {
+            "heading": "5. Des dommages à la peinture ou au siding près des gouttières",
+            "body": "Des auréoles de peinture écaillée ou des taches d'humidité sur votre siding directement sous les gouttières signalent une fuite chronique. L'eau s'infiltre entre la gouttière et le fascia, dégradant le bois et le revêtement au fil du temps.",
+            "list": null
+          },
+          {
+            "heading": "6. Des moisissures ou de l'eau au sous-sol",
+            "body": "C'est souvent le signe le plus coûteux. Quand les gouttières défectueuses laissent l'eau s'accumuler contre les fondations, l'humidité finit par s'infiltrer dans le sous-sol — causant moisissures, effritement du béton et efflorescence. Un remplacement de gouttières à temps peut prévenir des réparations de fondation à 10 000 $ et plus.",
+            "list": null
+          },
+          {
+            "heading": "7. Vos gouttières ont plus de 20 ans",
+            "body": "Même des gouttières qui semblent en bon état peuvent avoir perdu leur efficacité après 20 ans. La capacité de drainage peut se réduire progressivement sans signes visibles. Si votre maison a été construite ou votre toiture remplacée il y a plus de 20 ans sans que les gouttières aient été changées, une inspection s'impose.",
+            "list": null
+          },
+          {
+            "heading": "Quoi faire maintenant?",
+            "body": "Si vous reconnaissez un ou plusieurs de ces signes, le mieux est d'agir avant les pluies automnales. Chez B&T Quality Construction, nous offrons une inspection gratuite de vos gouttières et une soumission détaillée sans engagement. Nos gouttières sans soudure en aluminium éliminent les joints — la principale source de fuites — et sont garanties 10 ans.",
+            "list": null
+          }
+        ]
+      },
+      {
+        "slug": "revetement-exterieur-materiau-climat-canadien",
+        "title": "Vinyle, fibre de ciment ou aluminium: quel revêtement choisir au Québec?",
+        "meta_title": "Quel Revêtement Extérieur Choisir au Québec? Vinyle vs Fibre de Ciment | B&T",
+        "meta_description": "Comparatif complet des revêtements extérieurs pour le climat québécois: vinyle premium, fibre de ciment (HardiePlank) et aluminium. Avantages, inconvénients et coûts.",
+        "excerpt": "Le choix du bon revêtement extérieur dépend du climat, du budget et de l'esthétique souhaitée. Voici un guide complet pour faire le bon choix pour votre maison au Québec.",
+        "date": "2025-10-20",
+        "category": "Revêtement",
+        "read_time": "6 min",
+        "image": "/images/blog-siding.jpg",
+        "image_alt": "Comparaison revêtement vinyle vs fibre de ciment sur maison québécoise",
+        "intro": "Remplacer le revêtement extérieur de votre maison est une décision importante qui affecte non seulement l'apparence de votre propriété, mais aussi sa protection contre les éléments et sa valeur de revente. Au Québec et en Ontario, le climat extrême — de -40°C en hiver à +35°C en été — impose des critères de sélection différents de ceux d'autres régions. Voici notre analyse comparative des trois principaux matériaux.",
+        "sections": [
+          {
+            "heading": "Le vinyle premium: le meilleur rapport qualité-prix",
+            "body": "Le revêtement en vinyle de calibre lourd est de loin le plus populaire au Canada, et pour de bonnes raisons: il résiste parfaitement aux cycles gel-dégel, n'absorbe pas l'humidité, ne se rouille pas et ne nécessite jamais de peinture. La technologie actuelle permet des textures qui imitent parfaitement le bois ou le cèdre. La durée de vie atteint 25 à 40 ans avec un minimum d'entretien.",
+            "list": ["Coût modéré — meilleur retour sur investissement", "Aucun entretien, aucune peinture jamais", "30+ couleurs disponibles avec texture bois", "Résistant aux UV, au gel et aux impacts", "Disponible avec isolation intégrée"]
+          },
+          {
+            "heading": "La fibre de ciment (HardiePlank): le haut de gamme",
+            "body": "La fibre de ciment est le choix des propriétaires qui veulent le look authentique du bois peint sans les inconvénients du bois réel. Elle est incombustible, résistante aux termites, à la pourriture et aux impacts. Son apparence est nettement supérieure au vinyle — ce qui justifie son prix plus élevé. Elle nécessite toutefois une nouvelle peinture tous les 10 à 15 ans.",
+            "list": ["Apparence supérieure, look authentique", "Incombustible et résistant aux termites", "Durée de vie de 30 à 50 ans", "Augmente la valeur de revente significativement", "Nécessite peinture tous les 10-15 ans"]
+          },
+          {
+            "heading": "L'aluminium peint en usine: solide et discret",
+            "body": "L'aluminium était le standard dans les années 1970-1990. Toujours populaire pour les propriétés commerciales et résidentielles, il offre une excellente durabilité avec une finition permanente peinte en usine. Son principal inconvénient est qu'il peut se bosseler et que la sélection de couleurs est plus limitée que le vinyle.",
+            "list": ["Très résistant aux intempéries", "Finition permanente peinte en usine", "Idéal pour propriétés exposées ou côtières", "Se bosselle aux impacts (grêle, branches)"]
+          },
+          {
+            "heading": "Notre recommandation selon votre situation",
+            "body": "Pour la grande majorité des maisons unifamiliales québécoises avec un budget raisonnable: le vinyle premium de calibre lourd est le meilleur choix. Pour les maisons de valeur supérieure (400 000 $ et plus) ou les rénovations haut de gamme: la fibre de ciment HardiePlank offre un résultat esthétique incomparable. Pour les propriétés commerciales ou les expositions extrêmes: l'aluminium reste une valeur sûre.",
+            "list": null
+          },
+          {
+            "heading": "L'isolation: profitez-en pendant l'installation",
+            "body": "Quel que soit le matériau choisi, le remplacement du revêtement est le moment idéal pour ajouter une couche d'isolation rigide sous le nouveau revêtement. Cette intervention, facile à réaliser quand les murs sont à nu, peut réduire votre facture de chauffage de 15 à 25% pour les 30 prochaines années. Le coût marginal est minime comparé aux économies réalisées.",
+            "list": null
+          }
+        ]
+      },
+      {
+        "slug": "toiture-signes-remplacement-inspection",
+        "title": "Comment savoir si votre toiture doit être remplacée: le guide complet",
+        "meta_title": "Quand Remplacer sa Toiture? Guide Complet | B&T Quality Construction",
+        "meta_description": "Bardeaux gondolés, granules dans les gouttières, taches d'humidité — apprenez à reconnaître les signes d'une toiture à remplacer et évitez des dommages coûteux.",
+        "excerpt": "Une toiture en fin de vie coûte plus que son remplacement: infiltrations, moisissures, dommages structuraux. Voici comment inspecter la vôtre et savoir quand agir.",
+        "date": "2025-11-01",
+        "category": "Toiture",
+        "read_time": "7 min",
+        "image": "/images/blog-roofing.jpg",
+        "image_alt": "Inspection de toiture avec bardeaux endommagés et usés",
+        "intro": "La toiture est la protection la plus importante de votre maison contre les éléments. Contrairement aux gouttières ou au revêtement, les problèmes de toiture se développent souvent de façon invisible — jusqu'au jour où l'eau apparaît au plafond. À ce stade, les dommages intérieurs peuvent déjà représenter plusieurs milliers de dollars. Savoir lire les signes d'alerte vous permet d'agir avant que ça dégénère.",
+        "sections": [
+          {
+            "heading": "L'âge de votre toiture: le premier critère",
+            "body": "Un bardeau 3-onglets standard dure 15 à 20 ans. Un bardeau architectural (laminated) dure 25 à 30 ans. Si votre toiture approche ou dépasse ces seuils, une inspection professionnelle s'impose même en l'absence de signes visibles. La dégradation peut être avancée sans être apparente depuis le sol.",
+            "list": null
+          },
+          {
+            "heading": "Les signes visibles depuis le sol",
+            "body": "Avant d'appeler un professionnel, voici ce que vous pouvez observer depuis votre terrain:",
+            "list": ["Bardeaux gondolés, courbés ou relevés aux coins", "Bardeaux manquants ou déplacés après une tempête", "Surface grisâtre et terne — signe d'usure des granules", "Taches sombres dues aux algues ou à la mousse", "Déflection visible — la toiture ne semble plus parfaitement plane"]
+          },
+          {
+            "heading": "Les granules dans les gouttières: un signal d'alarme",
+            "body": "Les bardeaux d'asphalte sont couverts de granules minéraux qui les protègent des UV et des intempéries. Avec le temps, ces granules se détachent et s'accumulent dans vos gouttières. Si vous trouvez une grande quantité de granules noires dans vos gouttières ou au sol après une pluie, c'est le signe que vos bardeaux ont perdu leur couche protectrice et sont en fin de vie.",
+            "list": null
+          },
+          {
+            "heading": "Les signes depuis l'intérieur: grenier et plafonds",
+            "body": "Inspectez votre grenier par temps ensoleillé: si vous voyez de la lumière s'infiltrer entre les planches de toit, l'eau peut faire de même. Vérifiez également la présence de taches d'humidité sur les planches ou la laine isolante. À l'intérieur de la maison, des taches brunâtres sur les plafonds — même légères — indiquent une infiltration active.",
+            "list": null
+          },
+          {
+            "heading": "Après une tempête: inspection systématique",
+            "body": "Après chaque tempête significative (vents forts, grêle, accumulation de neige importante), inspectez votre toiture depuis le sol. La grêle laisse des impacts circulaires caractéristiques sur les bardeaux, visibles à la jumelle. Des bardeaux déplacés ou brisés après un vent fort doivent être remplacés rapidement pour éviter les infiltrations.",
+            "list": null
+          },
+          {
+            "heading": "Réparer ou remplacer: quand choisir quoi?",
+            "body": "La réparation ponctuelle est justifiée quand votre toiture a moins de 15 ans, que les dommages sont localisés (quelques bardeaux) et que le reste de la toiture est en bon état. Au-delà de 20 ans, ou si plus de 20% de la surface est affectée, le remplacement complet est généralement plus économique et évite les rappels répétés.",
+            "list": null
+          },
+          {
+            "heading": "Inspection gratuite par B&T Quality Construction",
+            "body": "Si vous avez un doute sur l'état de votre toiture, contactez-nous pour une inspection gratuite sans engagement. Nos experts évaluent l'état de votre toiture, de la charpente et de la ventilation, et vous fournissent un rapport honnête — même si la conclusion est qu'aucun remplacement n'est nécessaire pour l'instant.",
+            "list": null
+          }
+        ]
+      },
+      {
+        "slug": "preparation-hiver-exterieur-maison-quebec",
+        "title": "Préparer l'extérieur de votre maison pour l'hiver québécois: la checklist complète",
+        "meta_title": "Préparer l'Extérieur de sa Maison pour l'Hiver au Québec | B&T Quality Construction",
+        "meta_description": "Checklist complète pour protéger votre maison avant l'hiver: inspection des gouttières, de la toiture et du revêtement. Évitez les surprises coûteuses en janvier.",
+        "excerpt": "L'hiver québécois est particulièrement exigeant pour votre maison. Voici la checklist complète à parcourir en octobre pour protéger vos gouttières, votre toiture et votre revêtement.",
+        "date": "2025-11-15",
+        "category": "Entretien",
+        "read_time": "5 min",
+        "image": "/images/blog-winter.jpg",
+        "image_alt": "Maison québécoise en hiver avec glace sur les gouttières",
+        "intro": "L'hiver québécois est l'un des plus éprouvants au monde pour les bâtiments: gel, dégel, accumulations de neige, verglas et vents violents testent chaque composante extérieure de votre maison. Une inspection et quelques interventions en septembre-octobre peuvent prévenir des dommages coûteux qui se manifestent souvent en plein hiver, quand les réparations sont difficiles et les délais longs.",
+        "sections": [
+          {
+            "heading": "Les gouttières: priorité numéro 1 avant l'hiver",
+            "body": "Les gouttières bouchées par les feuilles d'automne causent deux problèmes hivernaux majeurs: les barrages de glace (ice dams) et les dégâts par débordement lors des redoux. Un barrage de glace se forme quand l'eau de fonte de neige ne peut pas s'écouler et gèle au bord de la toiture, poussant l'eau sous les bardeaux. Les conséquences peuvent être dévastatrices.",
+            "list": ["Nettoyez les gouttières après la chute des dernières feuilles (novembre)", "Vérifiez que les tuyaux de descente sont dégagés et que l'eau s'écoule loin des fondations", "Inspectez les joints et fixations — le gel aggrave les faiblesses existantes", "Envisagez l'installation de protège-gouttières pour éliminer le problème définitivement"]
+          },
+          {
+            "heading": "La toiture: inspection avant les premières neiges",
+            "body": "Une toiture fragilisée supporte mal le poids de la neige. Les bardeaux mal fixés, les sections décollées ou les membranes endommagées deviennent des infiltrations dès le premier redoux. Inspectez depuis le sol avec des jumelles ou faites inspecter par un professionnel avant novembre.",
+            "list": ["Remplacez les bardeaux manquants ou endommagés dès l'automne", "Vérifiez les solins autour des cheminées et des ventilations", "Assurez-vous que la ventilation de grenier est fonctionnelle — elle prévient les barrages de glace", "Inspection professionnelle recommandée si la toiture a 15 ans et plus"]
+          },
+          {
+            "heading": "Le revêtement extérieur: fissures à réparer avant le gel",
+            "body": "L'eau qui s'infiltre dans une fissure de revêtement et gèle en hiver aggrave la fissure exponentiellement. Inspectez votre revêtement en octobre et calfeutrez immédiatement toute fissure ou décollement.",
+            "list": ["Inspectez le calfeutrage autour des fenêtres, portes et prises électriques", "Recherchez les panneaux de siding décollés, fissurés ou endommagés", "Vérifiez l'état des coins et des garnitures", "Calfeutrez avec un produit adapté aux températures négatives"]
+          },
+          {
+            "heading": "Les fondations et le drainage: prévenir l'infiltration printanière",
+            "body": "L'infiltration d'eau de fonte printanière dans les fondations est souvent causée par un mauvais drainage hivernal. Assurez-vous que les tuyaux de descente sont prolongés à au moins 1,5 mètre des fondations et que la pente du terrain s'éloigne de la maison.",
+            "list": null
+          },
+          {
+            "heading": "Agir maintenant pour éviter les urgences en janvier",
+            "body": "Les problèmes de toiture, de gouttières et de revêtement détectés en octobre peuvent être résolus rapidement et à moindre coût. En janvier, dans -20°C, les interventions d'urgence sont plus difficiles, plus longues et beaucoup plus coûteuses — si elles sont possibles du tout. Contactez B&T Quality Construction pour une inspection gratuite avant que l'hiver s'installe.",
+            "list": null
+          }
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "home": {
+      "title": "B&T Quality Construction — Gouttières, Revêtement, Toiture | QC & ON",
+      "description": "Entrepreneur certifié RBQ (5839-7712-01) en gouttières, soffites, revêtement et toiture. Service au Québec et en Ontario. Garantie 10 ans. Soumission gratuite."
+    },
+    "contact": {
+      "title": "Contact — Soumission gratuite | B&T Quality Construction",
+      "description": "Obtenez votre soumission gratuite en moins de 24h. Gouttières, revêtement, toiture au Québec et en Ontario. Licence RBQ 5839-7712-01."
+    },
+    "about": {
+      "title": "À propos | B&T Quality Construction",
+      "description": "B&T Quality Construction, entrepreneur certifié RBQ en rénovation extérieure résidentielle au Québec et en Ontario. Licence 5839-7712-01."
+    },
+    "gutters": {
+      "title": "Gouttières, Soffites et Fascias | B&T Quality Construction",
+      "description": "Installation et remplacement de gouttières, soffites et fascias par des experts certifiés RBQ. Garantie 10 ans. Québec et Ontario."
+    },
+    "siding": {
+      "title": "Revêtement Extérieur | B&T Quality Construction",
+      "description": "Installation de revêtement extérieur résidentiel par des experts certifiés RBQ. Garantie 10 ans. Québec et Ontario."
+    },
+    "roofing": {
+      "title": "Toiture Résidentielle | B&T Quality Construction",
+      "description": "Remplacement de toiture par des experts certifiés RBQ. Garantie 10 ans installation + 20 ans matériaux. Québec et Ontario."
+    }
+  },
+  "error": {
+    "404_title": "Page introuvable",
+    "404_message": "La page que vous cherchez n'existe pas."
+  }
+}
