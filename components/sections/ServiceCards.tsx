@@ -84,16 +84,15 @@ export function ServiceCards() {
                   <div className="absolute inset-0 bg-gradient-to-t from-zinc-950 via-zinc-950/40 to-transparent" />
                   <div className="absolute inset-0 bg-black/10 group-hover:bg-black/0 transition-colors duration-700" />
 
-                  {/* Logo — cropped to remove black padding */}
+                  {/* Logo transparent */}
                   <div className="absolute inset-0 flex items-center justify-center">
-                    <div className="w-44 h-28 overflow-hidden">
+                    <div className="w-48 h-32 flex items-center justify-center">
                       <Image
                         src={isFr ? svc.logoFr : svc.logoEn}
                         alt={t(`services.${svc.key}.name`)}
                         width={300}
-                        height={300}
-                        className="w-[200%] h-[200%] object-contain -mt-[50%] -ml-[50%] brightness-130 transition-all duration-700 ease-out-expo group-hover:scale-110"
-                        style={{ filter: 'brightness(1.4) contrast(1.15) drop-shadow(0 0 20px rgba(192,192,192,0.4))' }}
+                        height={200}
+                        className="object-contain w-full h-full transition-transform duration-700 ease-out-expo group-hover:scale-110 drop-shadow-[0_2px_12px_rgba(0,0,0,0.5)]"
                       />
                     </div>
                   </div>

@@ -156,16 +156,14 @@ export function Navbar() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className={`flex items-center justify-between transition-all duration-500 ease-out-expo ${scrolled ? 'h-[68px]' : 'h-20'}`}>
 
-              {/* Logo — crop the black padding with overflow-hidden + negative margins */}
               <Link href="/" className="flex items-center shrink-0 relative">
-                <div className={`overflow-hidden transition-all duration-500 ease-out-expo ${scrolled ? 'h-[52px] w-[90px]' : 'h-[60px] w-[104px]'}`}>
+                <div className={`flex items-center justify-center transition-all duration-500 ease-out-expo ${scrolled ? 'h-[52px] w-[90px]' : 'h-[60px] w-[104px]'}`}>
                   <Image
                     src="/logos/logo-main.png"
                     alt="B&T Quality Construction"
                     width={200}
-                    height={200}
-                    className="w-[180%] h-[180%] object-contain -mt-[40%] -ml-[40%] brightness-125 contrast-110 drop-shadow-[0_0_12px_rgba(192,192,192,0.3)]"
-                    style={{ filter: 'brightness(1.3) contrast(1.1) drop-shadow(0 0 8px rgba(192,192,192,0.25))' }}
+                    height={150}
+                    className="object-contain w-full h-full"
                     priority
                   />
                 </div>
@@ -224,14 +222,13 @@ export function Navbar() {
                               className="group/item flex items-center gap-4 px-4 py-3.5 text-white/70 hover:text-white rounded-xl transition-all duration-200 hover:bg-white/[0.06]"
                             >
                               {/* Mini logo in dropdown */}
-                              <span className="w-10 h-10 rounded-xl bg-white/[0.04] border border-white/[0.08] flex items-center justify-center overflow-hidden shrink-0 group-hover/item:bg-white/[0.08] group-hover/item:border-silver/20 transition-all duration-300">
+                              <span className="w-10 h-10 rounded-xl bg-white/[0.04] border border-white/[0.08] flex items-center justify-center shrink-0 group-hover/item:bg-white/[0.08] group-hover/item:border-silver/20 transition-all duration-300">
                                 <Image
                                   src={s.logo}
                                   alt={s.label}
-                                  width={60}
-                                  height={60}
-                                  className="w-[200%] h-[200%] object-contain brightness-150 contrast-110"
-                                  style={{ filter: 'brightness(1.6) contrast(1.15)' }}
+                                  width={36}
+                                  height={36}
+                                  className="object-contain w-8 h-8"
                                 />
                               </span>
                               <span className="flex-1">
@@ -378,14 +375,13 @@ export function Navbar() {
               <div className="flex-1 overflow-y-auto px-6">
                 {/* Logo centered at top */}
                 <div className="flex justify-center mb-8">
-                  <div className="h-16 w-28 overflow-hidden">
+                  <div className="h-16 w-28 flex items-center justify-center">
                     <Image
                       src="/logos/logo-main.png"
                       alt="B&T"
                       width={200}
-                      height={200}
-                      className="w-[180%] h-[180%] object-contain -mt-[40%] -ml-[40%] brightness-125"
-                      style={{ filter: 'brightness(1.4) contrast(1.1) drop-shadow(0 0 12px rgba(192,192,192,0.3))' }}
+                      height={150}
+                      className="object-contain w-full h-full"
                     />
                   </div>
                 </div>

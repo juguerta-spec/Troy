@@ -22,21 +22,21 @@ const ServicesPage: NextPage = () => {
     {
       key: 'gutters',
       slug: isFr ? 'gouttières-soffites-fascias' : 'gutters-soffit-fascia',
-      logo: '/logos/logo-gutters.png',
+      logo: isFr ? '/logos/logo-gutters.png' : '/logos/logo-gutters-en.png',
       image: '/images/service-gutters-install.jpg',
       warranty: t('services.warranty_standard'),
     },
     {
       key: 'siding',
       slug: isFr ? 'revetement' : 'siding',
-      logo: '/logos/logo-siding.png',
+      logo: isFr ? '/logos/logo-siding.png' : '/logos/logo-siding-en.png',
       image: '/images/service-siding-modern.jpg',
       warranty: t('services.warranty_standard'),
     },
     {
       key: 'roofing',
       slug: isFr ? 'toiture' : 'roofing',
-      logo: '/logos/logo-roofing.png',
+      logo: isFr ? '/logos/logo-roofing.png' : '/logos/logo-roofing-en.png',
       image: '/images/service-roofing-install.jpg',
       warranty: t('services.warranty_roofing'),
     },
@@ -141,14 +141,13 @@ const ServicesPage: NextPage = () => {
                       />
                       <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent" />
                       {/* Logo badge */}
-                      <div className="absolute bottom-4 left-4 w-12 h-12 rounded-xl bg-zinc-950/80 backdrop-blur border border-white/10 overflow-hidden flex items-center justify-center">
+                      <div className="absolute bottom-4 left-4 w-14 h-10 flex items-center justify-center">
                         <Image
                           src={service.logo}
                           alt=""
-                          width={60}
-                          height={60}
-                          className="w-[180%] h-[180%] object-contain brightness-150"
-                          style={{ filter: 'brightness(1.6) contrast(1.15)' }}
+                          width={80}
+                          height={56}
+                          className="object-contain w-full h-full drop-shadow-[0_1px_8px_rgba(0,0,0,0.8)]"
                         />
                       </div>
                     </div>

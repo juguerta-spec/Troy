@@ -176,14 +176,13 @@ const ServicePage: NextPage<Props> = ({ serviceKey }) => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.9, ease }}
             >
-              <div className="mb-8 w-36 h-20 sm:w-56 sm:h-32 overflow-hidden">
+              <div className="mb-8 w-36 h-20 sm:w-56 sm:h-32 flex items-center">
                 <Image
                   src={logoMap[serviceKey] ?? '/logos/logo-main.png'}
                   alt={t(`services.${serviceKey}.name`)}
                   width={400}
-                  height={400}
-                  className="w-[200%] h-[200%] object-contain -mt-[50%] -ml-[50%]"
-                  style={{ filter: 'brightness(1.5) contrast(1.15) drop-shadow(0 0 24px rgba(192,192,192,0.4))' }}
+                  height={250}
+                  className="object-contain w-full h-full drop-shadow-[0_2px_16px_rgba(0,0,0,0.6)]"
                 />
               </div>
               {/* SEO H1 — keyword-rich, readable size */}

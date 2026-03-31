@@ -30,14 +30,13 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
           {/* Brand */}
           <div className="md:col-span-1">
-            <div className="h-16 w-28 overflow-hidden mb-6">
+            <div className="h-16 w-28 flex items-center justify-center mb-6">
               <Image
                 src="/logos/logo-main.png"
                 alt="B&T Quality Construction"
                 width={200}
-                height={200}
-                className="w-[180%] h-[180%] object-contain -mt-[40%] -ml-[40%]"
-                style={{ filter: 'brightness(1.4) contrast(1.1) drop-shadow(0 0 10px rgba(192,192,192,0.25))' }}
+                height={150}
+                className="object-contain w-full h-full"
               />
             </div>
             <p className="text-white/30 text-sm leading-relaxed mb-5">{t('site.tagline')}</p>
