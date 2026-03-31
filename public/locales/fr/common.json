@@ -344,36 +344,42 @@
   },
   "reviews": {
     "title": "Ce que disent nos clients",
-    "subtitle": "Des centaines de propriétaires nous font confiance",
+    "subtitle": "Avis Google vérifiés — 5 étoiles",
     "items": [
       {
-        "name": "Marie-Claude T.",
-        "location": "Laval, QC",
-        "text": "Excellent travail sur mes gouttières! L'équipe est arrivée à l'heure, a tout expliqué et le résultat est impeccable. Je recommande fortement.",
+        "name": "Annie Laplante",
+        "location": "Google",
+        "text": "J'ai choisi cette entreprise pour leurs excellents avis, et je n'ai pas été déçue. Brandon, son partenaire et leur équipe ont fait un travail exceptionnel — professionnel, efficace et soigné de bout en bout.",
         "rating": 5
       },
       {
-        "name": "Jean-François B.",
-        "location": "Vaudreuil-Dorion, QC",
-        "text": "Remplacement complet de ma toiture en une seule journée. Propre, professionnel et la garantie de 20 ans m'a convaincu. Parfait!",
+        "name": "Kristina Driedger",
+        "location": "Google",
+        "text": "Excellente expérience avec cette entreprise : rapides, propres, produit de qualité supérieure et installation parfaite. Je recommande sans hésitation!",
         "rating": 5
       },
       {
-        "name": "Sophie M.",
-        "location": "Cornwall, ON",
-        "text": "Revêtement extérieur magnifique. L'équipe a pris soin de tout protéger avant les travaux. Ma maison a une toute nouvelle apparence!",
+        "name": "Steve Dennison",
+        "location": "Google",
+        "text": "Brandon et son équipe ont livré un travail de qualité de A à Z — de la soumission à la livraison. Produit de premier ordre, installation efficace et propre. Je recommande fortement!",
         "rating": 5
       },
       {
-        "name": "Robert L.",
-        "location": "Châteauguay, QC",
-        "text": "Service rapide et professionnel. Soumission reçue le jour même, travaux complétés en 2 jours. Je n'hésiterais pas à les rappeler.",
+        "name": "Rosa Romano",
+        "location": "Google",
+        "text": "Brandon et son équipe ont fait un excellent travail pour l'installation de nouvelles gouttières. Professionnels, ponctuels et propres. Je recommande vivement!",
         "rating": 5
       },
       {
-        "name": "Andrée P.",
-        "location": "Hawkesbury, ON",
-        "text": "Très satisfaite du service de bout en bout. Communication claire, prix honnête et travail soigné. Merci à toute l'équipe!",
+        "name": "Jonathan Berthold",
+        "location": "Google · Local Guide",
+        "text": "Service cinq étoiles! J'ai contacté Brandon en début de semaine pour ajouter deux descentes pluviales et tout était complété rapidement. Communication impeccable et travail soigné.",
+        "rating": 5
+      },
+      {
+        "name": "Filomena Rienzo",
+        "location": "Google",
+        "text": "Ces gars-là ont tout pour réussir. Brandon et son équipe ont fait un travail extraordinaire. Résultat impeccable, équipe professionnelle et service client au-delà des attentes.",
         "rating": 5
       }
     ]

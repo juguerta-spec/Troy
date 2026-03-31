@@ -344,36 +344,42 @@
   },
   "reviews": {
     "title": "What Our Clients Say",
-    "subtitle": "Hundreds of homeowners trust us",
+    "subtitle": "Verified Google reviews — 5 stars",
     "items": [
       {
-        "name": "Marie-Claude T.",
-        "location": "Laval, QC",
-        "text": "Excellent work on my gutters! The team arrived on time, explained everything, and the result is impeccable. Highly recommended.",
+        "name": "Annie Laplante",
+        "location": "Google",
+        "text": "I chose this company because of their excellent reviews, and I wasn't disappointed. Brandon, his partner, and their team did an exceptional job — professional, efficient, and meticulous from start to finish.",
         "rating": 5
       },
       {
-        "name": "Jean-François B.",
-        "location": "Vaudreuil-Dorion, QC",
-        "text": "Complete roof replacement in a single day. Clean, professional, and the 20-year warranty convinced me. Perfect!",
+        "name": "Ben Bowen",
+        "location": "Google · Local Guide",
+        "text": "Excellent experience working with Brandon and his crew. Great communication and the finished product is outstanding.",
         "rating": 5
       },
       {
-        "name": "Sophie M.",
-        "location": "Cornwall, ON",
-        "text": "Beautiful exterior siding. The team protected everything before the work. My house has a whole new look!",
+        "name": "Steve Dennison",
+        "location": "Google",
+        "text": "Brandon and his team delivered a quality job from start to finish, from quote to delivery. Great product, efficient and clean installation — a definite recommend!",
         "rating": 5
       },
       {
-        "name": "Robert L.",
-        "location": "Châteauguay, QC",
-        "text": "Fast and professional service. Quote received the same day, work completed in 2 days. Would call them again without hesitation.",
+        "name": "Rosa Romano",
+        "location": "Google",
+        "text": "Brandon and his team did an excellent job installing new gutters. Professional, on time, and clean. Highly recommend!",
         "rating": 5
       },
       {
-        "name": "Andrée P.",
-        "location": "Hawkesbury, ON",
-        "text": "Very satisfied from start to finish. Clear communication, honest pricing and quality work. Thank you to the whole team!",
+        "name": "Ryan W.",
+        "location": "Google · Local Guide",
+        "text": "If you want your gutters done great and affordable, I highly recommend this crew. They're friendly, they do what they say, and the work is top notch.",
+        "rating": 5
+      },
+      {
+        "name": "Tristan Williams",
+        "location": "Google",
+        "text": "We can't speak highly enough about Brandon and the team! Our gutters were completely transformed. Exceptional service, quality materials, and a crew that truly cares about doing the job right.",
         "rating": 5
       }
     ]
