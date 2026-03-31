@@ -31,91 +31,91 @@
     "gutters": {
       "name": "Gutters, Soffit & Fascia",
       "short": "Gutters",
-      "description": "Professional installation, replacement and repair of seamless aluminum gutters, soffit and fascia by RBQ-certified specialists. Protect your foundation, walls and landscaping from costly water damage.",
+      "description": "Your trusted gutter installer in the Montreal West and Ottawa areas. Thousands of feet installed using Alu-Rex products — seamless aluminum gutters, gutter guards, soffit and fascia by RBQ-certified specialists.",
       "slug": "gutters-soffit-fascia",
-      "hero_h1": "Gutter, Soffit & Fascia Installation — RBQ-Certified Experts in Quebec and Ontario",
-      "hero_problem": "Broken gutters silently destroy your foundation — every rainstorm makes the damage worse",
-      "hero_solution": "B&T installs seamless aluminum gutter systems, warrantied 10 years, that carry every drop of water safely away from your home.",
-      "intro": "Every year, thousands of homeowners discover too late that faulty gutters have silently caused thousands of dollars in foundation, wall and basement damage. At B&T Quality Construction, we install custom seamless gutters — formed in a single piece with no seams — eliminating the primary source of leaks.",
+      "hero_h1": "Gutter, Soffit & Fascia Installation — RBQ-Certified Experts serving Montreal West & Ottawa",
+      "hero_problem": "Clogged or broken gutters silently destroy your foundation — every rainstorm makes the damage worse",
+      "hero_solution": "B&T installs thousands of feet of seamless aluminum gutters with Alu-Rex protection systems — do it once, do it right. Free quote, same-day availability.",
+      "intro": "If you've ever had to clear eavestroughs clogged with decaying debris, or hire a contractor to excavate your foundation after a water infiltration, you understand how critical a proper rainwater drainage system is. At B&T Quality Construction, we have installed thousands of gutter systems across Montreal West and Ottawa. We use only superior quality products — including Alu-Rex seamless systems — and guarantee both our products and workmanship.",
       "stats": [
-        { "value": "100+", "label": "Systems Installed" },
+        { "value": "1000s", "label": "Feet Installed" },
         { "value": "10 yr", "label": "Full Warranty" },
-        { "value": "48h", "label": "Availability" },
-        { "value": "0 seams", "label": "Seamless Gutters" }
+        { "value": "Free", "label": "On-Site Quote" },
+        { "value": "Alu-Rex", "label": "Certified Installer" }
       ],
       "benefits": [
-        "Seamless gutters formed on-site to exact length — no seams means no leaks",
-        "0.032\" gauge aluminum: rust-proof, weather-resistant, built for Canadian winters",
-        "Optimized drainage that directs water far from your foundation",
-        "Matching soffit and fascia for a uniform, professional finish",
-        "Optional gutter guards to eliminate annual cleaning forever",
-        "10-year labor and materials warranty — written into every contract",
-        "Full cleanup in one day — old materials hauled away",
-        "Available within 48h — free same-day quote"
+        "Seamless aluminum gutters formed on-site — no seams, no joints, no leaks",
+        "Alu-Rex DoublePro® dual-membrane system: drains 3x more water than standard gutters",
+        "T-Rex® continuous hanger: 50% stronger, supports up to 250 lbs per linear foot",
+        "Gutter Clean System® with 40-year clog-free warranty for existing gutters",
+        "UV-ray deflection to protect corner sealant from long-term sun damage",
+        "Withstands 250+ lbs per linear foot — built for Canadian winters and heavy ice loads",
+        "Soffit and fascia: maintenance-free aluminum, resistant to rot, frost and insects",
+        "10-year labor and materials warranty — written into every contract"
       ],
-      "materials_title": "Materials & Options",
+      "materials_title": "Alu-Rex Products We Install",
       "materials": [
         {
-          "name": "Seamless Aluminum Gutters",
-          "desc": "Our standard. Formed on-site to the exact length of your home, eliminating every seam. Rust-proof, UV-resistant and freeze-resistant. Available in 20+ colors to match any home."
+          "name": "DoublePro® Gutter Guard",
+          "desc": "Cutting-edge dual-membrane system. The double membrane keeps all debris out while the offset holes filter water perfectly. Creates suction to drain 3x more water than ever recorded in the heaviest storms. Clog-free 360° lifetime warranty."
         },
         {
-          "name": "Gutter Guards",
-          "desc": "Micro-perforated cover that lets water through while blocking leaves, twigs and debris. Eliminates annual cleaning and extends the life of the entire system."
+          "name": "T-Rex® Continuous Hanger",
+          "desc": "Makes your new gutter 50% stronger than traditional nail or hook installations. Supports up to 250 lbs per linear foot, resistant to bending and twisting. Lifetime warranty on sturdiness. The best choice for Canadian winters."
         },
         {
-          "name": "Matching Soffit & Fascia",
-          "desc": "Factory-painted aluminum or vinyl, available in the same colors as your gutters. Clean, uniform finish for a premium, professional appearance."
+          "name": "Gutter Clean System®",
+          "desc": "Ideal for protecting your existing gutters. Perforated aluminum surface lets debris dry out and blow away in the wind — no cleaning needed. Alu-Rex guarantees your gutters stay clog-free for 40 years."
         }
       ],
       "steps": [
         {
           "title": "Free On-Site Inspection",
-          "desc": "A B&T expert visits your home, assesses the current condition, measures every section and identifies existing drainage problems — no charge, no obligation."
+          "desc": "A B&T expert visits your home, assesses the current condition, measures every section and identifies drainage problems — no charge, no obligation. Same-day quote included."
         },
         {
-          "title": "Detailed Quote Same Day",
-          "desc": "You receive a precise quote including materials, colors, gutter guards if desired. Fixed price, no surprises. You're never caught off guard."
+          "title": "Alu-Rex Product Selection",
+          "desc": "We recommend the right system for your situation: DoublePro for new installs, Gutter Clean System for existing gutters, or T-Rex for maximum strength. Fixed price, no surprises."
         },
         {
-          "title": "One-Day Installation",
-          "desc": "Our crew forms the gutters on-site and installs the complete system in a single day. Site left clean, old materials removed."
+          "title": "Professional Installation",
+          "desc": "Our certified crew forms seamless gutters on-site and installs the complete system. Site left clean, old materials removed. Guaranteed workmanship."
         }
       ],
       "testimonial": {
-        "text": "My gutters were so clogged that water was overflowing directly onto my foundation for 2 years. B&T replaced everything in one day — seamless system, new fascia, gutter guards. Flawless. I should have called much sooner.",
-        "name": "Michel D.",
-        "location": "Vaudreuil-Dorion, QC",
-        "service": "Full replacement: seamless gutters + soffit + fascia"
+        "text": "Brandon and his team did an excellent job installing new gutters. Professional, on time, and clean. The Alu-Rex system they recommended is exactly what my home needed. Highly recommend!",
+        "name": "Rosa Romano",
+        "location": "Montreal West, QC",
+        "service": "Seamless gutters + Alu-Rex DoublePro gutter guards"
       },
       "faq": [
         {
-          "q": "How often should I replace my gutters?",
-          "a": "Quality aluminum gutters last 20 to 40 years with minimal maintenance. If you see rust, sagging, joint leaks, or water overflowing during rain, it's time to act. Our seamless gutters have no joints to worry about."
+          "q": "What is a continuous hanger and why is it better?",
+          "a": "A continuous hanger like the T-Rex® runs the full length of the gutter instead of using individual nails, screws or hooks every few feet. This distributes the load evenly, making the system 50% stronger and capable of supporting up to 250 lbs per foot — essential for Canadian snow and ice loads."
+        },
+        {
+          "q": "What's the difference between DoublePro, T-Rex and Gutter Clean System?",
+          "a": "DoublePro® is a complete new gutter system with dual-membrane leaf protection built in. T-Rex® is a continuous hanger system for maximum strength without gutter guards. The Gutter Clean System® is a retrofit guard designed to protect your existing gutters. We recommend the right product based on your situation."
+        },
+        {
+          "q": "Do Alu-Rex products stand up to snow and ice?",
+          "a": "Yes. Canadian-made Alu-Rex products are specifically engineered for harsh Canadian winters. They reinforce the gutter system to withstand over 250 lbs per linear foot and deflect UV rays that can damage corner sealant over time. DoublePro and T-Rex do not increase ice formation."
         },
         {
           "q": "What is the difference between soffit and fascia?",
-          "a": "The fascia is the vertical board running along the lower edge of the roof — that's where gutters attach. The soffit is the horizontal surface under the roof overhang, between the wall and the fascia. Both protect your home's structure from moisture and pests. We replace both in the same visit."
+          "a": "The fascia is the vertical board along the lower edge of the roof — that's where gutters attach. The soffit is the horizontal surface under the roof overhang, between the wall and the fascia. Our aluminum soffit and fascia are maintenance-free, resist rot and insects, and give your roofline a clean finished look."
         },
         {
-          "q": "What's the difference between seamless and standard gutters?",
-          "a": "Standard gutters come in 10-12 foot sections joined with seams — each seam is a potential leak point. Our seamless gutters are formed on-site in one continuous piece the full length of your home, completely eliminating seams and the leaks they cause."
-        },
-        {
-          "q": "Do gutter guards actually work?",
-          "a": "Yes — quality micro-perforated gutter guards let water through while blocking 99% of debris. They dramatically reduce maintenance and prevent the clogs that cause overflow and water damage. We strongly recommend this option if you have trees nearby."
-        },
-        {
-          "q": "How long does installation take?",
-          "a": "For a standard single-family home, the complete installation typically takes one day. We form the gutters on-site, install the entire system, and do a full cleanup before leaving."
+          "q": "Do gutter guards require maintenance?",
+          "a": "Alu-Rex products are virtually maintenance-free. The Gutter Clean System's perforated aluminum surface lets debris dry and blow away on its own. DoublePro's double membrane filters out pine needles and leaves without clogging. No annual cleaning needed."
         },
         {
           "q": "What warranty is included?",
-          "a": "10 years on both labor and materials. This warranty is written into our contract. If any issue arises within 10 years of installation, we return at no additional charge."
+          "a": "We provide a 10-year warranty on labor and materials. Alu-Rex products carry their own manufacturer warranties: Gutter Clean System® is backed by a 40-year clog-free warranty, DoublePro® by a 360° lifetime clog-free warranty, and T-Rex® by a lifetime warranty on sturdiness."
         },
         {
-          "q": "What colors are available?",
-          "a": "We offer 20+ standard aluminum colors including white, beige, brown, charcoal grey, black and various wood tones. We can also match the exact color of your existing trim."
+          "q": "What areas do you serve?",
+          "a": "Montreal West: Sainte-Lazare, Hudson, Vaudreuil-Dorion, Châteauguay, Pointe-Claire, Dollard-des-Ormeaux, Kirkland, Beaconsfield, Pincourt, L'Île-Perrot, Valleyfield and surrounding areas. Ottawa East: Hawkesbury, Alexandria, Rockland, Embrun, Casselman, Cumberland, Orleans, Vankleek Hill and surrounding municipalities."
         }
       ]
     },

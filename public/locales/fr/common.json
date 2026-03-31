@@ -31,91 +31,91 @@
     "gutters": {
       "name": "Gouttières, Soffites et Fascias",
       "short": "Gouttières",
-      "description": "Installation, remplacement et réparation de gouttières, soffites et fascias par des experts certifiés RBQ. Protégez votre fondation, vos murs et votre aménagement paysager contre les dommages d’eau.",
+      "description": "Votre expert en installation de gouttières dans l’ouest de Montréal et la région d’Ottawa. Des milliers de pieds installés avec les produits Alu-Rex — gouttières sans soudure, protège-gouttières, soffites et fascias. RBQ 5839-7712-01.",
       "slug": "gouttières-soffites-fascias",
-      "hero_h1": "Installation de gouttières, soffites et fascias — Experts RBQ au Québec et en Ontario",
-      "hero_problem": "Des gouttières défectueuses détruisent votre fondation en silence — chaque pluie aggrave les dégâts",
-      "hero_solution": "B&T installe des systèmes de gouttières sans soudure en aluminium, garantis 10 ans, qui évacuent chaque litre d’eau loin de votre maison.",
-      "intro": "Chaque année, des milliers de propriétaires québécois découvrent trop tard que des gouttières défectueuses ont silencieusement causé des milliers de dollars en dommages à leur fondation, leurs murs et leur sous-sol. Chez B&T Quality Construction, nous installons des systèmes de gouttières sur mesure, formés en une seule pièce sans joint — éliminant la principale source de fuites.",
+      "hero_h1": "Installation de gouttières, soffites et fascias — Experts certifiés RBQ, ouest de Montréal et Ottawa",
+      "hero_problem": "Des gouttières bouchées ou brisées détruisent silencieusement votre fondation — chaque pluie aggrave les dégâts",
+      "hero_solution": "B&T installe des milliers de pieds de gouttières en aluminium sans soudure avec les systèmes de protection Alu-Rex. Faites-le une fois, faites-le bien. Soumission gratuite.",
+      "intro": "Si vous avez déjà dû vider des gouttières remplies de débris en décomposition, ou faire appel à un entrepreneur pour réparer votre fondation après une infiltration d’eau, vous comprenez l’importance d’un bon système de drainage. Chez B&T Quality Construction, nous avons installé des milliers de pieds de gouttières dans l’ouest de Montréal et la région d’Ottawa. Nous n’utilisons que des produits de qualité supérieure — incluant les systèmes sans soudure Alu-Rex — et nous garantissons nos produits et notre main-d’œuvre.",
       "stats": [
-        { "value": "+100", "label": "Systèmes installés" },
+        { "value": "Des milliers", "label": "De pieds installés" },
         { "value": "10 ans", "label": "Garantie complète" },
-        { "value": "48h", "label": "Disponibilité" },
-        { "value": "0 joint", "label": "Gouttières sans soudure" }
+        { "value": "Gratuit", "label": "Soumission sur place" },
+        { "value": "Alu-Rex", "label": "Installateur certifié" }
       ],
       "benefits": [
-        "Gouttières sans soudure formées sur mesure — aucun joint = aucune fuite",
-        "Aluminium calibre 0.032\" résistant à la rouille, aux intempéries et au gel québécois",
-        "Évacuation optimisée loin des fondations pour prévenir les infiltrations d’eau",
-        "Soffites et fascias assortis pour une finition uniforme et professionnelle",
-        "Protège-gouttières en option pour éliminer l’entretien annuel",
-        "Garantie 10 ans main-d’œuvre et matériaux — écrit dans notre contrat",
-        "Installation propre en une journée, nettoyage complet garanti",
-        "Service disponible sous 48h — soumission gratuite le jour même"
+        "Gouttières en aluminium sans soudure formées sur place — aucun joint, aucune fuite",
+        "Système DoublePro® Alu-Rex à double membrane : draine 3x plus d’eau qu’un système standard",
+        "Crochet continu T-Rex® : 50% plus résistant, supporte jusqu’à 250 lbs par pied linéaire",
+        "Gutter Clean System® avec garantie sans obstruction de 40 ans pour gouttières existantes",
+        "Déviation des rayons UV pour protéger le scellant d’angle à long terme",
+        "Résiste à plus de 250 lbs par pied — conçu pour les hivers canadiens et la glace",
+        "Soffites et fascias en aluminium sans entretien, résistants à la pourriture et aux insectes",
+        "Garantie 10 ans main-d’œuvre et matériaux — écrite dans chaque contrat"
       ],
-      "materials_title": "Matériaux et options",
+      "materials_title": "Produits Alu-Rex que nous installons",
       "materials": [
         {
-          "name": "Aluminium sans soudure",
-          "desc": "Notre standard. Formé sur mesure à la longueur exacte de votre maison pour éliminer tout joint. Résistant au gel, à la rouille et aux UV. Disponible en 20+ couleurs."
+          "name": "DoublePro® Protège-gouttières",
+          "desc": "Système à double membrane de pointe. La membrane extérieure bloque tous les débris, les trous décalés filtrent l’eau parfaitement. Crée une succion pour drainer 3x plus d’eau même lors des tempêtes les plus intenses. Garantie à vie sans obstruction 360°."
         },
         {
-          "name": "Protège-gouttières",
-          "desc": "Couvercle microperforé qui laisse passer l’eau tout en bloquant feuilles, branches et débris. Élimine le nettoyage annuel et prolonge la durée de vie du système."
+          "name": "Crochet continu T-Rex®",
+          "desc": "Rend votre nouvelle gouttière 50% plus résistante que les installations traditionnelles avec clous ou crochets. Supporte jusqu’à 250 lbs par pied linéaire, résistant à la flexion et à la torsion. Garantie à vie sur la solidité. Le meilleur choix pour l’hiver canadien."
         },
         {
-          "name": "Soffites et fascias assortis",
-          "desc": "Aluminium ou vinyle peint en usine, disponible dans les mêmes couleurs que vos gouttières. Finition uniforme pour une apparence premium et professionnelle."
+          "name": "Gutter Clean System®",
+          "desc": "Idéal pour protéger vos gouttières existantes. La surface en aluminium perforé laisse sécher les débris qui s’envolent avec le vent — aucun nettoyage requis. Alu-Rex garantit vos gouttières sans obstruction pendant 40 ans."
         }
       ],
       "steps": [
         {
           "title": "Inspection gratuite sur place",
-          "desc": "Un expert B&T visite votre maison, évalue l’état actuel, mesure chaque section et identifie les problèmes de drainage existants — sans frais, sans engagement."
+          "desc": "Un expert B&T visite votre maison, évalue l’état actuel, mesure chaque section et identifie les problèmes de drainage — sans frais, sans engagement. Soumission détaillée incluse le jour même."
         },
         {
-          "title": "Soumission détaillée le jour même",
-          "desc": "Vous recevez un devis précis incluant matériaux, couleurs, protège-gouttières si désiré. Prix fixe, sans surprise. Vous n’êtes jamais pris par surprise."
+          "title": "Sélection du produit Alu-Rex",
+          "desc": "Nous recommandons le bon système selon votre situation : DoublePro pour une nouvelle installation, Gutter Clean System pour des gouttières existantes, ou T-Rex pour une résistance maximale. Prix fixe, sans surprise."
         },
         {
-          "title": "Installation en une journée",
-          "desc": "Notre équipe forme les gouttières sur mesure sur place et installe le système complet en une seule journée. Site laissé propre, vieux matériaux emportés."
+          "title": "Installation professionnelle",
+          "desc": "Notre équipe certifiée forme les gouttières sans soudure sur place et installe le système complet. Site laissé propre, vieux matériaux emportés. Main-d’œuvre garantie."
         }
       ],
       "testimonial": {
-        "text": "Les gouttières étaient tellement bouchées que l’eau débordait directement sur mes fondations depuis 2 ans. B&T a tout remplacé en une journée — système sans soudure, fascias neufs, protège-gouttières. C’est impeccable. J’aurais dû appeler bien avant.",
-        "name": "Michel D.",
-        "location": "Vaudreuil-Dorion, QC",
-        "service": "Remplacement complet gouttières + soffites + fascias"
+        "text": "Brandon et son équipe ont fait un excellent travail pour l’installation de nouvelles gouttières. Professionnels, ponctuels et propres. Le système Alu-Rex qu’ils ont recommandé est exactement ce dont ma maison avait besoin. Je recommande vivement!",
+        "name": "Rosa Romano",
+        "location": "Ouest de Montréal, QC",
+        "service": "Gouttières sans soudure + protège-gouttières Alu-Rex DoublePro"
       },
       "faq": [
         {
-          "q": "À quelle fréquence faut-il remplacer ses gouttières?",
-          "a": "Des gouttières en aluminium de qualité durent 20 à 40 ans avec peu d’entretien. Si vous voyez de la rouille, des déformations, des fuites aux joints, ou si l’eau déborde lors des pluies, il est temps d’agir. Nos gouttières sans soudure n’ont pas de joints à entretenir."
+          "q": "Qu’est-ce qu’un crochet continu et pourquoi est-ce mieux?",
+          "a": "Un crochet continu comme le T-Rex® court sur toute la longueur de la gouttière au lieu d’utiliser des clous, vis ou crochets individuels aux 2-3 pieds. Cela distribue la charge uniformément, rendant le système 50% plus résistant et capable de supporter jusqu’à 250 lbs par pied — essentiel pour la neige et la glace canadiennes."
+        },
+        {
+          "q": "Quelle est la différence entre DoublePro, T-Rex et Gutter Clean System?",
+          "a": "Le DoublePro® est un système complet de nouvelle gouttière avec protection à double membrane intégrée. Le T-Rex® est un système à crochet continu pour une résistance maximale sans protège-gouttières. Le Gutter Clean System® est un protège-gouttières de rétrofit conçu pour protéger vos gouttières existantes. Nous recommandons le bon produit selon votre situation."
+        },
+        {
+          "q": "Les produits Alu-Rex résistent-ils à la neige et à la glace?",
+          "a": "Oui. Les produits Alu-Rex, fabriqués au Canada, sont spécifiquement conçus pour les hivers canadiens rigoureux. Ils renforcent le système de gouttières pour résister à plus de 250 lbs par pied linéaire et dévient les rayons UV qui peuvent endommager le scellant d’angle. DoublePro et T-Rex n’augmentent pas la formation de glace."
         },
         {
           "q": "Quelle est la différence entre soffite et fascia?",
-          "a": "Le fascia est le panneau vertical qui court le long du bord inférieur du toit — c’est là qu’on fixe les gouttières. Le soffite est la surface horizontale sous le débord de toit, entre le mur et le fascia. Les deux protègent la charpente de votre maison contre l’humidité et les insectes. Nous remplaçons les deux lors d’une même visite."
+          "a": "Le fascia est le panneau vertical le long du bord inférieur du toit — c’est là qu’on fixe les gouttières. Le soffite est la surface horizontale sous le débord de toit, entre le mur et le fascia. Nos soffites et fascias en aluminium sont sans entretien, résistants à la pourriture et aux insectes, et donnent à votre toiture une finition propre et professionnelle."
         },
         {
-          "q": "Quelle est la différence entre des gouttières standards et sans soudure?",
-          "a": "Les gouttières standards sont vendues en sections de 10-12 pieds et assemblées avec des joints — chaque joint est une source potentielle de fuite. Nos gouttières sans soudure sont formées sur place en une seule pièce sur toute la longueur de votre maison, éliminant complètement les joints et les fuites qui en découlent."
+          "q": "Les produits Alu-Rex nécessitent-ils de l’entretien?",
+          "a": "Les produits Alu-Rex sont pratiquement sans entretien. La surface perforée du Gutter Clean System laisse sécher les débris qui s’envolent d’eux-mêmes. La double membrane du DoublePro filtre les aiguilles de pin et les feuilles sans jamais se bloquer. Aucun nettoyage annuel requis."
         },
         {
-          "q": "Les protège-gouttières fonctionnent-ils vraiment?",
-          "a": "Oui — les protège-gouttières microperforés de qualité laissent passer l’eau tout en bloquant 99% des débris. Ils réduisent drastiquement l’entretien et préviennent les obstructions qui causent les débordements. Nous recommandons fortement cette option si vous avez des arbres à proximité."
+          "q": "Quelle garantie est incluse?",
+          "a": "Nous fournissons une garantie de 10 ans sur la main-d’œuvre et les matériaux. Les produits Alu-Rex ont leurs propres garanties fabricant : Gutter Clean System® 40 ans sans obstruction, DoublePro® garantie à vie 360° sans obstruction, T-Rex® garantie à vie sur la solidité."
         },
         {
-          "q": "Combien de temps dure l’installation?",
-          "a": "Pour une maison standard (unifamiliale), l’installation complète prend généralement une journée. Nous formons les gouttières sur place, installons tout le système, puis nettoyons complètement le site avant de partir."
-        },
-        {
-          "q": "Est-ce que vous offrez une garantie?",
-          "a": "Oui, 10 ans sur la main-d’œuvre et les matériaux. Cette garantie est écrite dans notre contrat. Si un problème survient dans les 10 ans suivant l’installation, nous revenons sans frais supplémentaires."
-        },
-        {
-          "q": "Quelles couleurs sont disponibles?",
-          "a": "Nous offrons plus de 20 couleurs standard en aluminium, dont blanc, beige, brun, gris anthracite, noir et plusieurs tons de bois. Nous pouvons aussi assortir exactement la couleur de votre garniture existante."
+          "q": "Quelles zones desservez-vous?",
+          "a": "Ouest de Montréal : Sainte-Lazare, Hudson, Vaudreuil-Dorion, Châteauguay, Pointe-Claire, Dollard-des-Ormeaux, Kirkland, Beaconsfield, Pincourt, L’Île-Perrot, Valleyfield et environs. Est d’Ottawa : Hawkesbury, Alexandria, Rockland, Embrun, Casselman, Cumberland, Orléans, Vankleek Hill et municipalités environnantes."
         }
       ]
     },
