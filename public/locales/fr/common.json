@@ -1,4 +1,11 @@
 {
+  "service_area": {
+    "label": "Zone desservie",
+    "title": "Montréal Ouest & Est de l'Ontario",
+    "subtitle": "Nous couvrons l'ouest de l'île de Montréal ainsi que l'est de l'Ontario. Cliquez sur un marqueur pour voir la ville.",
+    "region_montreal": "Montréal Ouest (QC)",
+    "region_ottawa": "Est de l'Ontario (ON)"
+  },
   "site": {
     "name": "B&T Quality Construction",
     "tagline": "Entrepreneur en rénovation extérieure résidentielle",

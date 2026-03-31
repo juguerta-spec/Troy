@@ -11,6 +11,7 @@ import { FAQ } from '@/components/sections/FAQ'
 import { CTA } from '@/components/sections/CTA'
 import { FloatingCTA } from '@/components/ui/FloatingCTA'
 import { ChatWidget } from '@/components/chat/ChatWidget'
+import { ServiceAreaMap } from '@/components/sections/ServiceAreaMap'
 import { trackCallClick } from '@/lib/analytics'
 
 interface Props {
@@ -531,6 +532,9 @@ const ServicePage: NextPage<Props> = ({ serviceKey }) => {
 
         {/* ─── FAQ ────────────────────────────────────────────────── */}
         <FAQ items={faqItems} />
+
+        {/* ─── SERVICE AREA MAP ───────────────────────────────────── */}
+        <ServiceAreaMap />
 
         {/* ─── CTA DARK ───────────────────────────────────────────── */}
         <CTA variant="dark" />

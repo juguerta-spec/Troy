@@ -1,4 +1,11 @@
 {
+  "service_area": {
+    "label": "Service Area",
+    "title": "Montreal West & Eastern Ontario",
+    "subtitle": "We cover the west end of Montreal island and eastern Ontario. Click a pin to see the city.",
+    "region_montreal": "Montreal West (QC)",
+    "region_ottawa": "Eastern Ontario (ON)"
+  },
   "site": {
     "name": "B&T Quality Construction",
     "tagline": "Residential Exterior Renovation Contractor",

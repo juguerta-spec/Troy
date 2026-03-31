@@ -7,6 +7,7 @@ import { useTranslation } from 'next-i18next/pages'
 import { Navbar } from '@/components/layout/Navbar'
 import { Footer } from '@/components/layout/Footer'
 import { CTA } from '@/components/sections/CTA'
+import { ServiceAreaMap } from '@/components/sections/ServiceAreaMap'
 import { FloatingCTA } from '@/components/ui/FloatingCTA'
 import { ChatWidget } from '@/components/chat/ChatWidget'
 
@@ -147,25 +148,16 @@ const AboutPage: NextPage = () => {
           </div>
         </section>
 
-        {/* Service Area + RBQ */}
-        <section className="py-28 bg-white">
-          <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-2 gap-16">
+        {/* RBQ */}
+        <section className="py-16 bg-white">
+          <div className="max-w-md mx-auto px-4 sm:px-6 lg:px-8">
             <motion.div
               initial={{ opacity: 0, y: 24 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, ease }}
             >
-              <h2 className="font-heading text-2xl font-bold text-black mb-5 tracking-tight">{t('about.area_title')}</h2>
-              <p className="text-zinc-500 leading-[1.8] text-[0.9375rem]">{t('about.area')}</p>
-            </motion.div>
-            <motion.div
-              initial={{ opacity: 0, y: 24 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.6, delay: 0.1, ease }}
-            >
-              <h2 className="font-heading text-2xl font-bold text-black mb-5 tracking-tight">{t('about.rbq_title')}</h2>
+              <h2 className="font-heading text-2xl font-bold text-black mb-5 tracking-tight text-center">{t('about.rbq_title')}</h2>
               <div className="bg-zinc-950 text-white rounded-3xl p-8 text-center relative overflow-hidden">
                 <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(192,192,192,0.05),transparent_70%)]" />
                 <div className="relative">
@@ -176,6 +168,9 @@ const AboutPage: NextPage = () => {
             </motion.div>
           </div>
         </section>
+
+        {/* Service Area Map */}
+        <ServiceAreaMap />
 
         <CTA variant="dark" />
       </main>
