@@ -146,9 +146,13 @@ export function ServiceAreaMap() {
       if (!document.querySelector('#google-maps-script')) {
         const script = document.createElement('script')
         script.id = 'google-maps-script'
-        script.src = `https://maps.googleapis.com/maps/api/js?key=${apiKey}&callback=initServiceAreaMap`
+        script.src = `https://maps.googleapis.com/maps/api/js?key=${apiKey}&callback=initServiceAreaMap&loading=async`
         script.async = true
         script.defer = true
+        script.onerror = () => {
+          const el = document.getElementById('map-error-msg')
+          if (el) el.style.display = 'flex'
+        }
         document.head.appendChild(script)
       }
     }
@@ -207,6 +211,13 @@ export function ServiceAreaMap() {
           style={{ height: '480px' }}
         >
           <div ref={mapRef} className="w-full h-full" />
+          <div
+            id="map-error-msg"
+            style={{ display: 'none' }}
+            className="absolute inset-0 flex items-center justify-center bg-zinc-900 text-zinc-400 text-sm"
+          >
+            Carte temporairement indisponible
+          </div>
         </motion.div>
 
         {/* Cities grid */}
