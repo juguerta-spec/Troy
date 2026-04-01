@@ -13,7 +13,7 @@
     "rbq": "5839-7712-01",
     "email": "B.TQualityConstruction@Gmail.com"
   },
-  "announcement": "Licence RBQ 5839-7712-01  ·  10 ans de garantie  ·  Service QC & ON  ·  +100 projets réalisés",
+  "announcement": "Licence RBQ 5839-7712-01  ·  10 ans de garantie  ·  Disponible 24/7",
   "nav": {
     "home": "Accueil",
     "services": "Services",
@@ -464,7 +464,7 @@
   },
   "cta": {
     "title": "Obtenez votre soumission gratuite",
-    "subtitle": "Sans engagement — réponse dans les 24h",
+    "subtitle": "Sans engagement — disponible 24/7",
     "call": "Appeler maintenant",
     "form": "Formulaire de contact",
     "trust1": "Licence RBQ 5839-7712-01",
@@ -473,7 +473,7 @@
   },
   "contact": {
     "title": "Contactez-nous",
-    "subtitle": "Soumission gratuite, réponse sous 24h",
+    "subtitle": "Disponible 24/7 — réponse rapide garantie",
     "form": {
       "firstName": "Prénom",
       "lastName": "Nom",
@@ -505,12 +505,23 @@
     },
     "success": {
       "title": "Demande envoyée!",
-      "message": "Nous vous contacterons dans les 24h. Pour une réponse plus rapide, appelez-nous directement:",
+      "message": "Nous vous contacterons sous peu. Disponibles 24/7 pour une réponse immédiate:",
       "cta_call": "Appeler maintenant"
     },
     "error": {
       "title": "Erreur d'envoi",
       "message": "Un problème est survenu. Veuillez réessayer ou nous appeler directement:"
+    },
+    "info": {
+      "title": "Nous joindre",
+      "phone_label": "Téléphone",
+      "email_label": "Courriel",
+      "address_label": "Région desservie",
+      "address_value": "Ouest de Montréal & Est de l'Ontario",
+      "hours_label": "Disponibilité",
+      "hours_value": "24h/7j — Toujours disponible",
+      "response_label": "Temps de réponse",
+      "response_value": "Moins d'1 heure"
     }
   },
   "about": {

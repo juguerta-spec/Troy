@@ -13,7 +13,7 @@
     "rbq": "5839-7712-01",
     "email": "B.TQualityConstruction@Gmail.com"
   },
-  "announcement": "✅ RBQ License | 🏠 10-Year Warranty | 📍 QC & ON | ⭐ 100+ Projects Completed",
+  "announcement": "RBQ License 5839-7712-01  ·  10-Year Warranty  ·  Available 24/7",
   "nav": {
     "home": "Home",
     "services": "Services",
@@ -464,7 +464,7 @@
   },
   "cta": {
     "title": "Get Your Free Quote",
-    "subtitle": "No obligation — response within 24 hours",
+    "subtitle": "No obligation — available 24/7",
     "call": "Call Now",
     "form": "Contact Form",
     "trust1": "RBQ License 5839-7712-01",
@@ -473,7 +473,7 @@
   },
   "contact": {
     "title": "Contact Us",
-    "subtitle": "Free quote, response within 24 hours",
+    "subtitle": "Available 24/7 — fast response guaranteed",
     "form": {
       "firstName": "First Name",
       "lastName": "Last Name",
@@ -505,12 +505,23 @@
     },
     "success": {
       "title": "Request Sent!",
-      "message": "We'll contact you within 24 hours. For a faster response, call us directly:",
+      "message": "We will contact you shortly. Available 24/7 for an immediate response:",
       "cta_call": "Call Now"
     },
     "error": {
       "title": "Sending Error",
       "message": "A problem occurred. Please try again or call us directly:"
+    },
+    "info": {
+      "title": "Get in Touch",
+      "phone_label": "Phone",
+      "email_label": "Email",
+      "address_label": "Service Area",
+      "address_value": "Montreal West & Eastern Ontario",
+      "hours_label": "Availability",
+      "hours_value": "24/7 — Always available",
+      "response_label": "Response time",
+      "response_value": "Under 1 hour"
     }
   },
   "about": {
