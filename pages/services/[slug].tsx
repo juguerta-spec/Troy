@@ -233,7 +233,7 @@ const ServicePage: NextPage<Props> = ({ serviceKey }) => {
                   transition={{ duration: 0.5, delay: i * 0.08, ease }}
                   className="text-center"
                 >
-                  <p className="font-heading text-3xl sm:text-4xl font-extrabold text-white mb-1 tracking-tight">{stat.value}</p>
+                  <p className="font-heading text-3xl sm:text-4xl font-extrabold text-gold mb-1 tracking-tight">{stat.value}</p>
                   <p className="text-zinc-500 text-xs font-semibold uppercase tracking-[0.12em]">{stat.label}</p>
                 </motion.div>
               ))}
@@ -323,8 +323,8 @@ const ServicePage: NextPage<Props> = ({ serviceKey }) => {
                       transition={{ duration: 0.4, delay: i * 0.05, ease }}
                       className="flex items-start gap-4"
                     >
-                      <span className="shrink-0 w-6 h-6 rounded-lg bg-zinc-950 flex items-center justify-center mt-0.5">
-                        <svg className="w-3 h-3 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={3}>
+                      <span className="shrink-0 w-6 h-6 rounded-lg bg-gold flex items-center justify-center mt-0.5">
+                        <svg className="w-3 h-3 text-black" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={3}>
                           <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
                         </svg>
                       </span>
@@ -395,7 +395,7 @@ const ServicePage: NextPage<Props> = ({ serviceKey }) => {
                   transition={{ duration: 0.6, delay: i * 0.12, ease }}
                   className="bg-zinc-50 rounded-3xl p-8 text-center hover:bg-white hover:shadow-premium transition-all duration-700 ease-out-expo hover:-translate-y-2 group border border-zinc-100/80"
                 >
-                  <div className="w-12 h-12 bg-zinc-950 text-white rounded-2xl flex items-center justify-center text-sm font-bold mx-auto mb-7 group-hover:scale-110 transition-transform duration-500">
+                  <div className="w-12 h-12 bg-gold text-black rounded-2xl flex items-center justify-center text-sm font-bold mx-auto mb-7 group-hover:scale-110 transition-transform duration-500">
                     {i + 1}
                   </div>
                   <h3 className="font-heading text-base font-bold text-black mb-3">{step.title}</h3>

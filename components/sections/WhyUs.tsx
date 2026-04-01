@@ -92,7 +92,7 @@ export function WhyUs() {
 
                 <div className="relative">
                   {/* Icon container */}
-                  <div className="w-11 h-11 rounded-xl bg-white/[0.04] border border-white/[0.06] flex items-center justify-center text-silver/60 mb-7 group-hover:text-silver group-hover:bg-white/[0.08] group-hover:border-silver/15 transition-all duration-700 ease-out-expo">
+                  <div className="w-11 h-11 rounded-xl bg-white/[0.04] border border-white/[0.06] flex items-center justify-center text-silver/60 mb-7 group-hover:text-gold group-hover:bg-gold/[0.08] group-hover:border-gold/20 transition-all duration-700 ease-out-expo">
                     <Icon />
                   </div>
                   <h3 className="font-heading text-[0.95rem] font-bold text-white mb-3 leading-snug">{item.title}</h3>

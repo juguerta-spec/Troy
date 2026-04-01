@@ -54,7 +54,7 @@ export function CTA({ variant = 'dark' }: CTAProps) {
               onClick={() => trackCallClick('cta_section')}
               className={`inline-flex items-center justify-center gap-2.5 font-bold py-4 px-10 rounded-2xl text-base transition-all duration-500 ease-out-expo active:scale-[0.97] group relative overflow-hidden ${
                 isDark
-                  ? 'bg-white text-black shadow-elevated'
+                  ? 'bg-gold text-black shadow-elevated hover:shadow-[0_0_40px_rgba(201,168,76,0.35)]'
                   : 'bg-zinc-950 text-white shadow-elevated'
               }`}
             >
@@ -63,7 +63,7 @@ export function CTA({ variant = 'dark' }: CTAProps) {
               </svg>
               <span className="relative z-10">{t('cta.call')}</span>
               {isDark && (
-                <span className="absolute inset-0 bg-gradient-to-r from-silver to-white opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+                <span className="absolute inset-0 bg-gradient-to-r from-gold-dark to-gold-light opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
               )}
             </a>
             <Link
@@ -85,7 +85,7 @@ export function CTA({ variant = 'dark' }: CTAProps) {
                 key={trust}
                 className={`flex items-center gap-2 ${isDark ? 'text-zinc-600' : 'text-zinc-400'}`}
               >
-                <svg className={`w-3.5 h-3.5 ${isDark ? 'text-silver/40' : 'text-zinc-300'}`} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                <svg className={`w-3.5 h-3.5 ${isDark ? 'text-gold/60' : 'text-zinc-300'}`} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z" />
                 </svg>
                 {trust}

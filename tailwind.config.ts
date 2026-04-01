@@ -17,6 +17,10 @@ const config: Config = {
         "silver-dark": "#86868b",
         "warm-white": "#FAFAF9",
         "cream": "#F8F7F4",
+        gold: "#C9A84C",
+        "gold-light": "#E2C97A",
+        "gold-dark": "#9D7E30",
+        "gold-muted": "#C9A84C1A",
       },
       fontFamily: {
         heading: ["var(--font-montserrat)", "sans-serif"],
