@@ -1,5 +1,14 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  async redirects() {
+    return [
+      {
+        source: '/services/gouttières-soffites-fascias',
+        destination: '/services/goutti%C3%A8res-soffites-fascias',
+        permanent: true,
+      },
+    ]
+  },
   i18n: {
     locales: ['fr', 'en'],
     defaultLocale: 'fr',
