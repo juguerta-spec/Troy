@@ -12,7 +12,7 @@ const services = [
     logoEn: '/logos/logo-gutters-en.png',
     href: '/services/gouttières-soffites-fascias',
     hrefEn: '/services/gutters-soffit-fascia',
-    bg: '/images/service-gutters-hero.jpg',
+    bg: '/images/ai-hero-gutters.jpg',
     comingSoon: false,
     logoGlow: 'drop-shadow-[0_0_24px_rgba(255,255,255,0.55)] drop-shadow-[0_4px_16px_rgba(0,0,0,0.6)]',
   },
