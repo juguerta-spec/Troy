@@ -9,7 +9,7 @@
   "site": {
     "name": "B&T Quality Construction",
     "tagline": "Entrepreneur en rénovation extérieure résidentielle",
-    "phone": "(438) 888-8130",
+    "phone": "(450) 634-5507",
     "rbq": "5839-7712-01",
     "email": "B.TQualityConstruction@Gmail.com"
   },
@@ -30,7 +30,7 @@
     "cta_form": "Obtenir une soumission",
     "badge_rbq": "Licence RBQ",
     "badge_warranty": "10 ans de garantie",
-    "badge_projects": "+100 projets"
+    "badge_projects": "5000+ projets complétés"
   },
   "services": {
     "title": "Nos services",
@@ -353,7 +353,316 @@
     "testimonial_label": "Ce que dit un client",
     "stats_label": "Nos chiffres",
     "intro_label": "Notre approche",
-    "materials_label": "Matériaux"
+    "materials_label": "Matériaux",
+    "epoxy": {
+      "name": "Planchers Époxy",
+      "description": "Revêtements époxy professionnels pour garages, sous-sols et espaces commerciaux. Finition lisse, durable et facile d'entretien.",
+      "short": "Époxy"
+    },
+    "acrylic": {
+      "name": "Revêtements Acryliques",
+      "description": "Enduits acryliques décoratifs pour terrasses, allées et surfaces extérieures. Résistants aux intempéries et aux UV.",
+      "short": "Acrylique"
+    },
+    "coming_soon": "Bientôt",
+    "coming_soon_desc": "Photos et détails à venir — contactez-nous",
+    "gutter_installation": {
+      "name": "Installation de Gouttières",
+      "short": "Installation",
+      "description": "Gouttières en aluminium sans soudure formées sur place — zéro joint, zéro fuite, protection maximale.",
+      "slug": "installation-gouttières",
+      "hero_h1": "Installation de gouttières sans soudure — Ouest Montréal et Ottawa",
+      "hero_problem": "Des gouttières qui fuient endommagent votre fondation. Laissez-les à des experts.",
+      "hero_solution": "B&T installe des gouttières en aluminium sans soudure formées sur place avec les systèmes Alu-Rex. Garantie 10 ans incluse.",
+      "intro": "Une gouttière mal installée ne protège pas votre maison — elle l'endommage. Chaque joint est un point de fuite potentiel. Chez B&T Quality Construction, nous formons chaque gouttière sur place en une seule pièce d'aluminium, sans joint ni soudure, adaptée exactement aux mesures de votre maison. Résultat : aucune fuite, aucun éclatement, une protection maximale dès le premier hiver.",
+      "stats": [
+        {
+          "value": "Sans soudure",
+          "label": "Formées sur place"
+        },
+        {
+          "value": "10 ans",
+          "label": "Garantie complète"
+        },
+        {
+          "value": "Gratuit",
+          "label": "Soumission sur place"
+        },
+        {
+          "value": "Alu-Rex",
+          "label": "Installateur certifié"
+        }
+      ],
+      "benefits": [
+        "Gouttières formées sur place en aluminium — aucun joint, aucune fuite possible",
+        "Crochet continu T-Rex® sur toute la longueur : 50% plus résistant que les installations traditionnelles",
+        "Résiste à plus de 250 lbs par pied linéaire — conçu pour la neige et la glace canadiennes",
+        "Aluminium haute résistance — plus épais et plus durable que les gouttières standard",
+        "Disponible en plusieurs couleurs pour s'harmoniser avec votre maison",
+        "Installation propre, débris emportés, site laissé impeccable",
+        "Garantie 10 ans main-d'oeuvre et matériaux — écrite dans le contrat",
+        "Devis gratuit avec inspection sur place, réponse sous 24h"
+      ],
+      "materials_title": "Systèmes d'installation que nous utilisons",
+      "materials": [
+        {
+          "name": "Gouttières sans soudure",
+          "desc": "Formées sur place en aluminium en une seule pièce continue. Élimine tous les joints — principale cause de fuite. S'adapte exactement à la longueur de votre maison."
+        },
+        {
+          "name": "Crochet continu T-Rex®",
+          "desc": "Court sur toute la longueur de la gouttière, distribue la charge uniformément. Supporte jusqu'à 250 lbs par pied linéaire. Garantie à vie sur la solidité."
+        },
+        {
+          "name": "Aluminium calibre 0.032",
+          "desc": "Plus épais que les normes de l'industrie. Résiste aux cycles gel-dégel québécois et aux impacts de grêle. Couleurs durables sans peinture supplémentaire."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Inspection et mesures gratuites",
+          "desc": "Un expert B&T visite votre maison, prend les mesures exactes et évalue vos besoins de drainage. Soumission détaillée fournie sur place, sans engagement."
+        },
+        {
+          "title": "Formation sur place",
+          "desc": "Nos techniciens apportent la machine de formage chez vous. Chaque section est formée sur mesure — aucun transport ni coupe approximative."
+        },
+        {
+          "title": "Installation et finition",
+          "desc": "Pose du crochet continu, installation des gouttières et descentes pluviales. Site nettoyé, vieux matériaux emportés. Garantie remise par écrit."
+        }
+      ],
+      "testimonial": {
+        "text": "Brandon et son équipe ont fait un excellent travail pour l'installation de nouvelles gouttières. Professionnels, ponctuels et propres. Le système Alu-Rex qu'ils ont recommandé est exactement ce dont ma maison avait besoin. Je recommande vivement!",
+        "name": "Rosa Romano",
+        "location": "Ouest de Montréal, QC",
+        "service": "Gouttières sans soudure — T-Rex® Alu-Rex"
+      },
+      "faq": [
+        {
+          "q": "Pourquoi choisir des gouttières sans soudure?",
+          "a": "Les joints sont la principale cause de fuite. Les gouttières sans soudure sont formées en une seule pièce adaptée à votre maison. Zéro joint = zéro fuite, et elles durent bien plus longtemps que les sections préfabriquées."
+        },
+        {
+          "q": "Quelle est la différence entre le T-Rex® et un crochet standard?",
+          "a": "Un crochet standard est posé tous les 2-3 pieds, laissant des zones non supportées. Le crochet continu T-Rex® court sur toute la longueur, distribue le poids uniformément et rend la gouttière 50% plus résistante."
+        },
+        {
+          "q": "En combien de temps installez-vous des gouttières?",
+          "a": "La plupart des maisons résidentielles sont complétées en une journée. Nous apportons la machine de formage sur place et installons le tout le même jour."
+        },
+        {
+          "q": "Quelles couleurs sont disponibles?",
+          "a": "Nous offrons un large choix de couleurs. Lors de l'inspection gratuite, nous vous présentons les échantillons et vous aidons à choisir la meilleure option."
+        },
+        {
+          "q": "Quelle garantie est incluse?",
+          "a": "10 ans sur la main-d'oeuvre et les matériaux, garantie écrite dans votre contrat. Les produits Alu-Rex incluent leur propre garantie fabricant en plus."
+        },
+        {
+          "q": "Quelles zones desservez-vous?",
+          "a": "Ouest de Montréal : Saint-Lazare, Vaudreuil-Dorion, Châteauguay, Pointe-Claire, Dollard-des-Ormeaux, Kirkland, Beaconsfield, Valleyfield. Est d'Ottawa : Hawkesbury, Alexandria, Rockland, Embrun, Orléans et environs."
+        }
+      ]
+    },
+    "gutter_guards": {
+      "name": "Protège-Gouttières",
+      "short": "Protège-gouttières",
+      "description": "Fini le nettoyage annuel — les systèmes Alu-Rex protègent vos gouttières existantes pour 40 ans.",
+      "slug": "protecteurs-gouttières",
+      "hero_h1": "Protège-gouttières Alu-Rex — Montréal Ouest et Ottawa",
+      "hero_problem": "Nettoyer vos gouttières chaque automne est dangereux, coûteux et complètement évitable.",
+      "hero_solution": "Les protège-gouttières Alu-Rex bloquent feuilles et débris — garantie 40 ans sans obstruction incluse.",
+      "intro": "Chaque automne, des milliers de propriétaires montent sur une échelle pour nettoyer des gouttières pleines de feuilles. C'est dangereux et évitable. Les systèmes Alu-Rex que nous installons protègent vos gouttières existantes contre tous les types de débris. La surface en aluminium perforé laisse sécher les feuilles qui s'envolent au vent, pendant que l'eau s'écoule librement. Alu-Rex garantit vos gouttières sans obstruction pendant 40 ans.",
+      "stats": [
+        {
+          "value": "40 ans",
+          "label": "Garantie sans obstruction"
+        },
+        {
+          "value": "3x",
+          "label": "Plus de débit d'eau"
+        },
+        {
+          "value": "0",
+          "label": "Nettoyage requis"
+        },
+        {
+          "value": "Alu-Rex",
+          "label": "Installateur certifié"
+        }
+      ],
+      "benefits": [
+        "Gutter Clean System® — protège vos gouttières existantes sans remplacement",
+        "Aluminium perforé : les débris sèchent et s'envolent naturellement au vent",
+        "DoublePro® — double membrane qui draine 3x plus d'eau qu'un système standard",
+        "Garantie Alu-Rex de 40 ans sans obstruction sur le Gutter Clean System®",
+        "Garantie à vie 360° sans obstruction sur le DoublePro®",
+        "Protection UV intégrée pour préserver le scellant d'angle à long terme",
+        "Aucun entretien annuel — économies sur les services de nettoyage",
+        "S'installe sur vos gouttières existantes en quelques heures"
+      ],
+      "materials_title": "Produits Alu-Rex de protection",
+      "materials": [
+        {
+          "name": "Gutter Clean System®",
+          "desc": "Protège-gouttières de retrofit pour vos gouttières existantes. Surface en aluminium perforé — les débris sèchent et s'envolent. Garantie 40 ans sans obstruction. Idéal pour les maisons avec beaucoup d'arbres."
+        },
+        {
+          "name": "DoublePro® Alu-Rex",
+          "desc": "Système à double membrane pour nouvelle installation. La membrane extérieure bloque tous les débris, les trous décalés filtrent l'eau. Draine 3x plus d'eau. Garantie à vie 360° sans obstruction."
+        },
+        {
+          "name": "Protection UV intégrée",
+          "desc": "Dévie les rayons UV qui dégradent le scellant d'angle sur les joints de gouttières. Prolonge significativement la durée de vie de l'ensemble du système."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Inspection de vos gouttières",
+          "desc": "Nous vérifions l'état de vos gouttières existantes et déterminons le meilleur système. Si elles sont en bon état, pas besoin de les remplacer."
+        },
+        {
+          "title": "Sélection du produit",
+          "desc": "Selon votre situation — type d'arbres, état des gouttières, budget — nous recommandons le Gutter Clean System® ou le DoublePro®. Prix fixe, sans surprise."
+        },
+        {
+          "title": "Installation rapide",
+          "desc": "La pose prend généralement quelques heures. Aucun remplacement de gouttières nécessaire dans la plupart des cas. Résultat immédiat : plus jamais de feuilles dans vos gouttières."
+        }
+      ],
+      "testimonial": {
+        "text": "Depuis que B&T a installé les protège-gouttières Alu-Rex, je n'ai plus jamais eu à monter sur une échelle pour nettoyer. Deux hivers sont passés, aucun problème. Un investissement qui vaut vraiment la peine.",
+        "name": "Michel Tremblay",
+        "location": "Saint-Lazare, QC",
+        "service": "Gutter Clean System® Alu-Rex"
+      },
+      "faq": [
+        {
+          "q": "Le Gutter Clean System® s'installe-t-il sur mes gouttières existantes?",
+          "a": "Oui, c'est l'avantage du Gutter Clean System®. Il se pose en retrofit sans remplacer vos gouttières — à condition qu'elles soient en bon état. Lors de l'inspection gratuite, nous vérifions la compatibilité."
+        },
+        {
+          "q": "Quelle est la différence entre DoublePro® et Gutter Clean System®?",
+          "a": "Le DoublePro® est intégré à une nouvelle gouttière sans soudure — solution complète tout inclus. Le Gutter Clean System® est un protège-gouttières de retrofit pour vos gouttières existantes. Les deux ont une garantie Alu-Rex."
+        },
+        {
+          "q": "Ces systèmes fonctionnent-ils avec les feuilles d'érable et les aiguilles de pin?",
+          "a": "Oui. La surface perforée laisse sécher les feuilles qui s'envolent au vent. La double membrane du DoublePro® bloque physiquement tous les débris. Conçus pour les arbres communs au Québec et en Ontario."
+        },
+        {
+          "q": "Y a-t-il vraiment aucun entretien requis?",
+          "a": "Les systèmes Alu-Rex sont pratiquement sans entretien. Alu-Rex garantit le Gutter Clean System® sans obstruction pendant 40 ans. Dans de rares cas, un léger rinçage annuel peut être suggéré."
+        },
+        {
+          "q": "Quelle garantie est incluse?",
+          "a": "Gutter Clean System® : garantie Alu-Rex 40 ans + notre garantie 10 ans main-d'oeuvre. DoublePro® : garantie Alu-Rex à vie 360° + notre garantie 10 ans main-d'oeuvre."
+        },
+        {
+          "q": "Quelles zones desservez-vous?",
+          "a": "Ouest de Montréal : Saint-Lazare, Vaudreuil-Dorion, Châteauguay, Pointe-Claire, Dollard-des-Ormeaux, Kirkland, Beaconsfield, Valleyfield. Est d'Ottawa : Hawkesbury, Alexandria, Rockland, Embrun, Orléans et environs."
+        }
+      ]
+    },
+    "soffit_fascia": {
+      "name": "Soffites et Fascias",
+      "short": "Soffites & Fascias",
+      "description": "Soffites et fascias en aluminium sans entretien — finition propre, résistants à la pourriture et aux insectes.",
+      "slug": "soffites-fascias",
+      "hero_h1": "Installation de soffites et fascias en aluminium — Ouest Montréal et Ottawa",
+      "hero_problem": "Des soffites pourris ou des fascias abîmés laissent entrer l'humidité et les insectes dans votre toiture.",
+      "hero_solution": "B&T remplace vos soffites et fascias par des panneaux en aluminium sans entretien. Garantie 10 ans incluse.",
+      "intro": "Les soffites et fascias sont souvent négligés jusqu'au jour où l'humidité ou les insectes s'infiltrent dans la charpente du toit. Des soffites endommagés bloquent la ventilation de votre grenier, accélérant la détérioration de votre toiture. Chez B&T Quality Construction, nous remplaçons vos soffites et fascias en bois ou vinyle dégradé par des panneaux en aluminium de qualité — résistants à la pourriture, aux insectes, sans peinture ni entretien pour des décennies.",
+      "stats": [
+        {
+          "value": "Aluminium",
+          "label": "Sans entretien"
+        },
+        {
+          "value": "10 ans",
+          "label": "Garantie complète"
+        },
+        {
+          "value": "Gratuit",
+          "label": "Soumission sur place"
+        },
+        {
+          "value": "RBQ",
+          "label": "Licence 5839-7712-01"
+        }
+      ],
+      "benefits": [
+        "Aluminium résistant à la pourriture, aux insectes et à l'humidité — sans peinture ni entretien",
+        "Soffites ventilés pour assurer la circulation d'air dans l'espace sous-toiture",
+        "Fascias droits et bien alignés pour une finition impeccable sous vos gouttières",
+        "Protection contre l'infiltration de rongeurs et d'insectes sous le débord de toit",
+        "Disponible en plusieurs couleurs pour s'harmoniser avec votre maison et vos gouttières",
+        "Posés en coordination avec l'installation de gouttières pour une finition parfaite",
+        "Garantie 10 ans main-d'oeuvre et matériaux — écrite dans le contrat",
+        "Améliore l'apparence et la valeur de revente de votre propriété"
+      ],
+      "materials_title": "Ce que nous installons",
+      "materials": [
+        {
+          "name": "Soffites en aluminium ventilés",
+          "desc": "Panneaux perforés qui permettent la circulation d'air dans l'espace sous-toiture. Préviennent l'humidité et la moisissure dans votre grenier. Résistants aux insectes et aux rongeurs. Aucun entretien requis."
+        },
+        {
+          "name": "Fascias en aluminium",
+          "desc": "Panneau vertical fixé au long du bord inférieur du toit — support de vos gouttières. Plié sur mesure pour votre maison, droit et parfaitement aligné. Finition propre et professionnelle."
+        },
+        {
+          "name": "Moulures de finition",
+          "desc": "Moulures J, F et de départ en aluminium assorti pour une installation complète et étanche. Élimine les espaces qui laissent passer l'eau, le vent et les insectes."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Inspection du débord de toit",
+          "desc": "Nous évaluons l'état de vos soffites et fascias existants, identifions les zones de ventilation insuffisante et vérifions les infiltrations. Devis gratuit fourni le jour même."
+        },
+        {
+          "title": "Fabrication sur mesure",
+          "desc": "Les fascias sont pliés sur mesure selon les dimensions exactes de votre maison. Les soffites sont coupés pour s'ajuster parfaitement à l'espace sous le débord de votre toit."
+        },
+        {
+          "title": "Pose et finition",
+          "desc": "Installation propre et précise des soffites, fascias et moulures de finition. Coordination avec les gouttières si applicable. Site nettoyé, garantie remise par écrit."
+        }
+      ],
+      "testimonial": {
+        "text": "Nous avions des soffites en bois pourris depuis des années. L'équipe de B&T a tout remplacé en aluminium en une journée. La maison a l'air neuve et on n'a plus à s'inquiéter de l'entretien. Excellent service, prix honnête.",
+        "name": "Danielle Côté",
+        "location": "Vaudreuil-Dorion, QC",
+        "service": "Soffites et fascias en aluminium"
+      },
+      "faq": [
+        {
+          "q": "Quelle est la différence entre soffite et fascia?",
+          "a": "Le fascia est le panneau vertical au bord inférieur du toit — c'est là qu'on fixe les gouttières. Le soffite est la surface horizontale sous le débord de toit, entre le mur extérieur et le fascia. Les deux protègent l'espace sous-toiture."
+        },
+        {
+          "q": "Pourquoi remplacer mes soffites et fascias en bois par de l'aluminium?",
+          "a": "Le bois se détériore avec l'humidité, la peinture s'écaille, et il attire les insectes. L'aluminium est imperméable, résistant aux insectes et aux rongeurs, ne se déforme pas avec les cycles gel-dégel, et ne nécessite aucune peinture ni entretien pendant des décennies."
+        },
+        {
+          "q": "Les soffites ventilés sont-ils nécessaires?",
+          "a": "Oui, pour la grande majorité des maisons. Les soffites ventilés permettent la circulation d'air entre l'extérieur et l'espace sous-toiture, réduisant l'humidité et la moisissure dans votre grenier. Une ventilation inadéquate peut réduire la durée de vie de votre toiture."
+        },
+        {
+          "q": "Peut-on installer des soffites et fascias sans changer les gouttières?",
+          "a": "Oui, absolument. Cependant, nous recommandons souvent de combiner les deux travaux puisque les gouttières sont fixées au fascia. Si vos gouttières sont en bon état, nous les reposons proprement après l'installation du nouveau fascia."
+        },
+        {
+          "q": "En combien de temps le travail est-il complété?",
+          "a": "La plupart des maisons résidentielles sont complétées en une à deux journées selon la superficie. Nous travaillons efficacement et laissons le site impeccable."
+        },
+        {
+          "q": "Quelle garantie est incluse?",
+          "a": "10 ans sur la main-d'oeuvre et les matériaux, garantie écrite dans votre contrat. L'aluminium que nous utilisons a également une garantie fabricant sur la finition de couleur."
+        }
+      ]
+    }
   },
   "why_us": {
     "title": "Pourquoi B&T",
@@ -517,11 +826,13 @@
       "phone_label": "Téléphone",
       "email_label": "Courriel",
       "address_label": "Région desservie",
-      "address_value": "Ouest de Montréal & Est de l'Ontario",
+      "address_value": "Ouest de Montreal & Est de l’Ontario",
       "hours_label": "Disponibilité",
       "hours_value": "24h/7j — Toujours disponible",
       "response_label": "Temps de réponse",
-      "response_value": "Moins d'1 heure"
+      "response_value": "Moins d'1 heure",
+      "hq_label": "Bureau principal",
+      "hq_value": "20 Rue Page, Rigaud QC J0P 1P0"
     }
   },
   "about": {
@@ -572,7 +883,7 @@
   "stats_bar": {
     "items": [
       {
-        "value": "100+",
+        "value": "5000+",
         "label": "Projets complétés"
       },
       {

@@ -9,7 +9,7 @@
   "site": {
     "name": "B&T Quality Construction",
     "tagline": "Residential Exterior Renovation Contractor",
-    "phone": "(438) 888-8130",
+    "phone": "(450) 634-5507",
     "rbq": "5839-7712-01",
     "email": "B.TQualityConstruction@Gmail.com"
   },
@@ -30,7 +30,7 @@
     "cta_form": "Get a Free Quote",
     "badge_rbq": "RBQ License",
     "badge_warranty": "10-Year Warranty",
-    "badge_projects": "100+ Projects"
+    "badge_projects": "5,000+ Projects Completed"
   },
   "services": {
     "title": "Our Services",
@@ -353,7 +353,316 @@
     "testimonial_label": "What a Client Says",
     "stats_label": "Our Numbers",
     "intro_label": "Our Approach",
-    "materials_label": "Materials"
+    "materials_label": "Materials",
+    "epoxy": {
+      "name": "Epoxy Flooring",
+      "description": "Professional epoxy coatings for garages, basements and commercial spaces. Smooth, durable and easy to maintain finish.",
+      "short": "Epoxy"
+    },
+    "acrylic": {
+      "name": "Acrylic Coatings",
+      "description": "Decorative acrylic coatings for decks, driveways and exterior surfaces. Weather and UV resistant.",
+      "short": "Acrylic"
+    },
+    "coming_soon": "Coming Soon",
+    "coming_soon_desc": "Photos and details coming soon — contact us",
+    "gutter_installation": {
+      "name": "Gutter Installation",
+      "short": "Installation",
+      "description": "Seamless aluminum gutters formed on-site — no joints, no leaks, maximum protection.",
+      "slug": "gutter-installation",
+      "hero_h1": "Seamless Gutter Installation — Montreal West and Ottawa",
+      "hero_problem": "Leaking gutters damage your foundation. Let the experts handle it.",
+      "hero_solution": "B&T installs seamless aluminum gutters formed on-site using Alu-Rex systems. 10-year warranty included.",
+      "intro": "A poorly installed gutter doesn't protect your home — it damages it. Every joint is a potential leak. At B&T Quality Construction, we form each gutter on-site in a single piece of aluminum, with no joints or seams, fitted exactly to your home's measurements. The result: no leaks, no splitting, maximum protection from the very first winter.",
+      "stats": [
+        {
+          "value": "Seamless",
+          "label": "Formed on-site"
+        },
+        {
+          "value": "10 yr",
+          "label": "Full warranty"
+        },
+        {
+          "value": "Free",
+          "label": "On-site estimate"
+        },
+        {
+          "value": "Alu-Rex",
+          "label": "Certified installer"
+        }
+      ],
+      "benefits": [
+        "Seamless aluminum gutters formed on-site — no joints, no possible leaks",
+        "T-Rex® continuous hanger along the full length: 50% stronger than traditional installations",
+        "Withstands over 250 lbs per linear foot — built for Canadian snow and ice",
+        "Heavy-gauge aluminum — thicker and more durable than standard gutters",
+        "Available in multiple colors to complement your home",
+        "Clean installation, debris removed, site left immaculate",
+        "10-year labor and materials warranty — written into the contract",
+        "Free on-site estimate, response within 24h"
+      ],
+      "materials_title": "Installation systems we use",
+      "materials": [
+        {
+          "name": "Seamless Gutters",
+          "desc": "Formed on-site in a single continuous piece of aluminum. Eliminates all joints — the main cause of leaks. Fitted exactly to your home's length."
+        },
+        {
+          "name": "T-Rex® Continuous Hanger",
+          "desc": "Runs the full length of the gutter, distributing load evenly. Supports up to 250 lbs per linear foot. Lifetime warranty on strength."
+        },
+        {
+          "name": "Heavy-Gauge Aluminum",
+          "desc": "0.032 gauge minimum — thicker than industry standards. Withstands Quebec freeze-thaw cycles and hail impacts. Durable colors without additional painting."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Free inspection and measurements",
+          "desc": "A B&T expert visits your home, takes exact measurements and evaluates your drainage needs. Detailed quote provided on the spot, no commitment required."
+        },
+        {
+          "title": "On-site forming",
+          "desc": "Our technicians bring the forming machine to your property. Each section is custom-formed — no transportation or approximate cuts."
+        },
+        {
+          "title": "Installation and finishing",
+          "desc": "Continuous hanger installation, gutter and downspout placement. Site cleaned, old materials removed. Written warranty provided."
+        }
+      ],
+      "testimonial": {
+        "text": "Brandon and his team did an excellent job installing new gutters. Professional, punctual and clean. The Alu-Rex system they recommended is exactly what my home needed. Highly recommended!",
+        "name": "Rosa Romano",
+        "location": "Montreal West, QC",
+        "service": "Seamless Gutters — Alu-Rex T-Rex®"
+      },
+      "faq": [
+        {
+          "q": "Why choose seamless gutters?",
+          "a": "Joints are the main cause of gutter leaks. Seamless gutters are formed in one piece fitted to your home. No joints = no leaks, and they last much longer than prefabricated sections."
+        },
+        {
+          "q": "What's the difference between T-Rex® and a standard hanger?",
+          "a": "A standard hanger is placed every 2-3 feet, leaving unsupported zones. The T-Rex® continuous hanger runs the full length, distributes weight evenly and makes the gutter 50% stronger — essential for Canadian winters."
+        },
+        {
+          "q": "How long does gutter installation take?",
+          "a": "Most residential homes are completed in one day. We bring the forming machine on-site, custom-form your gutters and install everything the same day."
+        },
+        {
+          "q": "What colors are available?",
+          "a": "We offer a wide selection of colors. During the free inspection, we show you samples and help you choose the best option for your home."
+        },
+        {
+          "q": "What warranty is included?",
+          "a": "10 years on labor and materials, written warranty in your contract. Alu-Rex products also include their own manufacturer warranty — lifetime warranty on the T-Rex® hanger."
+        },
+        {
+          "q": "What areas do you serve?",
+          "a": "Montreal West: Saint-Lazare, Vaudreuil-Dorion, Châteauguay, Pointe-Claire, Dollard-des-Ormeaux, Kirkland, Beaconsfield, Valleyfield. Ottawa East: Hawkesbury, Alexandria, Rockland, Embrun, Orleans and surrounding areas."
+        }
+      ]
+    },
+    "gutter_guards": {
+      "name": "Gutter Guards",
+      "short": "Gutter Guards",
+      "description": "No more annual cleaning — Alu-Rex systems protect your existing gutters for 40 years.",
+      "slug": "gutter-guards",
+      "hero_h1": "Alu-Rex Gutter Guards — Montreal West and Ottawa",
+      "hero_problem": "Cleaning your gutters every fall is dangerous, costly and completely avoidable.",
+      "hero_solution": "Alu-Rex gutter guards block leaves and debris forever — 40-year no-clog warranty included.",
+      "intro": "Every fall, thousands of homeowners climb a ladder to clean gutters full of decomposing leaves. It's dangerous and avoidable. The Alu-Rex systems we install protect your existing gutters from all types of debris. The perforated aluminum surface lets leaves dry and blow away in the wind, while water flows freely. Alu-Rex guarantees your gutters clog-free for 40 years.",
+      "stats": [
+        {
+          "value": "40 yr",
+          "label": "No-clog warranty"
+        },
+        {
+          "value": "3x",
+          "label": "More water flow"
+        },
+        {
+          "value": "0",
+          "label": "Cleaning required"
+        },
+        {
+          "value": "Alu-Rex",
+          "label": "Certified installer"
+        }
+      ],
+      "benefits": [
+        "Gutter Clean System® — protects your existing gutters without replacement",
+        "Perforated aluminum: debris dries and blows away naturally in the wind",
+        "DoublePro® — dual membrane that drains 3x more water than a standard system",
+        "40-year Alu-Rex no-clog warranty on the Gutter Clean System®",
+        "Lifetime 360° no-clog warranty on DoublePro®",
+        "Integrated UV protection to preserve the corner sealant long-term",
+        "No annual maintenance — savings on cleaning services",
+        "Installs on your existing gutters in just a few hours"
+      ],
+      "materials_title": "Alu-Rex protection products",
+      "materials": [
+        {
+          "name": "Gutter Clean System®",
+          "desc": "Retrofit gutter guard for your existing gutters. Perforated aluminum surface — debris dries and blows away. 40-year no-clog warranty. Ideal for homes with many surrounding trees."
+        },
+        {
+          "name": "DoublePro® Alu-Rex",
+          "desc": "Dual-membrane system for new installation. Outer membrane blocks all debris, offset holes filter water. Drains 3x more water. Lifetime 360° no-clog warranty."
+        },
+        {
+          "name": "Integrated UV Protection",
+          "desc": "Deflects UV rays that degrade the corner sealant on gutter joints. Significantly extends the lifespan of the entire system."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Gutter inspection",
+          "desc": "We check the condition of your existing gutters and determine the best protection system. If they're in good shape, no replacement needed."
+        },
+        {
+          "title": "Product selection",
+          "desc": "Based on your situation — tree types, gutter condition, budget — we recommend the Gutter Clean System® or DoublePro®. Fixed price, no surprises."
+        },
+        {
+          "title": "Quick installation",
+          "desc": "Installation typically takes a few hours. No gutter replacement needed in most cases. Immediate result: never deal with leaves in your gutters again."
+        }
+      ],
+      "testimonial": {
+        "text": "Since B&T installed the Alu-Rex gutter guards, I've never had to climb a ladder to clean again. Two winters have passed, zero problems. An investment that's truly worth it.",
+        "name": "Michel Tremblay",
+        "location": "Saint-Lazare, QC",
+        "service": "Gutter Clean System® Alu-Rex"
+      },
+      "faq": [
+        {
+          "q": "Does the Gutter Clean System® install on my existing gutters?",
+          "a": "Yes, that's the advantage of the Gutter Clean System®. It installs as a retrofit on your existing gutters without replacing them — provided they're in good condition. During the free inspection, we verify compatibility."
+        },
+        {
+          "q": "What's the difference between DoublePro® and Gutter Clean System®?",
+          "a": "DoublePro® is integrated into a new seamless gutter — a complete all-in-one solution. The Gutter Clean System® is a retrofit guard that installs on your existing gutters. Both have an Alu-Rex no-clog warranty."
+        },
+        {
+          "q": "Do these systems work with maple leaves and pine needles?",
+          "a": "Yes. The perforated surface lets maple leaves and pine needles dry and blow away in the wind. The DoublePro® dual membrane physically blocks all debris types. Designed for trees common to Quebec and Ontario."
+        },
+        {
+          "q": "Is there really no maintenance required?",
+          "a": "Alu-Rex systems are virtually maintenance-free. Alu-Rex guarantees the Gutter Clean System® clog-free for 40 years. In rare cases with heavily surrounding trees, a light annual rinse may be suggested."
+        },
+        {
+          "q": "What warranty is included?",
+          "a": "Gutter Clean System®: 40-year Alu-Rex warranty + our 10-year labor warranty. DoublePro®: Lifetime Alu-Rex 360° warranty + our 10-year labor warranty."
+        },
+        {
+          "q": "What areas do you serve?",
+          "a": "Montreal West: Saint-Lazare, Vaudreuil-Dorion, Châteauguay, Pointe-Claire, Dollard-des-Ormeaux, Kirkland, Beaconsfield, Valleyfield. Ottawa East: Hawkesbury, Alexandria, Rockland, Embrun, Orleans and surrounding areas."
+        }
+      ]
+    },
+    "soffit_fascia": {
+      "name": "Soffit & Fascia",
+      "short": "Soffit & Fascia",
+      "description": "Maintenance-free aluminum soffit and fascia — clean finish, resistant to rot and insects.",
+      "slug": "soffit-fascia",
+      "hero_h1": "Aluminum Soffit & Fascia Installation — Montreal West and Ottawa",
+      "hero_problem": "Rotted soffits or damaged fascia let moisture and insects into your roof structure.",
+      "hero_solution": "B&T replaces your soffit and fascia with maintenance-free aluminum panels. 10-year warranty included.",
+      "intro": "Soffit and fascia are often overlooked until moisture or insects infiltrate the roof framing. Damaged soffits block attic ventilation, accelerating roof deterioration. At B&T Quality Construction, we replace your degraded wood or vinyl soffit and fascia with commercial-grade aluminum panels — rot-resistant, insect-resistant, and requiring no painting or maintenance for decades.",
+      "stats": [
+        {
+          "value": "Aluminum",
+          "label": "Maintenance-free"
+        },
+        {
+          "value": "10 yr",
+          "label": "Full warranty"
+        },
+        {
+          "value": "Free",
+          "label": "On-site estimate"
+        },
+        {
+          "value": "RBQ",
+          "label": "License 5839-7712-01"
+        }
+      ],
+      "benefits": [
+        "Aluminum resistant to rot, insects and moisture — no painting or maintenance needed",
+        "Vented soffits to ensure air circulation in the roof cavity",
+        "Straight, well-aligned fascia for a clean finish under your gutters",
+        "Protection against rodent and insect infiltration under the roof overhang",
+        "Available in multiple colors to match your home and gutters",
+        "Installed in coordination with gutter work for a perfect finish",
+        "10-year labor and materials warranty — written into the contract",
+        "Improves appearance and resale value of your property"
+      ],
+      "materials_title": "What we install",
+      "materials": [
+        {
+          "name": "Vented Aluminum Soffit",
+          "desc": "Perforated panels that allow air circulation in the roof cavity. Prevents moisture and mold in your attic. Resistant to insects and rodents. No maintenance required."
+        },
+        {
+          "name": "Aluminum Fascia",
+          "desc": "Vertical panel along the lower edge of the roof — where your gutters attach. Custom-bent for your home, straight and perfectly aligned. Clean, professional finish."
+        },
+        {
+          "name": "Finishing Trim",
+          "desc": "Matching aluminum J-channel, F-channel and starter trim for a complete, weathertight installation. Eliminates gaps that let in water, wind and insects."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Roof overhang inspection",
+          "desc": "We assess your existing soffit and fascia, identify ventilation gaps and check for active moisture infiltration. Free estimate provided the same day."
+        },
+        {
+          "title": "Custom fabrication",
+          "desc": "Fascia is bent to the exact dimensions of your home. Soffit panels are cut to fit precisely in the space under your roof overhang."
+        },
+        {
+          "title": "Installation and finishing",
+          "desc": "Clean, precise installation of soffit, fascia and finishing trim. Coordinated with gutters if applicable. Site cleaned, written warranty provided."
+        }
+      ],
+      "testimonial": {
+        "text": "We had rotted wood soffits for years. The B&T team replaced everything with aluminum in one day. The house looks brand new and we no longer worry about maintenance. Excellent service, honest pricing.",
+        "name": "Danielle Côté",
+        "location": "Vaudreuil-Dorion, QC",
+        "service": "Aluminum soffit and fascia"
+      },
+      "faq": [
+        {
+          "q": "What's the difference between soffit and fascia?",
+          "a": "Fascia is the vertical board along the lower edge of the roof — that's where gutters are attached. Soffit is the horizontal surface under the roof overhang, between the exterior wall and the fascia. Both work together to protect the roof cavity."
+        },
+        {
+          "q": "Why replace wood soffit and fascia with aluminum?",
+          "a": "Wood deteriorates with moisture, paint peels, and it attracts insects. Aluminum is waterproof, insect and rodent resistant, doesn't warp through freeze-thaw cycles, and requires no painting or maintenance for decades."
+        },
+        {
+          "q": "Are vented soffits necessary?",
+          "a": "Yes, for the vast majority of homes. Vented soffits allow air circulation between the exterior and the roof cavity, reducing moisture and mold in your attic. Inadequate ventilation can shorten your roof's lifespan."
+        },
+        {
+          "q": "Can soffit and fascia be installed without changing gutters?",
+          "a": "Yes, absolutely. However, we often recommend combining both projects since gutters attach to the fascia. If your gutters are in good shape, we cleanly reinstall them after the new fascia is in place."
+        },
+        {
+          "q": "How long does the work take?",
+          "a": "Most residential homes are completed in one to two days depending on the size. We work efficiently to minimize inconvenience and leave the site immaculate."
+        },
+        {
+          "q": "What warranty is included?",
+          "a": "10 years on labor and materials, written warranty in your contract. The aluminum we use also carries a manufacturer warranty on the color finish."
+        }
+      ]
+    }
   },
   "why_us": {
     "title": "Why B&T",
@@ -521,7 +830,9 @@
       "hours_label": "Availability",
       "hours_value": "24/7 — Always available",
       "response_label": "Response time",
-      "response_value": "Under 1 hour"
+      "response_value": "Under 1 hour",
+      "hq_label": "Head Office",
+      "hq_value": "20 Rue Page, Rigaud QC J0P 1P0"
     }
   },
   "about": {
@@ -572,7 +883,7 @@
   "stats_bar": {
     "items": [
       {
-        "value": "100+",
+        "value": "5,000+",
         "label": "Jobs Completed"
       },
       {

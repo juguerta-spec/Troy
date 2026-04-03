@@ -15,6 +15,7 @@ import { CTA } from '@/components/sections/CTA'
 import { StatsBar } from '@/components/sections/StatsBar'
 import { FloatingCTA } from '@/components/ui/FloatingCTA'
 import { ChatWidget } from '@/components/chat/ChatWidget'
+import { ServiceAreaMap } from '@/components/sections/ServiceAreaMap'
 
 const serviceParamMap: Record<string, string> = {
   gutters: 'gutters',
@@ -63,27 +64,50 @@ const HomePage: NextPage = () => {
               logo: `${siteUrl}/logos/logo-main.png`,
               address: {
                 '@type': 'PostalAddress',
+                streetAddress: '20 Rue Pagé',
+                addressLocality: 'Rigaud',
                 addressRegion: 'QC',
+                postalCode: 'J0P 1P0',
                 addressCountry: 'CA',
-                addressLocality: 'Vaudreuil-Dorion',
               },
               geo: {
                 '@type': 'GeoCoordinates',
-                latitude: 45.3986,
-                longitude: -74.0271,
+                latitude: 45.4769,
+                longitude: -74.2998,
               },
               openingHoursSpecification: [
                 {
                   '@type': 'OpeningHoursSpecification',
-                  dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
+                  dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
                   opens: '08:00',
-                  closes: '18:00',
+                  closes: '19:00',
+                },
+              ],
+              location: [
+                {
+                  '@type': 'Place',
+                  name: 'B&T Quality Construction — Rigaud',
+                  address: { '@type': 'PostalAddress', streetAddress: '20 Rue Pagé', addressLocality: 'Rigaud', addressRegion: 'QC', postalCode: 'J0P 1P0', addressCountry: 'CA' },
                 },
                 {
-                  '@type': 'OpeningHoursSpecification',
-                  dayOfWeek: 'Saturday',
-                  opens: '09:00',
-                  closes: '15:00',
+                  '@type': 'Place',
+                  name: 'B&T Quality Construction — Salaberry-de-Valleyfield',
+                  address: { '@type': 'PostalAddress', streetAddress: '18 Rue Haineault', addressLocality: 'Salaberry-de-Valleyfield', addressRegion: 'QC', postalCode: 'J6T 5B4', addressCountry: 'CA' },
+                },
+                {
+                  '@type': 'Place',
+                  name: 'B&T Quality Construction — Saint-Lazare',
+                  address: { '@type': 'PostalAddress', streetAddress: '1697 Rue Du Bordelais', addressLocality: 'Saint-Lazare', addressRegion: 'QC', postalCode: 'J7T 2C1', addressCountry: 'CA' },
+                },
+                {
+                  '@type': 'Place',
+                  name: 'B&T Quality Construction — Pierrefonds-Roxboro',
+                  address: { '@type': 'PostalAddress', streetAddress: '5045 Des Cageux', addressLocality: 'Pierrefonds-Roxboro', addressRegion: 'QC', postalCode: 'H9J 3C2', addressCountry: 'CA' },
+                },
+                {
+                  '@type': 'Place',
+                  name: 'B&T Quality Construction — Pointe-Fortune',
+                  address: { '@type': 'PostalAddress', streetAddress: '125 QC-342', addressLocality: 'Pointe-Fortune', addressRegion: 'QC', postalCode: 'J0P 1N0', addressCountry: 'CA' },
                 },
               ],
               areaServed: [
@@ -131,14 +155,15 @@ const HomePage: NextPage = () => {
       <main className="pt-24">
         <Hero serviceOverride={serviceParam} />
         <ServiceCards />
-        <WhyUs />
+        <ServiceAreaMap />
         <Gallery />
-        <Reviews />
-        <CTA variant="dark" />
-        <FAQ />
         <div id="contact-form">
-          <CTA variant="light" />
+          <CTA variant="dark" />
         </div>
+        <WhyUs />
+        <Reviews />
+        <FAQ />
+        <CTA variant="light" />
         <StatsBar />
       </main>
 

@@ -20,7 +20,7 @@ interface Zone {
 }
 
 const ZONES: Zone[] = [
-  // Montreal West
+  // Montreal West / QC
   { name: 'Vaudreuil-Dorion', lat: 45.3986, lng: -74.0271, region: 'montreal' },
   { name: 'Hudson', lat: 45.4451, lng: -74.1488, region: 'montreal' },
   { name: 'Saint-Lazare', lat: 45.3984, lng: -74.1338, region: 'montreal' },
@@ -30,9 +30,14 @@ const ZONES: Zone[] = [
   { name: 'Beaconsfield', lat: 45.4314, lng: -73.8659, region: 'montreal' },
   { name: 'Châteauguay', lat: 45.3806, lng: -73.7425, region: 'montreal' },
   { name: "L'Île-Perrot", lat: 45.3775, lng: -73.9411, region: 'montreal' },
-  { name: 'Pincourt', lat: 45.3783, lng: -73.9805, region: 'montreal' },
+  { name: 'Pincourt / N.-D.-de-l\'Île-Perrot', lat: 45.3814, lng: -73.9576, region: 'montreal' },
   { name: 'Valleyfield', lat: 45.2533, lng: -74.1325, region: 'montreal' },
-  // Ottawa East
+  { name: 'Beauharnois', lat: 45.3167, lng: -73.8697, region: 'montreal' },
+  { name: 'Rigaud', lat: 45.4769, lng: -74.2998, region: 'montreal' },
+  { name: 'Les Cèdres', lat: 45.3000, lng: -74.0667, region: 'montreal' },
+  { name: 'Saint-Justine-de-Newton', lat: 45.3375, lng: -74.4333, region: 'montreal' },
+  { name: 'Pointe-Fortune', lat: 45.5431, lng: -74.3811, region: 'montreal' },
+  // Ottawa East / Eastern Ontario
   { name: 'Hawkesbury', lat: 45.6054, lng: -74.6019, region: 'ottawa' },
   { name: 'Alexandria', lat: 45.3213, lng: -74.6331, region: 'ottawa' },
   { name: 'Rockland', lat: 45.5506, lng: -75.2912, region: 'ottawa' },
@@ -40,6 +45,12 @@ const ZONES: Zone[] = [
   { name: 'Casselman', lat: 45.3127, lng: -75.0861, region: 'ottawa' },
   { name: 'Vankleek Hill', lat: 45.5239, lng: -74.6488, region: 'ottawa' },
   { name: 'Orléans', lat: 45.4759, lng: -75.5126, region: 'ottawa' },
+  { name: 'Plantagenet', lat: 45.5258, lng: -74.9836, region: 'ottawa' },
+  { name: 'Cornwall', lat: 45.0186, lng: -74.7327, region: 'ottawa' },
+  { name: 'Lancaster', lat: 45.1547, lng: -74.4992, region: 'ottawa' },
+  { name: 'Wendover', lat: 45.4519, lng: -75.0800, region: 'ottawa' },
+  { name: 'St-Eugène', lat: 45.4956, lng: -74.9267, region: 'ottawa' },
+  { name: 'Dalhousie', lat: 45.4167, lng: -74.9167, region: 'ottawa' },
 ]
 
 // Map center between Montreal West and Ottawa East
@@ -66,20 +77,22 @@ export function ServiceAreaMap() {
         zoomControl: true,
         gestureHandling: 'cooperative',
         styles: [
-          { elementType: 'geometry', stylers: [{ color: '#1a1a2e' }] },
-          { elementType: 'labels.text.fill', stylers: [{ color: '#8a8a9a' }] },
-          { elementType: 'labels.text.stroke', stylers: [{ color: '#1a1a2e' }] },
-          { featureType: 'administrative.country', elementType: 'geometry.stroke', stylers: [{ color: '#4a4a6a' }] },
-          { featureType: 'administrative.province', elementType: 'geometry.stroke', stylers: [{ color: '#3a3a5a' }] },
-          { featureType: 'road', elementType: 'geometry', stylers: [{ color: '#252545' }] },
-          { featureType: 'road.highway', elementType: 'geometry', stylers: [{ color: '#2d2d50' }] },
-          { featureType: 'road', elementType: 'labels.text.fill', stylers: [{ color: '#6a6a8a' }] },
-          { featureType: 'water', elementType: 'geometry', stylers: [{ color: '#0d1117' }] },
-          { featureType: 'water', elementType: 'labels.text.fill', stylers: [{ color: '#3a4a5a' }] },
+          { elementType: 'geometry', stylers: [{ color: '#f5f5f5' }] },
+          { elementType: 'labels.text.fill', stylers: [{ color: '#444444' }] },
+          { elementType: 'labels.text.stroke', stylers: [{ color: '#f5f5f5' }] },
+          { featureType: 'administrative', elementType: 'geometry.stroke', stylers: [{ color: '#c9c9c9' }] },
+          { featureType: 'administrative.locality', elementType: 'labels.text.fill', stylers: [{ color: '#333333' }] },
+          { featureType: 'road', elementType: 'geometry', stylers: [{ color: '#ffffff' }] },
+          { featureType: 'road', elementType: 'geometry.stroke', stylers: [{ color: '#e0e0e0' }] },
+          { featureType: 'road.highway', elementType: 'geometry', stylers: [{ color: '#dadada' }] },
+          { featureType: 'road.highway', elementType: 'geometry.stroke', stylers: [{ color: '#c6c6c6' }] },
+          { featureType: 'road', elementType: 'labels.text.fill', stylers: [{ color: '#777777' }] },
+          { featureType: 'water', elementType: 'geometry', stylers: [{ color: '#c8dff0' }] },
+          { featureType: 'water', elementType: 'labels.text.fill', stylers: [{ color: '#6b9ab8' }] },
           { featureType: 'poi', stylers: [{ visibility: 'off' }] },
           { featureType: 'transit', stylers: [{ visibility: 'off' }] },
-          { featureType: 'landscape', elementType: 'geometry', stylers: [{ color: '#16162a' }] },
-          { featureType: 'administrative.locality', elementType: 'labels.text.fill', stylers: [{ color: '#9090b0' }] },
+          { featureType: 'landscape', elementType: 'geometry', stylers: [{ color: '#efefef' }] },
+          { featureType: 'landscape.natural', elementType: 'geometry', stylers: [{ color: '#e8f0e8' }] },
         ],
       })
 
@@ -87,44 +100,21 @@ export function ServiceAreaMap() {
 
       ZONES.forEach((zone) => {
         const isOttawa = zone.region === 'ottawa'
-        const color = isOttawa ? '#6ee7b7' : '#93c5fd' // emerald for Ottawa, blue for Montreal
+        // Both regions use red — darker red for Ottawa, bright red for Montreal
+        const color = isOttawa ? '#b91c1c' : '#ef4444'
 
-        // Outer pulse ring
-        new window.google.maps.Circle({
-          map,
-          center: { lat: zone.lat, lng: zone.lng },
-          radius: 6000,
-          strokeColor: color,
-          strokeOpacity: 0.15,
-          strokeWeight: 1,
-          fillColor: color,
-          fillOpacity: 0.05,
-        })
-
-        // Inner glow
-        new window.google.maps.Circle({
-          map,
-          center: { lat: zone.lat, lng: zone.lng },
-          radius: 2500,
-          strokeColor: color,
-          strokeOpacity: 0.4,
-          strokeWeight: 1,
-          fillColor: color,
-          fillOpacity: 0.15,
-        })
-
-        // Center pin marker
+        // Red dot marker only (no radius circles)
         const marker = new window.google.maps.Marker({
           map,
           position: { lat: zone.lat, lng: zone.lng },
           title: zone.name,
           icon: {
             path: window.google.maps.SymbolPath.CIRCLE,
-            scale: 7,
+            scale: 8,
             fillColor: color,
             fillOpacity: 1,
             strokeColor: '#ffffff',
-            strokeWeight: 1.5,
+            strokeWeight: 2,
           },
         })
 
@@ -159,9 +149,9 @@ export function ServiceAreaMap() {
   }, [])
 
   return (
-    <section className="py-20 bg-zinc-950 relative overflow-hidden">
-      <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-white/[0.06] to-transparent" />
-      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(147,197,253,0.03),transparent_60%)]" />
+    <section className="py-20 bg-white relative overflow-hidden">
+      <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-zinc-200 to-transparent" />
+      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(239,68,68,0.03),transparent_60%)]" />
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
@@ -172,10 +162,10 @@ export function ServiceAreaMap() {
           transition={{ duration: 0.7 }}
           className="text-center mb-10"
         >
-          <p className="text-silver/40 text-xs font-semibold uppercase tracking-[0.2em] mb-3">
+          <p className="text-zinc-400 text-xs font-semibold uppercase tracking-[0.2em] mb-3">
             {t('service_area.label')}
           </p>
-          <h2 className="font-heading text-3xl sm:text-4xl font-extrabold text-white tracking-tight mb-4">
+          <h2 className="font-heading text-3xl sm:text-4xl font-extrabold text-black tracking-tight mb-4">
             {t('service_area.title')}
           </h2>
           <p className="text-zinc-500 text-sm max-w-xl mx-auto leading-relaxed">
@@ -192,12 +182,12 @@ export function ServiceAreaMap() {
           className="flex items-center justify-center gap-8 mb-6"
         >
           <div className="flex items-center gap-2">
-            <span className="w-3 h-3 rounded-full bg-blue-300 shadow-[0_0_8px_rgba(147,197,253,0.6)]" />
-            <span className="text-zinc-400 text-xs font-semibold">{t('service_area.region_montreal')}</span>
+            <span className="w-3 h-3 rounded-full bg-red-500 shadow-[0_0_8px_rgba(239,68,68,0.5)]" />
+            <span className="text-zinc-600 text-xs font-semibold">{t('service_area.region_montreal')}</span>
           </div>
           <div className="flex items-center gap-2">
-            <span className="w-3 h-3 rounded-full bg-emerald-300 shadow-[0_0_8px_rgba(110,231,183,0.6)]" />
-            <span className="text-zinc-400 text-xs font-semibold">{t('service_area.region_ottawa')}</span>
+            <span className="w-3 h-3 rounded-full bg-red-800 shadow-[0_0_8px_rgba(185,28,28,0.5)]" />
+            <span className="text-zinc-600 text-xs font-semibold">{t('service_area.region_ottawa')}</span>
           </div>
         </motion.div>
 
@@ -207,7 +197,7 @@ export function ServiceAreaMap() {
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8, delay: 0.15 }}
-          className="rounded-3xl overflow-hidden border border-white/[0.06] shadow-[0_0_60px_rgba(0,0,0,0.5)]"
+          className="rounded-3xl overflow-hidden border border-zinc-200 shadow-[0_4px_40px_rgba(0,0,0,0.10)]"
           style={{ height: '480px' }}
         >
           <div ref={mapRef} className="w-full h-full" />
@@ -229,20 +219,20 @@ export function ServiceAreaMap() {
           className="mt-10 grid grid-cols-1 md:grid-cols-2 gap-6"
         >
           {/* Montreal */}
-          <div className="bg-white/[0.03] border border-white/[0.06] rounded-2xl p-6">
+          <div className="bg-zinc-50 border border-zinc-200 rounded-2xl p-6">
             <div className="flex items-center gap-2 mb-4">
-              <span className="w-2.5 h-2.5 rounded-full bg-blue-300 shadow-[0_0_8px_rgba(147,197,253,0.8)]" />
-              <h3 className="text-white font-semibold text-sm">{t('service_area.region_montreal')}</h3>
+              <span className="w-2.5 h-2.5 rounded-full bg-red-500 shadow-[0_0_8px_rgba(239,68,68,0.6)]" />
+              <h3 className="text-black font-semibold text-sm">{t('service_area.region_montreal')}</h3>
             </div>
             <p className="text-zinc-500 text-xs leading-relaxed">
               {ZONES.filter(z => z.region === 'montreal').map(z => z.name).join(' · ')}
             </p>
           </div>
           {/* Ottawa */}
-          <div className="bg-white/[0.03] border border-white/[0.06] rounded-2xl p-6">
+          <div className="bg-zinc-50 border border-zinc-200 rounded-2xl p-6">
             <div className="flex items-center gap-2 mb-4">
-              <span className="w-2.5 h-2.5 rounded-full bg-emerald-300 shadow-[0_0_8px_rgba(110,231,183,0.8)]" />
-              <h3 className="text-white font-semibold text-sm">{t('service_area.region_ottawa')}</h3>
+              <span className="w-2.5 h-2.5 rounded-full bg-red-800 shadow-[0_0_8px_rgba(185,28,28,0.6)]" />
+              <h3 className="text-black font-semibold text-sm">{t('service_area.region_ottawa')}</h3>
             </div>
             <p className="text-zinc-500 text-xs leading-relaxed">
               {ZONES.filter(z => z.region === 'ottawa').map(z => z.name).join(' · ')}

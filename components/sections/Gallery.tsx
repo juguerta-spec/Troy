@@ -8,17 +8,17 @@ import { Lightbox } from '@/components/ui/Lightbox'
 
 const PHOTOS = [
   { src: '/images/project1.jpg', category: 'siding' },
-  { src: '/images/project2.jpg', category: 'gutters' },
+  { src: '/images/project15.jpg', category: 'soffit' },
   { src: '/images/project3.jpg', category: 'siding' },
   { src: '/images/project4.jpg', category: 'roofing' },
-  { src: '/images/project6.jpg', category: 'gutters' },
-  { src: '/images/project7.jpg', category: 'gutters' },
+  { src: '/images/project16.jpg', category: 'soffit' },
+  { src: '/images/project17.jpg', category: 'gutters' },
   { src: '/images/project8.jpg', category: 'siding' },
-  { src: '/images/project10.jpg', category: 'siding' },
-  { src: '/images/project11.jpg', category: 'gutters' },
+  { src: '/images/project18.jpg', category: 'siding' },
+  { src: '/images/project19.jpg', category: 'soffit' },
   { src: '/images/project12.jpg', category: 'roofing' },
-  { src: '/images/project13.jpg', category: 'siding' },
-  { src: '/images/project14.jpg', category: 'siding' },
+  { src: '/images/project20.jpg', category: 'siding' },
+  { src: '/images/project14.jpg', category: 'gutters' },
 ]
 
 const ease = [0.16, 1, 0.3, 1] as const

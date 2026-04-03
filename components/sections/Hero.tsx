@@ -47,6 +47,25 @@ export function Hero({ serviceOverride }: HeroProps) {
         <div className="absolute inset-0 bg-gradient-to-r from-black via-black/70 to-black/20" />
         <div className="absolute inset-0 bg-gradient-to-t from-zinc-950 via-transparent to-zinc-950/60" />
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,transparent_40%,rgba(0,0,0,0.7))]" />
+
+        {/* Large logo watermark */}
+        <motion.div
+          initial={{ opacity: 0, scale: 0.92 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 2.5, ease: 'easeOut' }}
+          className="absolute inset-0 flex items-center justify-center pointer-events-none"
+        >
+          <div className="relative w-[85vw] max-w-4xl h-[60vh] opacity-[0.09]">
+            <Image
+              src="/logos/logo-main.png"
+              alt=""
+              fill
+              priority
+              sizes="85vw"
+              className="object-contain"
+            />
+          </div>
+        </motion.div>
       </div>
 
       {/* Ambient glow orbs */}
@@ -57,8 +76,34 @@ export function Hero({ serviceOverride }: HeroProps) {
       <div className="absolute inset-0 opacity-[0.02]" style={{ backgroundImage: 'linear-gradient(rgba(255,255,255,0.1) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.1) 1px, transparent 1px)', backgroundSize: '60px 60px' }} />
 
       {/* Content */}
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-40 lg:py-48">
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-32 lg:py-40">
         <div className="max-w-3xl">
+
+          {/* 3D Hero Logo */}
+          <motion.div
+            initial={{ opacity: 0, y: -20, rotateX: 15 }}
+            animate={{ opacity: 1, y: 0, rotateX: 0 }}
+            transition={{ duration: 1.2, delay: 0.1, ease }}
+            style={{ perspective: '900px', transformStyle: 'preserve-3d' }}
+            className="mb-10 flex items-start"
+          >
+            <motion.div
+              animate={{ y: [0, -6, 0] }}
+              transition={{ duration: 4, repeat: Infinity, ease: 'easeInOut' }}
+              style={{ filter: 'drop-shadow(0 0 32px rgba(255,255,255,0.18)) drop-shadow(0 8px 32px rgba(0,0,0,0.7))' }}
+              className="relative w-64 sm:w-80 lg:w-96 h-24 sm:h-28 lg:h-32"
+            >
+              <Image
+                src="/logos/logo-main.png"
+                alt="B&T Quality Construction"
+                fill
+                priority
+                sizes="(max-width: 640px) 256px, (max-width: 1024px) 320px, 384px"
+                className="object-contain object-left"
+              />
+            </motion.div>
+          </motion.div>
+
           {/* Trust badges */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -95,7 +140,7 @@ export function Hero({ serviceOverride }: HeroProps) {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.5, ease }}
-            className="text-lg sm:text-xl text-white/40 mb-14 leading-relaxed max-w-xl"
+            className="text-lg sm:text-xl text-white/75 mb-14 leading-relaxed max-w-xl"
           >
             {subline}
           </motion.p>
