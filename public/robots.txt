@@ -1,4 +1,9 @@
+# *
 User-agent: *
 Allow: /
 
+# Host
+Host: https://btqualityconstruction.com
+
+# Sitemaps
 Sitemap: https://btqualityconstruction.com/sitemap.xml

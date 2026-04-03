@@ -34,3 +34,18 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Claude Code skills (dev tools, not part of the app)
+.agents/
+.claude/
+skills-lock.json
+
+# Dev/generation scripts
+fix_encoding*.py
+gen-siding.mjs
+generate-images.mjs
+screenshot.mjs
+scripts/
+screens/
+
+.vercel

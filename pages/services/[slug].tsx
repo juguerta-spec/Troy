@@ -22,25 +22,33 @@ const logoMapFr: Record<string, string> = {
   gutters: '/logos/logo-gutters.png',
   siding: '/logos/logo-siding.png',
   roofing: '/logos/logo-roofing.png',
+  gutter_installation: '/logos/logo-gutters.png',
+  gutter_guards: '/logos/logo-gutters.png',
+  soffit_fascia: '/logos/logo-gutters.png',
 }
 const logoMapEn: Record<string, string> = {
   gutters: '/logos/logo-gutters-en.png',
   siding: '/logos/logo-siding-en.png',
   roofing: '/logos/logo-roofing-en.png',
+  gutter_installation: '/logos/logo-gutters-en.png',
+  gutter_guards: '/logos/logo-gutters-en.png',
+  soffit_fascia: '/logos/logo-gutters-en.png',
 }
 
 const bgMap: Record<string, string> = {
   gutters: '/images/ai-hero-gutters.jpg',
   siding: '/images/ai-hero-siding.jpg',
   roofing: '/images/ai-hero-roofing.jpg',
+  gutter_installation: '/images/alu-rex-preview.jpg',
+  gutter_guards: '/images/alu-rex-doublepro-new.png',
+  soffit_fascia: '/images/service-gutters-damage.jpg',
 }
 
-// Section images — fallback to project images if Gemini images not yet generated
 const sectionImgMap: Record<string, { install: string; detail: string; extra: string }> = {
   gutters: {
     install: '/images/service-gutters-install.jpg',
-    detail: '/images/service-gutters-closeup.jpg',
-    extra: '/images/service-gutters-damage.jpg',
+    detail: '/images/alu-rex-doublepro.png',
+    extra: '/images/alu-rex-gutterclean.jpg',
   },
   siding: {
     install: '/images/service-siding-install.jpg',
@@ -52,13 +60,62 @@ const sectionImgMap: Record<string, { install: string; detail: string; extra: st
     detail: '/images/service-roofing-closeup.jpg',
     extra: '/images/service-roofing-aerial.jpg',
   },
+  gutter_installation: {
+    install: '/images/service-gutters-install.jpg',
+    detail: '/images/alu-rex-trex-hanger.jpg',
+    extra: '/images/alu-rex-trex-system.png',
+  },
+  gutter_guards: {
+    install: '/images/alu-rex-doublepro-new.png',
+    detail: '/images/alu-rex-gutterclean.jpg',
+    extra: '/images/alu-rex-pine-needles.jpg',
+  },
+  soffit_fascia: {
+    install: '/images/service-gutters-damage.jpg',
+    detail: '/images/service-gutters-install.jpg',
+    extra: '/images/service-gutters-closeup.jpg',
+  },
 }
+
+// Alu-Rex product videos — shown on all gutters-family pages
+const aluRexVideos = [
+  { src: '/videos/alu-rex-eclipse.mp4',      labelFr: 'Système DoublePro®',         labelEn: 'DoublePro® System' },
+  { src: '/videos/alu-rex-vortex.mp4',       labelFr: 'Crochet continu T-Rex®',     labelEn: 'T-Rex® Continuous Hanger' },
+  { src: '/videos/alu-rex-wintershield.mp4', labelFr: 'Technologie Wintershield®',  labelEn: 'Wintershield® Technology' },
+]
+
+const gutterFamilyKeys = ['gutters', 'gutter_installation', 'gutter_guards', 'soffit_fascia']
 
 const metaKeyMap: Record<string, string> = {
   gutters: 'gutters',
   siding: 'siding',
   roofing: 'roofing',
+  gutter_installation: 'gutters',
+  gutter_guards: 'gutters',
+  soffit_fascia: 'gutters',
 }
+
+// Sub-services shown on the gutters parent page
+const gutterSubServices = [
+  {
+    key: 'gutter_installation',
+    slugFr: 'installation-gouttières',
+    slugEn: 'gutter-installation',
+    img: '/images/service-gutters-install.jpg',
+  },
+  {
+    key: 'gutter_guards',
+    slugFr: 'protecteurs-gouttières',
+    slugEn: 'gutter-guards',
+    img: '/images/service-gutters-closeup.jpg',
+  },
+  {
+    key: 'soffit_fascia',
+    slugFr: 'soffites-fascias',
+    slugEn: 'soffit-fascia',
+    img: '/images/service-gutters-damage.jpg',
+  },
+]
 
 const ease = [0.16, 1, 0.3, 1] as const
 
@@ -367,6 +424,117 @@ const ServicePage: NextPage<Props> = ({ serviceKey }) => {
           </div>
         </section>
 
+        {/* ─── SUB-SERVICES (gutters parent only) ─────────────────── */}
+        {serviceKey === 'gutters' && (
+          <section className="py-24 bg-white relative">
+            <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-zinc-100 to-transparent" />
+            <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+              <motion.div
+                initial={{ opacity: 0, y: 24 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.8, ease }}
+                className="text-center mb-14"
+              >
+                <p className="text-silver-dark text-xs font-semibold uppercase tracking-[0.2em] mb-3">
+                  {isFr ? 'Nos spécialités' : 'Our specialties'}
+                </p>
+                <h2 className="font-heading text-3xl sm:text-4xl font-bold text-black tracking-tight">
+                  {isFr ? 'Choisissez votre service' : 'Choose your service'}
+                </h2>
+              </motion.div>
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
+                {gutterSubServices.map((sub, i) => (
+                  <motion.div
+                    key={sub.key}
+                    initial={{ opacity: 0, y: 32 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true }}
+                    transition={{ duration: 0.6, delay: i * 0.1, ease }}
+                  >
+                    <Link
+                      href={`/services/${isFr ? sub.slugFr : sub.slugEn}`}
+                      className="group block rounded-3xl overflow-hidden bg-zinc-950 shadow-premium hover:shadow-premium-hover transition-all duration-700 ease-out-expo hover:-translate-y-2"
+                    >
+                      <div className="relative h-52 overflow-hidden">
+                        <Image
+                          src={sub.img}
+                          alt={t(`services.${sub.key}.name`)}
+                          fill
+                          sizes="(max-width: 768px) 100vw, 33vw"
+                          className="object-cover transition-transform duration-700 group-hover:scale-110"
+                        />
+                        <div className="absolute inset-0 bg-gradient-to-t from-zinc-950 via-zinc-950/30 to-transparent" />
+                      </div>
+                      <div className="px-6 py-6">
+                        <h3 className="font-heading text-base font-bold text-white mb-2 group-hover:text-gradient-silver transition-colors duration-300">
+                          {t(`services.${sub.key}.name`)}
+                        </h3>
+                        <p className="text-zinc-500 text-sm leading-relaxed line-clamp-2 mb-4 group-hover:text-zinc-400 transition-colors duration-300">
+                          {t(`services.${sub.key}.description`)}
+                        </p>
+                        <span className="text-white/30 text-sm font-medium group-hover:text-white/80 transition-all duration-500 flex items-center gap-1.5">
+                          {t('services.learn_more')}
+                          <svg className="w-4 h-4 group-hover:translate-x-1.5 transition-transform duration-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                            <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+                          </svg>
+                        </span>
+                      </div>
+                    </Link>
+                  </motion.div>
+                ))}
+              </div>
+            </div>
+          </section>
+        )}
+
+        {/* ─── ALU-REX VIDEOS (gutters family only) ───────────────── */}
+        {gutterFamilyKeys.includes(serviceKey) && (
+          <section className="py-28 bg-zinc-950 text-white relative overflow-hidden">
+            <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom,rgba(192,192,192,0.04),transparent_60%)]" />
+            <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-white/[0.06] to-transparent" />
+            <div className="relative max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+              <motion.div
+                initial={{ opacity: 0, y: 24 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.8, ease }}
+                className="text-center mb-14"
+              >
+                <p className="text-silver/40 text-xs font-semibold uppercase tracking-[0.2em] mb-3">Alu-Rex</p>
+                <h2 className="font-heading text-3xl sm:text-4xl font-bold tracking-tight">
+                  {isFr ? 'Nos produits en action' : 'Our products in action'}
+                </h2>
+              </motion.div>
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
+                {aluRexVideos.map((v, i) => (
+                  <motion.div
+                    key={i}
+                    initial={{ opacity: 0, y: 24 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true }}
+                    transition={{ duration: 0.6, delay: i * 0.1, ease }}
+                    className="rounded-2xl overflow-hidden bg-white/[0.03] border border-white/[0.07] group hover:border-white/[0.14] transition-colors duration-500"
+                  >
+                    <video
+                      autoPlay
+                      muted
+                      loop
+                      playsInline
+                      className="w-full aspect-video object-cover"
+                    >
+                      <source src={v.src} type="video/mp4" />
+                    </video>
+                    <p className="text-center text-sm font-semibold text-white/60 group-hover:text-white/90 transition-colors duration-300 py-4 px-4">
+                      {isFr ? v.labelFr : v.labelEn}
+                    </p>
+                  </motion.div>
+                ))}
+              </div>
+            </div>
+          </section>
+        )}
+
         {/* ─── CTA DARK ───────────────────────────────────────────── */}
         <CTA variant="dark" />
 
@@ -554,11 +722,17 @@ export const getStaticPaths: GetStaticPaths = async ({ locales }) => {
       'gouttières-soffites-fascias': 'gutters',
       'revetement': 'siding',
       'toiture': 'roofing',
+      'installation-gouttières': 'gutter_installation',
+      'protecteurs-gouttières': 'gutter_guards',
+      'soffites-fascias': 'soffit_fascia',
     },
     en: {
       'gutters-soffit-fascia': 'gutters',
       'siding': 'siding',
       'roofing': 'roofing',
+      'gutter-installation': 'gutter_installation',
+      'gutter-guards': 'gutter_guards',
+      'soffit-fascia': 'soffit_fascia',
     },
   }
 
@@ -584,6 +758,12 @@ export const getStaticProps: GetStaticProps<Props> = async ({ params, locale }) 
     'gutters-soffit-fascia': 'gutters',
     'siding': 'siding',
     'roofing': 'roofing',
+    'installation-gouttières': 'gutter_installation',
+    'protecteurs-gouttières': 'gutter_guards',
+    'soffites-fascias': 'soffit_fascia',
+    'gutter-installation': 'gutter_installation',
+    'gutter-guards': 'gutter_guards',
+    'soffit-fascia': 'soffit_fascia',
   }
 
   const serviceKey = slugToKey[slug]
