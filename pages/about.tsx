@@ -26,7 +26,7 @@ const AboutPage: NextPage = () => {
         <meta name="description" content={t('meta.about.description')} />
         <meta property="og:title" content={t('meta.about.title')} />
         <meta property="og:description" content={t('meta.about.description')} />
-        <meta property="og:image" content={`${siteUrl}/images/project5.jpg`} />
+        <meta property="og:image" content={`${siteUrl}/logos/logo-main.png`} />
         <meta property="og:type" content="website" />
         <meta property="og:url" content={`${siteUrl}/about`} />
         <link rel="canonical" href={`${siteUrl}/about`} />

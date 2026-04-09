@@ -7,24 +7,25 @@ import { useTranslation } from 'next-i18next/pages'
 import { Lightbox } from '@/components/ui/Lightbox'
 
 const PHOTOS = [
-  { src: '/images/project1.jpg', category: 'siding' },
-  { src: '/images/project15.jpg', category: 'soffit' },
-  { src: '/images/project3.jpg', category: 'siding' },
-  { src: '/images/project4.jpg', category: 'roofing' },
-  { src: '/images/project16.jpg', category: 'soffit' },
-  { src: '/images/project17.jpg', category: 'gutters' },
-  { src: '/images/project8.jpg', category: 'siding' },
-  { src: '/images/project18.jpg', category: 'siding' },
-  { src: '/images/project19.jpg', category: 'soffit' },
-  { src: '/images/project12.jpg', category: 'roofing' },
-  { src: '/images/project20.jpg', category: 'siding' },
-  { src: '/images/project14.jpg', category: 'gutters' },
+  { src: '/images/project1.jpg', category: 'siding', altFr: 'Installation revêtement extérieur vinyle — maison résidentielle Vaudreuil-Dorion', altEn: 'Vinyl siding installation — residential home Vaudreuil-Dorion' },
+  { src: '/images/project15.jpg', category: 'soffit', altFr: 'Remplacement soffites et fascias en aluminium — Rigaud QC', altEn: 'Aluminum soffit and fascia replacement — Rigaud QC' },
+  { src: '/images/project3.jpg', category: 'siding', altFr: 'Revêtement extérieur neuf sur maison à Saint-Lazare', altEn: 'New exterior siding on home in Saint-Lazare' },
+  { src: '/images/project4.jpg', category: 'roofing', altFr: 'Toiture architecturale bardeaux — remplacement complet', altEn: 'Architectural shingle roofing — full replacement' },
+  { src: '/images/project16.jpg', category: 'soffit', altFr: 'Soffites ventilés et fascias aluminium blanc — Hudson QC', altEn: 'Ventilated soffits and white aluminum fascia — Hudson QC' },
+  { src: '/images/project17.jpg', category: 'gutters', altFr: 'Gouttières sans soudure Alu-Rex installées — Hawkesbury ON', altEn: 'Seamless Alu-Rex gutters installed — Hawkesbury ON' },
+  { src: '/images/project8.jpg', category: 'siding', altFr: 'Transformation extérieure complète revêtement — Kirkland', altEn: 'Full exterior siding transformation — Kirkland' },
+  { src: '/images/project18.jpg', category: 'siding', altFr: 'Revêtement vinyle couleur moderne — Pointe-Claire QC', altEn: 'Modern color vinyl siding — Pointe-Claire QC' },
+  { src: '/images/project19.jpg', category: 'soffit', altFr: 'Installation soffites sous avant-toit — Beaconsfield', altEn: 'Soffit installation under eaves — Beaconsfield' },
+  { src: '/images/project12.jpg', category: 'roofing', altFr: 'Toiture résidentielle neuve — Châteauguay QC', altEn: 'New residential roofing — Châteauguay QC' },
+  { src: '/images/project20.jpg', category: 'siding', altFr: 'Revêtement extérieur et finition — Dollard-des-Ormeaux', altEn: 'Exterior siding and trim — Dollard-des-Ormeaux' },
+  { src: '/images/project14.jpg', category: 'gutters', altFr: 'Système gouttières DoublePro Alu-Rex — Casselman ON', altEn: 'DoublePro Alu-Rex gutter system — Casselman ON' },
 ]
 
 const ease = [0.16, 1, 0.3, 1] as const
 
 export function Gallery() {
-  const { t } = useTranslation('common')
+  const { t, i18n } = useTranslation('common')
+  const isFr = i18n.language !== 'en'
   const [selected, setSelected] = useState<string | null>(null)
 
   return (
@@ -64,7 +65,7 @@ export function Gallery() {
               <div className="relative overflow-hidden">
                 <Image
                   src={photo.src}
-                  alt={`${t('gallery.alt')} — ${photo.category}`}
+                  alt={isFr ? photo.altFr : photo.altEn}
                   width={600}
                   height={450}
                   sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"

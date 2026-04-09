@@ -41,7 +41,7 @@ const HomePage: NextPage = () => {
         <meta name="description" content={t(`meta.${metaKey}.description`)} />
         <meta property="og:title" content={t(`meta.${metaKey}.title`)} />
         <meta property="og:description" content={t(`meta.${metaKey}.description`)} />
-        <meta property="og:image" content={`${siteUrl}/images/project1.jpg`} />
+        <meta property="og:image" content={`${siteUrl}/logos/logo-main.png`} />
         <meta property="og:type" content="website" />
         <meta property="og:url" content={`${siteUrl}${locale === 'en' ? '/en' : ''}`} />
         <link rel="canonical" href={`${siteUrl}${locale === 'en' ? '/en' : ''}`} />

@@ -97,7 +97,7 @@ const ContactPage: NextPage = () => {
         <meta name="description" content={t('meta.contact.description')} />
         <meta property="og:title" content={t('meta.contact.title')} />
         <meta property="og:description" content={t('meta.contact.description')} />
-        <meta property="og:image" content={`${siteUrl}/images/project1.jpg`} />
+        <meta property="og:image" content={`${siteUrl}/logos/logo-main.png`} />
         <meta property="og:type" content="website" />
         <meta property="og:url" content={`${siteUrl}/contact`} />
         <link rel="canonical" href={`${siteUrl}/contact`} />

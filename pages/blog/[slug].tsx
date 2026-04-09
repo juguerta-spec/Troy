@@ -48,6 +48,13 @@ const BlogArticlePage: NextPage = () => {
 
   const canonicalPath = isFr ? `/blog/${article.slug}` : `/en/blog/${article.slug}`
 
+  // Find matching article index for hreflang alternate
+  const articleIndex = articles.findIndex((a) => a.slug === slug)
+  const frArticles = t('blog.articles', { returnObjects: true, lng: 'fr' }) as Article[]
+  const enArticles = t('blog.articles', { returnObjects: true, lng: 'en' }) as Article[]
+  const frSlug = frArticles[articleIndex]?.slug ?? article.slug
+  const enSlug = enArticles[articleIndex]?.slug ?? article.slug
+
   function formatDate(dateStr: string) {
     const date = new Date(dateStr)
     return date.toLocaleDateString(isFr ? 'fr-CA' : 'en-CA', {
@@ -69,6 +76,9 @@ const BlogArticlePage: NextPage = () => {
         <meta property="og:url" content={`${siteUrl}${canonicalPath}`} />
         <meta property="article:published_time" content={article.date} />
         <link rel="canonical" href={`${siteUrl}${canonicalPath}`} />
+        <link rel="alternate" hrefLang="fr" href={`${siteUrl}/blog/${frSlug}`} />
+        <link rel="alternate" hrefLang="en" href={`${siteUrl}/en/blog/${enSlug}`} />
+        <link rel="alternate" hrefLang="x-default" href={`${siteUrl}/blog/${frSlug}`} />
         <meta name="robots" content="index, follow" />
         <script
           type="application/ld+json"
@@ -80,6 +90,7 @@ const BlogArticlePage: NextPage = () => {
               description: article.meta_description,
               image: `${siteUrl}${article.image}`,
               datePublished: article.date,
+              dateModified: article.date,
               url: `${siteUrl}${canonicalPath}`,
               author: {
                 '@type': 'Organization',
